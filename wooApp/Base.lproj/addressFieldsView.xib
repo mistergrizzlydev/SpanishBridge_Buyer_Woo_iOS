@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14810.11" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14766.13"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="addressFieldsView" customModule="Magenative_App_For_Woocommerce" customModuleProvider="target">
+            <connections>
+                <outlet property="addressLine1Field" destination="QDT-K5-3fA" id="0zQ-nH-IqS"/>
+                <outlet property="addressLine2" destination="HwM-6g-hZU" id="1Ec-QO-UUF"/>
+                <outlet property="cityField" destination="gC5-bX-BUe" id="ike-7v-aS9"/>
+                <outlet property="companyField" destination="ZaL-fj-CNM" id="eoU-Tj-LIz"/>
+                <outlet property="countryDropDown" destination="CJb-SJ-Jrb" id="Z8c-fJ-zWZ"/>
+                <outlet property="countryDropDownHeight" destination="PGl-2w-iK2" id="3PD-g2-Gp8"/>
+                <outlet property="emailField" destination="zcw-Dt-VCk" id="SMZ-vI-QwP"/>
+                <outlet property="firstNameField" destination="qnY-gL-fgE" id="kC0-og-aky"/>
+                <outlet property="lastNameField" destination="83C-eD-ySm" id="3rw-Ji-DSD"/>
+                <outlet property="phoneField" destination="p6p-t2-Er9" id="iGj-ka-ipP"/>
+                <outlet property="stateDropDown" destination="Brk-dE-imu" id="Maw-Mu-Vk1"/>
+                <outlet property="stateDropDownHeight" destination="4Ta-y9-dNv" id="Vgq-X0-1Jq"/>
+                <outlet property="stateView" destination="4GF-LY-47K" id="bq3-oW-dQq"/>
+                <outlet property="zipField" destination="hKR-0r-tni" id="UC3-3Q-ofG"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="345" height="505"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name *" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qnY-gL-fgE" customClass="SkyFloatingLabelTextField" customModule="Magenative_App_For_Woocommerce" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="172.5" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="PSJ-PV-mr0"/>
+                    </constraints>
+                    <color key="textColor" name="LabelTextColor"/>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="disabledColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Address Line 1 *" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QDT-K5-3fA" customClass="SkyFloatingLabelTextField" customModule="Magenative_App_For_Woocommerce" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="48" width="345" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="2T6-0f-ptj"/>
+                    </constraints>
+                    <color key="textColor" name="LabelTextColor"/>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="disabledColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Address Line 2" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HwM-6g-hZU" customClass="SkyFloatingLabelTextField" customModule="Magenative_App_For_Woocommerce" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="96" width="345" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="da8-sJ-dAI"/>
+                    </constraints>
+                    <color key="textColor" name="LabelTextColor"/>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="disabledColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City *" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gC5-bX-BUe" customClass="SkyFloatingLabelTextField" customModule="Magenative_App_For_Woocommerce" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="270" width="345" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="sgy-SN-EF4"/>
+                    </constraints>
+                    <color key="textColor" name="LabelTextColor"/>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="disabledColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Zip *" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hKR-0r-tni" customClass="SkyFloatingLabelTextField" customModule="Magenative_App_For_Woocommerce" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="318" width="345" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="JeK-tT-1AV"/>
+                    </constraints>
+                    <color key="textColor" name="LabelTextColor"/>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="disabledColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone *" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p6p-t2-Er9" customClass="SkyFloatingLabelTextField" customModule="Magenative_App_For_Woocommerce" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="366" width="345" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="BeS-hV-0ki"/>
+                    </constraints>
+                    <color key="textColor" name="LabelTextColor"/>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="disabledColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Brk-dE-imu" customClass="CustomOptionDropDownView" customModule="Magenative_App_For_Woocommerce" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="207" width="345" height="55"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="4Ta-y9-dNv"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CJb-SJ-Jrb" customClass="CustomOptionDropDownView" customModule="Magenative_App_For_Woocommerce" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="144" width="345" height="55"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="PGl-2w-iK2"/>
+                    </constraints>
+                </view>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZaL-fj-CNM" customClass="SkyFloatingLabelTextField" customModule="Magenative_App_For_Woocommerce" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="414" width="345" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="oRZ-6I-DCc"/>
+                    </constraints>
+                    <color key="textColor" name="LabelTextColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Company"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="disabledColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zcw-Dt-VCk" customClass="SkyFloatingLabelTextField" customModule="Magenative_App_For_Woocommerce" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="462" width="345" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="7yN-tC-aq7"/>
+                    </constraints>
+                    <color key="textColor" name="LabelTextColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Email *"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="disabledColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name *" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="83C-eD-ySm" customClass="SkyFloatingLabelTextField" customModule="Magenative_App_For_Woocommerce" customModuleProvider="target">
+                    <rect key="frame" x="180.5" y="0.0" width="164.5" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Edt-sy-pV0"/>
+                    </constraints>
+                    <color key="textColor" name="LabelTextColor"/>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="disabledColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                            <color key="value" name="LabelTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4GF-LY-47K" customClass="StateTextFieldView" customModule="Magenative_App_For_Woocommerce" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="207" width="345" height="55"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="83C-eD-ySm" firstAttribute="leading" secondItem="qnY-gL-fgE" secondAttribute="trailing" constant="8" id="0mc-UU-gP1"/>
+                <constraint firstItem="hKR-0r-tni" firstAttribute="top" secondItem="gC5-bX-BUe" secondAttribute="bottom" constant="8" id="0yq-tF-xyS"/>
+                <constraint firstAttribute="trailing" secondItem="83C-eD-ySm" secondAttribute="trailing" id="1wn-8y-Wtd"/>
+                <constraint firstItem="QDT-K5-3fA" firstAttribute="top" secondItem="83C-eD-ySm" secondAttribute="bottom" constant="8" id="6A8-DA-LSm"/>
+                <constraint firstAttribute="trailing" secondItem="HwM-6g-hZU" secondAttribute="trailing" id="8bo-2d-nb8"/>
+                <constraint firstItem="Brk-dE-imu" firstAttribute="top" secondItem="CJb-SJ-Jrb" secondAttribute="bottom" constant="8" id="Cps-Vj-ZVh"/>
+                <constraint firstItem="4GF-LY-47K" firstAttribute="top" secondItem="Brk-dE-imu" secondAttribute="top" id="F92-0L-nQZ"/>
+                <constraint firstItem="gC5-bX-BUe" firstAttribute="top" secondItem="Brk-dE-imu" secondAttribute="bottom" constant="8" id="G9m-zd-PVQ"/>
+                <constraint firstItem="4GF-LY-47K" firstAttribute="leading" secondItem="Brk-dE-imu" secondAttribute="leading" id="GVz-pP-E6M"/>
+                <constraint firstItem="p6p-t2-Er9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Glw-rI-bi5"/>
+                <constraint firstItem="qnY-gL-fgE" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.5" id="HVQ-ZI-PqR"/>
+                <constraint firstItem="qnY-gL-fgE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="HWv-tK-Rhk"/>
+                <constraint firstAttribute="trailing" secondItem="Brk-dE-imu" secondAttribute="trailing" id="Mis-po-xd6"/>
+                <constraint firstItem="4GF-LY-47K" firstAttribute="bottom" secondItem="Brk-dE-imu" secondAttribute="bottom" id="Nch-j7-cHg"/>
+                <constraint firstAttribute="trailing" secondItem="QDT-K5-3fA" secondAttribute="trailing" id="OOF-D9-Ma4"/>
+                <constraint firstItem="ZaL-fj-CNM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="PUG-pq-JOP"/>
+                <constraint firstItem="CJb-SJ-Jrb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="R2B-vX-U76"/>
+                <constraint firstItem="83C-eD-ySm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="VEu-RL-nIN"/>
+                <constraint firstItem="zcw-Dt-VCk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ViD-iO-oio"/>
+                <constraint firstItem="ZaL-fj-CNM" firstAttribute="top" secondItem="p6p-t2-Er9" secondAttribute="bottom" constant="8" id="WcY-pM-Cha"/>
+                <constraint firstAttribute="trailing" secondItem="hKR-0r-tni" secondAttribute="trailing" id="axD-Fp-Mrb"/>
+                <constraint firstItem="HwM-6g-hZU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="cYP-aW-axf"/>
+                <constraint firstItem="zcw-Dt-VCk" firstAttribute="top" secondItem="ZaL-fj-CNM" secondAttribute="bottom" constant="8" id="fng-pD-Idq"/>
+                <constraint firstItem="4GF-LY-47K" firstAttribute="trailing" secondItem="Brk-dE-imu" secondAttribute="trailing" id="foZ-sZ-cZH"/>
+                <constraint firstAttribute="trailing" secondItem="ZaL-fj-CNM" secondAttribute="trailing" id="gRw-C3-aon"/>
+                <constraint firstItem="HwM-6g-hZU" firstAttribute="top" secondItem="QDT-K5-3fA" secondAttribute="bottom" constant="8" id="hge-6G-rke"/>
+                <constraint firstItem="p6p-t2-Er9" firstAttribute="top" secondItem="hKR-0r-tni" secondAttribute="bottom" constant="8" id="jL6-hR-uJV"/>
+                <constraint firstItem="hKR-0r-tni" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="jRf-9p-bUh"/>
+                <constraint firstItem="qnY-gL-fgE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="kVm-AR-n54"/>
+                <constraint firstItem="CJb-SJ-Jrb" firstAttribute="top" secondItem="HwM-6g-hZU" secondAttribute="bottom" constant="8" id="nMb-W7-xc1"/>
+                <constraint firstItem="gC5-bX-BUe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="nj2-Bm-fMV"/>
+                <constraint firstAttribute="trailing" secondItem="CJb-SJ-Jrb" secondAttribute="trailing" id="nmH-bC-RRY"/>
+                <constraint firstAttribute="trailing" secondItem="p6p-t2-Er9" secondAttribute="trailing" id="rLP-mU-LJU"/>
+                <constraint firstAttribute="trailing" secondItem="zcw-Dt-VCk" secondAttribute="trailing" id="syV-XW-T9D"/>
+                <constraint firstItem="QDT-K5-3fA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="tCW-e7-VC7"/>
+                <constraint firstItem="Brk-dE-imu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="uOa-L7-dNl"/>
+                <constraint firstAttribute="trailing" secondItem="gC5-bX-BUe" secondAttribute="trailing" id="ysf-U6-7ZD"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="30.5" y="-171.5"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="LabelTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </namedColor>
+    </resources>
+</document>

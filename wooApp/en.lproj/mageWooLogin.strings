@@ -1,0 +1,54 @@
+
+/* Class = "UIButton"; normalTitle = "Sign in"; ObjectID = "BFb-wa-027"; */
+"BFb-wa-027.normalTitle" = "Sign in";
+
+/* Class = "UITextField"; placeholder = "Email ID *"; ObjectID = "LnC-Sd-eQJ"; */
+"LnC-Sd-eQJ.placeholder" = "Email ID *";
+
+/* Class = "UILabel"; text = "Sign Up"; ObjectID = "PRA-TI-6JK"; */
+"PRA-TI-6JK.text" = "Sign Up";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "T7R-Rt-I6f"; */
+"T7R-Rt-I6f.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Sign in"; ObjectID = "YWU-Xe-h4R"; */
+"YWU-Xe-h4R.text" = "Sign in";
+
+/* Class = "UIButton"; normalTitle = "OR"; ObjectID = "aDJ-Zl-xkm"; */
+"aDJ-Zl-xkm.normalTitle" = "OR";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "b8h-9Q-UJc"; */
+"b8h-9Q-UJc.placeholder" = "Name";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "eyN-fT-sWj"; */
+"eyN-fT-sWj.placeholder" = "Email";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "hIV-yp-UFm"; */
+"hIV-yp-UFm.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "irf-ap-enO"; */
+"irf-ap-enO.normalTitle" = "Submit";
+
+/* Class = "UIButton"; normalTitle = "Show Password"; ObjectID = "kzH-Et-dR8"; */
+"kzH-Et-dR8.normalTitle" = "Show Password";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "mfH-at-xKf"; */
+"mfH-at-xKf.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "ql7-Dv-bEW"; */
+"ql7-Dv-bEW.normalTitle" = "Sign Up";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "rIN-yj-2Gs"; */
+"rIN-yj-2Gs.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Send Link"; ObjectID = "rW4-9N-yvH"; */
+"rW4-9N-yvH.normalTitle" = "Send Link";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password?"; ObjectID = "xx0-JU-DAp"; */
+"xx0-JU-DAp.normalTitle" = "Forgot Password?";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "zAI-E7-Ynt"; */
+"zAI-E7-Ynt.placeholder" = "Last Name";
+
+/* Class = "UIButton"; normalTitle = "Show Password"; ObjectID = "zWx-7v-Dq2"; */
+"zWx-7v-Dq2.normalTitle" = "Show Password";

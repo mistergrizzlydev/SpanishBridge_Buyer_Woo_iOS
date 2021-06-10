@@ -1,0 +1,223 @@
+/**
+ * CedCommerce
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the End User License Agreement (EULA)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://cedcommerce.com/license-agreement.txt
+ *
+ * @category  Ced
+ * @package   MageNative
+ * @author    CedCommerce Core Team <connect@cedcommerce.com >
+ * @copyright Copyright CEDCOMMERCE (http://cedcommerce.com/)
+ * @license      http://cedcommerce.com/license-agreement.txt
+ */
+/*cedMageMyDownloadView*/
+"Order Id:" = "رقم الطلب:";
+"Title:" = "العنوان:";
+"Link Title:" = "رابط العنوان:";
+"Access Expires on:" = "وصول ينتهي على:";
+"Remaining Downloads:" = "التنزيلات المتبقية:";
+"Click Here To Download" = "اضغط هنا للتحميل";
+"Download Complete" = "التحميل اكتمل";
+"Downloading..." = "جارى التحميل...";
+/*wooMageOrderList*/
+"Order Date - "="تاريخ الطلب - ";
+"Order No. - " = "طلب رقم. - ";
+"Order Status - " = "حالة الطلب- ";
+"Order total - " = "اجمالى الطلب - ";
+"Total Items - " = "عدد المنتجات - ";
+
+/*checkOutAsController*/
+"Some fields are blank" = "بعض الحقول فارغة";
+"Email is invalid" = "البريد الالكتروني غير صحيح";
+"Login Successful" = "دخول ناجح";
+"Error" = "خطأ";
+"Wrong Email Or Password." = "البريد الإلكتروني أو كلمة المرور خاطئة.";
+"Ok" = "تمام";
+"Email field is blank" = "حقل البريد الإلكتروني فارغ";
+
+/*addAddressController*/
+"State *" = "الدولة *";
+"Country *" = "الدولة *";
+"Address Added Successfully" = "تمت إضافة العنوان بنجاح";
+"All fields are required"="جميع الحقول مطلوبة";
+"Enter letters only in firstname"="أدخل الحروف فقط في الاسم الأول";
+"Enter letters only in lastname"="أدخل الحروف فقط في الاسم الأخير";
+"Enter letters only in city"="أدخل الحروف فقط في المدينة";
+"Enter digits only in phone"="أدخل الأرقام فقط في الهاتف";
+"Enter digits only in zip"="أدخل أرقام فقط في الرمز البريدي";
+"Enter letters only in ship_firstname"="أدخل الحروف فقط في الأسم الأول";
+"Enter letters only in ship_lastname"="أدخل الحروف فقط في الاسم الأخير";
+"Enter letters only in ship_city"="أدخل الحروف فقط في المدينة";
+"Enter digits only in ship_phone"="أدخل الأرقام فقط في الهاتف";
+"Enter digits only in ship_zip"="أدخل أرقام فقط في الرمز البريدي";
+
+/*selectPaymentMethod*/
+"Select payment method" = "اختار طريقة الدفع";
+"Some error occured" = "حدث خطأ ما";
+
+/*selectShippingMethod*/
+"Select shipping method" = "إختر طريقة الشحن";
+"Shipping Method Changed Successfully" = "طريقة الشحن تغيرت بنجاح";
+
+/*mageWooEditProfile*/
+"All Fields are Required." = "جميع الحقول مطلوبة.";
+"First Name Is Required." = "الإسم الأول مطلوب.";
+"Last Name Is Required." = "الاسم الأخير مطلوب.";
+"Email is Required." = "البريد الالكتروني مطلوب.";
+"Please enter same password for confirm password" = "الرجاء إدخال كلمة المرور نفسها لتأكيد كلمة المرور";
+
+/*productSearch*/
+"Enter some text to search products." = "أدخل بعض النص للبحث عن المنتجات.";
+"No Result found" = "لم يتم العثور على نتائج";
+
+/*mageWooProductView*/
+"Wrong Input." = "مدخل خاطئ.";
+"Please enter quantity of maximum 3 digits." = "يرجى إدخال كمية من 3 أرقام كحد أقصى.";
+"Wrong Input." = "مدخل خاطئ.";
+"Please enter positive integer number for quantity." = "الرجاء إدخال رقم صحيح موجب للكمية.";
+"Please enter 1 or more quantity for product to add to cart." = "الرجاء إدخال 1 أو أكثر من الكمية لإضافة المنتج إلى سلة التسوق.";
+"Please enter 1 or more quantity with whole number." = "الرجاء إدخال 1 أو أكثر من الكمية مع العدد الصحيح.";
+"Please add atleast 1 as quantity." = "الرجاء إضافة 1 على الأقل ككمية.";
+"Please Login First...!" = "الرجاء تسجيل الدخول أولا...!";
+"Product is not available" = "المنتج غير متوفر";
+"Please select all the variants" = "يرجى تحديد جميع المتغيرات";
+"Out Of Stock!" = "إنتهى من المخزن!";
+"Some error occured" = "حدث خطأ ما";
+"Product not available" = "المنتج غير متوفر";
+
+/*CartProductListView*/
+"Your Order" = "طلبك";
+" items" = " منتجات";
+"Shopping Cart" = "عربة التسوق";
+"Remove Coupon" = "قم بإزالة الكوبون";
+"Apply Coupon" = "تفعيل كوبون الخسم";
+"Free" = "مجانى";
+
+"Enter coupon code"="ادخل كوبون الخصم";
+"Wrong Input." = "مدخل خاطئ.";
+"Please enter quantity of maximum 3 digits." = "يرجى إدخال كمية من 3 أرقام كحد أقصى.";
+"Please enter positive integer number for quantity." = "الرجاء إدخال رقم صحيح موجب للكمية.";
+"Please enter 1 or more quantity for product to add to cart." = "الرجاء إدخال 1 أو أكثر من الكمية لإضافة المنتج إلى سلة التسوق.";
+"Please enter 1 or more quantity with whole number." = "الرجاء إدخال 1 أو أكثر من الكمية مع العدد الصحيح.";
+"Please add atleast 1 as quantity." = "الرجاء إضافة 1 على الأقل ككمية.";
+"Quantity Updated." = "الكمية المحدثة.";
+"Are you sure to remove the product from cart..?" = "هل أنت متأكد من إزالة المنتج من سلة التسوق..?";
+"Empty" = "فارغ";
+"Your cart is empty please add some items to it." = "سلة التسوق الخاصة بك فارغة ، يرجى إضافة بعض المنتجات إليها.";
+"Item is removed from cart." = "تمت إزالة العنصر من سلة التسوق.";
+"Cancel" = "الغاء";
+"Confirmation..!" = "التأكيد..!";
+"Are You sure you want to empty the cart." = "هل أنت متأكد من أنك تريد تفريغ العربة؟.";
+"Deleted" = "حذف";
+"Your cart is Empty Now" = "عربة التسوق فارغة الآن";
+"OK" = "تمام";
+"No" = "لا";
+"Error" = "خطأ";
+"qtyerror" = "خطأ الكمية";
+"Total: " = "الإجمال: ";
+
+/*CategoryProductsView*/
+"Please Login First...!" = "الرجاء تسجيل الدخول أولا...!";
+"Product removed from wishlist." = "تمت إزالة المنتج من قائمة المفضلات.";
+"Product added to wishlist." = "تمت إضافة المنتج إلى قائمة المفضلات.";
+
+/*mageWooHome*/
+"BEST SELLING" = "الأكثر مبيعاً";
+"NEW ARRIVALS" = "وصل حديثاً";
+"FEATURED PRODUCTS" = "المنتجات المميزة";
+
+/*checkoutWebView*/
+"Some error occured"="حدث خطأ ما";
+
+/*mageWooAddReviews*/
+"Please provide rating" = "يرجى إختيار تصنيف";
+"Required fields cannot be blank" = "لا يمكن ترك الحقول المطلوبة فارغة";
+"Email is invalid" = "البريد الالكتروني غير صحيح";
+
+/*wooMageDrawer*/
+"Login" = "تسجيل دخول";
+
+/*wooMageMainDrawer*/
+"User" = "مستخدم";
+"Guest" = "زائر";
+"LOGIN/SIGNUP" = "تسجيل دخول/التسجيل";
+"Logout" = "تسجيل الخروج";
+"No products available" = "لا توجد منتجات متاحة";
+
+/*subCategoryCell*/
+"Please Login First...!" = "الرجاء تسجيل الدخول أولا...!";
+"Product removed from wishlist." = "تمت إزالة المنتج من قائمة المفضلات.";
+"Product added to wishlist." = "تمت إضافة المنتج إلى قائمة المفضلات.";
+
+/*ProductFiltersViewController*/
+"Apply Filter" = "تصفية";
+"Clear Filter" = "ازالة التصفية";
+
+/*mageWooFilters*/
+"Apply Filter" = "تصفية";
+"Clear Filter" = "ازالة التصفية";
+
+/*sortByExtension*/
+"Sort Items By :" = "تصفية المنتجات بواسطة:";
+
+/*magehomeProductlist*/
+"Please Login First...!" = "برجاء تسجيل الدخول اولاً...!";
+
+/*mageWooWishList*/
+"Please Login First...!" = "برجاء تسجيل الدخول اولاً...!";
+"Product removed from wishlist." = "تمت إزالة المنتج من قائمة المفضلات.";
+"Product added to wishlist." = "تمت إضافة المنتج إلى قائمة المفضلات.";
+"Total Items : " = "عدد المنتجات: ";
+
+/*wooMageLogin*/
+"Some fields are blank" = "بعض الحقول فارغة";
+"Email is invalid" = "البريد الالكتروني غير صحيح";
+"Login Successful" = "دخول ناجح";
+"Error" = "خطأ";
+"Wrong Email Or Password." = "البريد الإلكتروني أو كلمة المرور خاطئة.";
+"Ok" = "تمام";
+
+/*wooMageRegister*/
+"Email is not valid" = "البريد الإلكتروني غير صالح";
+"Name is not valid" = "الاسم غير صالح";
+"Some fields are blank" = "بعض الحقول فارغة";
+"Some Error Occured" = "حدث خطأ ما";
+"Message" = "رسالة";
+
+/*mageWooForgotPassword*/
+"Email is required" = "البريد الالكتروني مطلوب";
+"Email is invalid" = "البريد الالكتروني غير صحيح";
+
+/*cedMageHomeCategoryCell*/
+"MORE" = "المزيد";
+
+/*cedMagePopularProductCell*/
+"MOST" = "الأكثر";
+"POPULAR" = "المنتشر";
+"NEW" = "جديد";
+"ARRIVALS" = "وصل حديثأ";
+
+/*cedMageWooNetwork*/
+"Error" = "خطأ";
+"OK" = "تمام";
+"Select Store" = "اختر المتجر";
+"Payment Methods Not Available" = "طرق الدفع غير متوفرة";
+"No reviews found" = "لم يتم العثور على تقييمات";
+
+/*cedMageSortByExtension*/
+"Order by Date" = "ترتيب حسب التاريخ";
+"Price High To Low" = "السعر الاعلى الى الادنى";
+"Price Low To High" = "السعر من الارخص للاعلى";
+
+
+
+
+
+
+
+
+

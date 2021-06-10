@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>4668422726-ssfji6ofkrkh2ntbjmgdjbh64dv1rkev.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.4668422726-ssfji6ofkrkh2ntbjmgdjbh64dv1rkev</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>4668422726-h6s7gg35b0dnl3trt338gtdmro1eoecu.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDgwznZDd54W_yd6lviTrm6ru3VIN88nXI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>4668422726</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.myspanishbridge.app</string>
+	<key>PROJECT_ID</key>
+	<string>myspanishbridge-42a96</string>
+	<key>STORAGE_BUCKET</key>
+	<string>myspanishbridge-42a96.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:4668422726:ios:f09b7144b08e43fe91e847</string>
+</dict>
+</plist>

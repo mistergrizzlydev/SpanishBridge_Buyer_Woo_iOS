@@ -1,0 +1,204 @@
+
+/* Class = "UIButton"; normalTitle = "My Orders"; ObjectID = "21p-i6-Ryi"; */
+"21p-i6-Ryi.normalTitle" = "My Orders";
+
+/* Class = "UILabel"; text = "ARRIVALS"; ObjectID = "45U-aq-hMs"; */
+"45U-aq-hMs.text" = "ARRIVALS";
+
+/* Class = "UILabel"; text = "More"; ObjectID = "4MQ-YF-uSL"; */
+"4MQ-YF-uSL.text" = "More";
+
+/* Class = "UILabel"; text = "Free"; ObjectID = "6Je-N9-Tsi"; */
+"6Je-N9-Tsi.text" = "Free";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6Td-tB-2Ov"; */
+"6Td-tB-2Ov.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "7qm-zK-iSf"; */
+"7qm-zK-iSf.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "82R-Pq-ULm"; */
+"82R-Pq-ULm.title" = "Home";
+
+/* Class = "UIButton"; normalTitle = "Logout"; ObjectID = "Axd-7v-aa8"; */
+"Axd-7v-aa8.normalTitle" = "Logout";
+
+/* Class = "UILabel"; text = "Sale"; ObjectID = "BBd-hT-0TG"; */
+"BBd-hT-0TG.text" = "Sale";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Bj3-9g-sYU"; */
+"Bj3-9g-sYU.text" = "0";
+
+/* Class = "UILabel"; text = "WISH LIST"; ObjectID = "CUL-OC-RPU"; */
+"CUL-OC-RPU.text" = "WISH LIST";
+
+/* Class = "UITextField"; placeholder = "COUPON"; ObjectID = "D0D-g3-bjV"; */
+"D0D-g3-bjV.placeholder" = "COUPON";
+
+/* Class = "UILabel"; text = "SubTotal"; ObjectID = "Eck-v6-nTF"; */
+"Eck-v6-nTF.text" = "SubTotal";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "EzU-JN-5sV"; */
+"EzU-JN-5sV.text" = "0";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ff7-Mv-F4U"; */
+"Ff7-Mv-F4U.text" = "Label";
+
+/* Class = "UILabel"; text = "Cart Total"; ObjectID = "G6p-0g-ftO"; */
+"G6p-0g-ftO.text" = "Cart Total";
+
+/* Class = "UITabBarItem"; title = "Notification"; ObjectID = "IDT-X1-oZ4"; */
+"IDT-X1-oZ4.title" = "Notification";
+
+/* Class = "UILabel"; text = "Shopping Cart"; ObjectID = "ISB-NA-QR0"; */
+"ISB-NA-QR0.text" = "Shopping Cart";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "IZN-E1-woY"; */
+"IZN-E1-woY.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Account"; ObjectID = "JEG-P9-IVe"; */
+"JEG-P9-IVe.title" = "Account";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "KxK-4c-ccd"; */
+"KxK-4c-ccd.text" = "Label";
+
+/* Class = "UISearchBar"; placeholder = "Search"; ObjectID = "LOq-JP-o2Q"; */
+"LOq-JP-o2Q.placeholder" = "Search";
+
+/* Class = "UILabel"; text = "Sale"; ObjectID = "Mvp-rH-E5c"; */
+"Mvp-rH-E5c.text" = "Sale";
+
+/* Class = "UIButton"; normalTitle = "LOGIN/SIGNUP"; ObjectID = "NoD-nm-FQj"; */
+"NoD-nm-FQj.normalTitle" = "LOGIN/SIGNUP";
+
+/* Class = "UILabel"; text = "FEATURED PRODUCTS"; ObjectID = "O9p-SE-cnG"; */
+"O9p-SE-cnG.text" = "FEATURED PRODUCTS";
+
+/* Class = "UILabel"; text = "CATEGORY"; ObjectID = "OqJ-Vm-e7Y"; */
+"OqJ-Vm-e7Y.text" = "CATEGORY";
+
+/* Class = "UITextField"; text = "0.00"; ObjectID = "OuG-CA-GHX"; */
+"OuG-CA-GHX.text" = "0.00";
+
+/* Class = "UIButton"; normalTitle = "Clear Filter"; ObjectID = "PBM-UW-DGc"; */
+"PBM-UW-DGc.normalTitle" = "Clear Filter";
+
+/* Class = "UILabel"; text = "TOP SELLERS"; ObjectID = "PGE-1I-Ebd"; */
+"PGE-1I-Ebd.text" = "TOP SELLERS";
+
+/* Class = "UILabel"; text = "Delivery"; ObjectID = "QNP-Bp-YNy"; */
+"QNP-Bp-YNy.text" = "Delivery";
+
+/* Class = "UIButton"; normalTitle = "Notifications"; ObjectID = "Qay-Yu-cwV"; */
+"Qay-Yu-cwV.normalTitle" = "Notifications";
+
+/* Class = "UITabBarItem"; title = "Wishlist"; ObjectID = "RN3-tk-d4c"; */
+"RN3-tk-d4c.title" = "Wishlist";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Rfy-q2-d3D"; */
+"Rfy-q2-d3D.text" = "Label";
+
+/* Class = "UILabel"; text = "My Profile"; ObjectID = "TXW-T4-4Ol"; */
+"TXW-T4-4Ol.text" = "My Profile";
+
+/* Class = "UIButton"; normalTitle = "Apply Filter"; ObjectID = "WfI-IS-iCU"; */
+"WfI-IS-iCU.normalTitle" = "Apply Filter";
+
+/* Class = "UILabel"; text = "qwerty123@sample.com"; ObjectID = "Wrs-6r-HBc"; */
+"Wrs-6r-HBc.text" = "qwerty123@sample.com";
+
+/* Class = "UILabel"; text = "Cart Discount"; ObjectID = "bQt-8L-cE4"; */
+"bQt-8L-cE4.text" = "Cart Discount";
+
+/* Class = "UISearchBar"; placeholder = "Search"; ObjectID = "bZi-wj-xOg"; */
+"bZi-wj-xOg.placeholder" = "Search";
+
+/* Class = "UIButton"; normalTitle = "Try Again"; ObjectID = "cdf-w7-Udd"; */
+"cdf-w7-Udd.normalTitle" = "Try Again";
+
+/* Class = "UIButton"; normalTitle = "My Downloads"; ObjectID = "cmR-QU-2bZ"; */
+"cmR-QU-2bZ.normalTitle" = "My Downloads";
+
+/* Class = "UILabel"; text = "Categories"; ObjectID = "dtY-7g-uS9"; */
+"dtY-7g-uS9.text" = "Categories";
+
+/* Class = "UILabel"; text = "MAIN"; ObjectID = "fbU-Oh-JKy"; */
+"fbU-Oh-JKy.text" = "MAIN";
+
+/* Class = "UILabel"; text = "MEN"; ObjectID = "gEd-ie-Owg"; */
+"gEd-ie-Owg.text" = "MEN";
+
+/* Class = "UILabel"; text = "Max Price"; ObjectID = "grO-0b-7CI"; */
+"grO-0b-7CI.text" = "Max Price";
+
+/* Class = "UILabel"; text = "More"; ObjectID = "guG-HY-wiI"; */
+"guG-HY-wiI.text" = "More";
+
+/* Class = "UILabel"; text = "WishList"; ObjectID = "gxL-wz-cJO"; */
+"gxL-wz-cJO.text" = "WishList";
+
+/* Class = "UIButton"; normalTitle = "Continue Shopping"; ObjectID = "hXx-R8-wke"; */
+"hXx-R8-wke.normalTitle" = "Continue Shopping";
+
+/* Class = "UILabel"; text = "Rs. 0.00"; ObjectID = "haw-jM-Kgb"; */
+"haw-jM-Kgb.text" = "Rs. 0.00";
+
+/* Class = "UIButton"; normalTitle = "WishList"; ObjectID = "kS9-fo-KsL"; */
+"kS9-fo-KsL.normalTitle" = "WishList";
+
+/* Class = "UILabel"; text = "NEW"; ObjectID = "lkD-Hv-dZZ"; */
+"lkD-Hv-dZZ.text" = "NEW";
+
+/* Class = "UILabel"; text = "Rs. 100000.00"; ObjectID = "lrw-UF-YLI"; */
+"lrw-UF-YLI.text" = "Rs. 100000.00";
+
+/* Class = "UILabel"; text = "Notification"; ObjectID = "mM9-PU-adH"; */
+"mM9-PU-adH.text" = "Notification";
+
+/* Class = "UILabel"; text = "JOHN DOE"; ObjectID = "nJj-vL-iFz"; */
+"nJj-vL-iFz.text" = "JOHN DOE";
+
+/* Class = "UILabel"; text = "Logout"; ObjectID = "o7y-oy-cBk"; */
+"o7y-oy-cBk.text" = "Logout";
+
+/* Class = "UILabel"; text = "My Orders"; ObjectID = "ovo-DP-LbG"; */
+"ovo-DP-LbG.text" = "My Orders";
+
+/* Class = "UISearchBar"; placeholder = "Search"; ObjectID = "p06-fN-9bt"; */
+"p06-fN-9bt.placeholder" = "Search";
+
+/* Class = "UISearchBar"; placeholder = "Search Products"; ObjectID = "pAe-FJ-Jgo"; */
+"pAe-FJ-Jgo.placeholder" = "Search Products";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "pKq-Jg-XTJ"; */
+"pKq-Jg-XTJ.text" = "Category";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "rlr-ek-kr0"; */
+"rlr-ek-kr0.text" = "0";
+
+/* Class = "UILabel"; text = "Min Price"; ObjectID = "sFi-Ve-X5k"; */
+"sFi-Ve-X5k.text" = "Min Price";
+
+/* Class = "UILabel"; text = "Total Payable"; ObjectID = "sQS-XX-e8A"; */
+"sQS-XX-e8A.text" = "Total Payable";
+
+/* Class = "UIButton"; normalTitle = "Click Here To Download"; ObjectID = "tpE-Hc-dOd"; */
+"tpE-Hc-dOd.normalTitle" = "Click Here To Download";
+
+/* Class = "UILabel"; text = "GUEST"; ObjectID = "v62-Tv-3Du"; */
+"v62-Tv-3Du.text" = "GUEST";
+
+/* Class = "UIButton"; normalTitle = "Profile"; ObjectID = "wZ4-Bf-mcy"; */
+"wZ4-Bf-mcy.normalTitle" = "Profile";
+
+/* Class = "UIButton"; normalTitle = "Apply Coupon"; ObjectID = "xmj-Wg-GgS"; */
+"xmj-Wg-GgS.normalTitle" = "Apply Coupon";
+
+/* Class = "UITextField"; text = "0.00"; ObjectID = "yPO-zW-av9"; */
+"yPO-zW-av9.text" = "0.00";
+
+/* Class = "UILabel"; text = "Change Settings"; ObjectID = "yYP-c5-mEP"; */
+"yYP-c5-mEP.text" = "Change Settings";
+
+/* Class = "UIButton"; normalTitle = "Place Order"; ObjectID = "zbh-Ju-gyT"; */
+"zbh-Ju-gyT.normalTitle" = "Place Order";

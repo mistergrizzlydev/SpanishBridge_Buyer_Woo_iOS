@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14810.11" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14766.13"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Mage Woo Edit Profile-->
+        <scene sceneID="K8w-FN-Wri">
+            <objects>
+                <viewController storyboardIdentifier="editProfile" id="eWw-Zj-qCr" customClass="mageWooEditProfile" customModule="Magenative_App_For_Woocommerce" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zgr-HI-kd3"/>
+                        <viewControllerLayoutGuide type="bottom" id="nES-Gi-zqg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Rs8-pR-qO2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Cl-Ts-Vcv">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rx1-Bc-GjD">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hl5-7l-xyB">
+                                                <rect key="frame" x="20" y="70" width="335" height="320"/>
+                                                <subviews>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rBY-LV-m1B" customClass="SkyFloatingLabelTextField" customModule="Magenative_App_For_Woocommerce" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="167.5" height="40"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="40" id="cGm-Nf-Hfp"/>
+                                                        </constraints>
+                                                        <color key="textColor" name="LabelTextColor"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="First Name"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </textField>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="LastName" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="psh-xv-QKp" customClass="SkyFloatingLabelTextField" customModule="Magenative_App_For_Woocommerce" customModuleProvider="target">
+                                                        <rect key="frame" x="167.5" y="0.0" width="167.5" height="40"/>
+                                                        <color key="textColor" name="LabelTextColor"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rgX-Sc-IvG" customClass="SkyFloatingLabelTextField" customModule="Magenative_App_For_Woocommerce" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="50" width="335" height="40"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="40" id="3Go-Xy-LWo"/>
+                                                        </constraints>
+                                                        <color key="textColor" name="LabelTextColor"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Email"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </textField>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VN4-by-ADX">
+                                                        <rect key="frame" x="0.0" y="95" width="30" height="30"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="ksa-Hu-lkb"/>
+                                                            <constraint firstAttribute="width" constant="30" id="xgr-q9-d4j"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                                                        <color key="tintColor" name="LabelTextColor"/>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqN-ed-8cZ">
+                                                        <rect key="frame" x="40" y="100" width="295" height="25"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
+                                                        <color key="textColor" name="LabelTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eTN-al-O9I" customClass="SkyFloatingLabelTextField" customModule="Magenative_App_For_Woocommerce" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="130" width="335" height="40"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="40" id="Kzb-HH-obL"/>
+                                                        </constraints>
+                                                        <color key="textColor" name="LabelTextColor"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Old Password"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </textField>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="w3v-Ik-LwW" customClass="SkyFloatingLabelTextField" customModule="Magenative_App_For_Woocommerce" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="180" width="335" height="40"/>
+                                                        <color key="textColor" name="LabelTextColor"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="New Password"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </textField>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Knd-aW-rE7" customClass="SkyFloatingLabelTextField" customModule="Magenative_App_For_Woocommerce" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="230" width="335" height="40"/>
+                                                        <color key="textColor" name="LabelTextColor"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Confirm Password"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </textField>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J61-pv-zYk">
+                                                        <rect key="frame" x="0.0" y="275" width="30" height="30"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="ANt-OJ-gZ8"/>
+                                                            <constraint firstAttribute="width" constant="30" id="z2X-5g-LUJ"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                                                        <color key="tintColor" name="LabelTextColor"/>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Show Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZXB-xO-vYX">
+                                                        <rect key="frame" x="40" y="280" width="295" height="18"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
+                                                        <color key="textColor" name="LabelTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="w3v-Ik-LwW" firstAttribute="height" secondItem="eTN-al-O9I" secondAttribute="height" id="07w-hB-Bvi"/>
+                                                    <constraint firstItem="Knd-aW-rE7" firstAttribute="top" secondItem="w3v-Ik-LwW" secondAttribute="bottom" constant="10" id="3gG-5d-duW"/>
+                                                    <constraint firstItem="ZXB-xO-vYX" firstAttribute="leading" secondItem="J61-pv-zYk" secondAttribute="trailing" constant="10" id="4Nm-pf-rAr"/>
+                                                    <constraint firstItem="cqN-ed-8cZ" firstAttribute="trailing" secondItem="rgX-Sc-IvG" secondAttribute="trailing" id="5od-7I-e16"/>
+                                                    <constraint firstItem="rgX-Sc-IvG" firstAttribute="trailing" secondItem="psh-xv-QKp" secondAttribute="trailing" id="7zy-Iw-qeW"/>
+                                                    <constraint firstAttribute="height" constant="320" id="8G0-NL-7pJ"/>
+                                                    <constraint firstItem="Knd-aW-rE7" firstAttribute="trailing" secondItem="w3v-Ik-LwW" secondAttribute="trailing" id="9DR-yh-xcm"/>
+                                                    <constraint firstItem="w3v-Ik-LwW" firstAttribute="trailing" secondItem="eTN-al-O9I" secondAttribute="trailing" id="9fO-52-w5y"/>
+                                                    <constraint firstItem="rBY-LV-m1B" firstAttribute="leading" secondItem="hl5-7l-xyB" secondAttribute="leading" id="A7o-8W-EZu"/>
+                                                    <constraint firstItem="Knd-aW-rE7" firstAttribute="height" secondItem="w3v-Ik-LwW" secondAttribute="height" id="Ac6-QU-wSA"/>
+                                                    <constraint firstItem="VN4-by-ADX" firstAttribute="top" secondItem="rgX-Sc-IvG" secondAttribute="bottom" constant="5" id="Ear-7J-nBv"/>
+                                                    <constraint firstItem="J61-pv-zYk" firstAttribute="top" secondItem="Knd-aW-rE7" secondAttribute="bottom" constant="5" id="I0r-sC-dbc"/>
+                                                    <constraint firstItem="ZXB-xO-vYX" firstAttribute="top" secondItem="Knd-aW-rE7" secondAttribute="bottom" constant="10" id="JJK-k7-Pmd"/>
+                                                    <constraint firstItem="cqN-ed-8cZ" firstAttribute="leading" secondItem="VN4-by-ADX" secondAttribute="trailing" constant="10" id="JTh-kc-oyO"/>
+                                                    <constraint firstItem="J61-pv-zYk" firstAttribute="leading" secondItem="Knd-aW-rE7" secondAttribute="leading" id="OJ9-4X-Gqh"/>
+                                                    <constraint firstItem="psh-xv-QKp" firstAttribute="leading" secondItem="rBY-LV-m1B" secondAttribute="trailing" id="PJa-B9-hac"/>
+                                                    <constraint firstItem="Knd-aW-rE7" firstAttribute="leading" secondItem="w3v-Ik-LwW" secondAttribute="leading" id="RqF-8F-64g"/>
+                                                    <constraint firstItem="psh-xv-QKp" firstAttribute="width" secondItem="rBY-LV-m1B" secondAttribute="width" id="SOA-Vm-7RS"/>
+                                                    <constraint firstItem="VN4-by-ADX" firstAttribute="leading" secondItem="hl5-7l-xyB" secondAttribute="leading" id="V2X-kW-yik"/>
+                                                    <constraint firstItem="cqN-ed-8cZ" firstAttribute="top" secondItem="rgX-Sc-IvG" secondAttribute="bottom" constant="10" id="YoO-Th-paB"/>
+                                                    <constraint firstItem="psh-xv-QKp" firstAttribute="top" secondItem="rBY-LV-m1B" secondAttribute="top" id="YpT-Nn-qPu"/>
+                                                    <constraint firstItem="w3v-Ik-LwW" firstAttribute="top" secondItem="eTN-al-O9I" secondAttribute="bottom" constant="10" id="Zmo-6y-X53"/>
+                                                    <constraint firstItem="ZXB-xO-vYX" firstAttribute="trailing" secondItem="Knd-aW-rE7" secondAttribute="trailing" id="ags-gY-vdJ"/>
+                                                    <constraint firstItem="psh-xv-QKp" firstAttribute="height" secondItem="rBY-LV-m1B" secondAttribute="height" id="dNW-uX-XLG"/>
+                                                    <constraint firstItem="eTN-al-O9I" firstAttribute="top" secondItem="cqN-ed-8cZ" secondAttribute="bottom" constant="5" id="fSJ-oM-ePn"/>
+                                                    <constraint firstItem="psh-xv-QKp" firstAttribute="bottom" secondItem="rBY-LV-m1B" secondAttribute="bottom" id="lIW-cy-khR"/>
+                                                    <constraint firstItem="rgX-Sc-IvG" firstAttribute="top" secondItem="rBY-LV-m1B" secondAttribute="bottom" constant="10" id="lKr-Fl-1cK"/>
+                                                    <constraint firstItem="rBY-LV-m1B" firstAttribute="width" secondItem="hl5-7l-xyB" secondAttribute="width" multiplier="0.5" id="lLi-F0-rfw"/>
+                                                    <constraint firstItem="w3v-Ik-LwW" firstAttribute="leading" secondItem="eTN-al-O9I" secondAttribute="leading" id="mWZ-ab-OnN"/>
+                                                    <constraint firstAttribute="trailing" secondItem="eTN-al-O9I" secondAttribute="trailing" id="qmv-WH-7KH"/>
+                                                    <constraint firstItem="rgX-Sc-IvG" firstAttribute="leading" secondItem="rBY-LV-m1B" secondAttribute="leading" id="sT4-ir-w7Q"/>
+                                                    <constraint firstItem="eTN-al-O9I" firstAttribute="top" secondItem="VN4-by-ADX" secondAttribute="bottom" constant="5" id="uva-eQ-xfR"/>
+                                                    <constraint firstItem="eTN-al-O9I" firstAttribute="leading" secondItem="hl5-7l-xyB" secondAttribute="leading" id="xy0-OR-wGI"/>
+                                                    <constraint firstItem="rBY-LV-m1B" firstAttribute="top" secondItem="hl5-7l-xyB" secondAttribute="top" id="ykN-cB-LWj"/>
+                                                </constraints>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tei-40-cLa">
+                                                <rect key="frame" x="20" y="410" width="335" height="40"/>
+                                                <color key="backgroundColor" red="0.0" green="0.40000000000000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="ENg-lv-Mbv"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                                                <state key="normal" title="Save">
+                                                    <color key="titleColor" name="LabelTextColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aOe-1X-aeO">
+                                                <rect key="frame" x="20" y="20" width="335" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="daB-4P-wBn"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="18"/>
+                                                <color key="textColor" name="LabelTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="Tei-40-cLa" firstAttribute="trailing" secondItem="hl5-7l-xyB" secondAttribute="trailing" id="99r-PJ-YpT"/>
+                                            <constraint firstItem="Tei-40-cLa" firstAttribute="leading" secondItem="hl5-7l-xyB" secondAttribute="leading" id="BLf-LZ-0Vc"/>
+                                            <constraint firstAttribute="height" constant="667" id="Iyp-Ex-4JI"/>
+                                            <constraint firstItem="hl5-7l-xyB" firstAttribute="leading" secondItem="aOe-1X-aeO" secondAttribute="leading" id="Klt-VR-2Vm"/>
+                                            <constraint firstItem="hl5-7l-xyB" firstAttribute="trailing" secondItem="aOe-1X-aeO" secondAttribute="trailing" id="Rd5-zl-cY7"/>
+                                            <constraint firstItem="aOe-1X-aeO" firstAttribute="leading" secondItem="rx1-Bc-GjD" secondAttribute="leading" constant="20" id="aYQ-Sh-0TT"/>
+                                            <constraint firstItem="aOe-1X-aeO" firstAttribute="top" secondItem="rx1-Bc-GjD" secondAttribute="top" constant="20" id="cfV-gX-JRL"/>
+                                            <constraint firstAttribute="width" constant="375" id="glV-KV-ENh"/>
+                                            <constraint firstItem="Tei-40-cLa" firstAttribute="top" secondItem="hl5-7l-xyB" secondAttribute="bottom" constant="20" id="hvm-Tv-C52"/>
+                                            <constraint firstItem="hl5-7l-xyB" firstAttribute="top" secondItem="aOe-1X-aeO" secondAttribute="bottom" constant="20" id="uFq-X3-2Hx"/>
+                                            <constraint firstAttribute="trailing" secondItem="aOe-1X-aeO" secondAttribute="trailing" constant="20" id="zdk-Pz-fu6"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="rx1-Bc-GjD" firstAttribute="top" secondItem="4Cl-Ts-Vcv" secondAttribute="top" id="LFd-fl-NTf"/>
+                                    <constraint firstAttribute="trailing" secondItem="rx1-Bc-GjD" secondAttribute="trailing" id="ag0-Z0-hjP"/>
+                                    <constraint firstAttribute="bottom" secondItem="rx1-Bc-GjD" secondAttribute="bottom" id="c66-Dx-DVG"/>
+                                    <constraint firstItem="rx1-Bc-GjD" firstAttribute="leading" secondItem="4Cl-Ts-Vcv" secondAttribute="leading" id="iKh-co-iOB"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="4Cl-Ts-Vcv" secondAttribute="trailing" id="H7I-v9-ZjY"/>
+                            <constraint firstItem="4Cl-Ts-Vcv" firstAttribute="leading" secondItem="Rs8-pR-qO2" secondAttribute="leading" id="Sel-Sk-HFp"/>
+                            <constraint firstItem="4Cl-Ts-Vcv" firstAttribute="top" secondItem="Rs8-pR-qO2" secondAttribute="top" id="otY-0r-ECe"/>
+                            <constraint firstItem="nES-Gi-zqg" firstAttribute="top" secondItem="4Cl-Ts-Vcv" secondAttribute="bottom" id="pfn-Zz-OmZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="confirmPassword" destination="Knd-aW-rE7" id="w3w-J0-A1e"/>
+                        <outlet property="email" destination="rgX-Sc-IvG" id="d4s-b4-4vk"/>
+                        <outlet property="firstName" destination="rBY-LV-m1B" id="W0B-ad-eXb"/>
+                        <outlet property="lastName" destination="psh-xv-QKp" id="C3E-gB-waD"/>
+                        <outlet property="mainViewHeight" destination="Iyp-Ex-4JI" id="NJe-L6-TMR"/>
+                        <outlet property="mainViewWidth" destination="glV-KV-ENh" id="U9E-Cd-goc"/>
+                        <outlet property="newPassword" destination="w3v-Ik-LwW" id="HjV-Wc-1Ac"/>
+                        <outlet property="oldPassword" destination="eTN-al-O9I" id="xLb-fg-RFf"/>
+                        <outlet property="passwordCheckbox" destination="VN4-by-ADX" id="P69-D5-bno"/>
+                        <outlet property="saveButton" destination="Tei-40-cLa" id="tXx-oB-cHY"/>
+                        <outlet property="showPasswordButton" destination="J61-pv-zYk" id="NJJ-nd-1pv"/>
+                        <outlet property="showPasswordLabel" destination="ZXB-xO-vYX" id="Xvw-aL-UaP"/>
+                        <outlet property="viewHeight" destination="8G0-NL-7pJ" id="aM1-mk-V7R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cff-JV-LlV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4" y="-20.239880059970016"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="LabelTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </namedColor>
+    </resources>
+</document>

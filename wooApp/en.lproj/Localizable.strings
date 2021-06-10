@@ -1,0 +1,219 @@
+/**
+ * CedCommerce
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the End User License Agreement (EULA)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://cedcommerce.com/license-agreement.txt
+ *
+ * @category  Ced
+ * @package   MageNative
+ * @author    CedCommerce Core Team <connect@cedcommerce.com >
+ * @copyright Copyright CEDCOMMERCE (http://cedcommerce.com/)
+ * @license      http://cedcommerce.com/license-agreement.txt
+ */
+/*cedMageMyDownloadView*/
+"Order Id:" = "Order Id:";
+"Title:" = "Title:";
+"Link Title:" = "Link Title:";
+"Access Expires on:" = "Access Expires on:";
+"Remaining Downloads:" = "Remaining Downloads:";
+"Click Here To Download" = "Click Here To Download";
+"Download Complete" = "Download Complete";
+"Downloading..." = "Downloading...";
+/*wooMageOrderList*/
+"Order Date - "="Order Date - ";
+"Order No. - " = "Order No. - ";
+"Order Status - " = "Order Status - ";
+"Order total - " = "Order total - ";
+"Total Items - " = "Total Items - ";
+
+/*checkOutAsController*/
+"Some fields are blank" = "Some fields are blank";
+"Email is invalid" = "Email is invalid";
+"Login Successful" = "Login Successful";
+"Error" = "Error";
+"Wrong Email Or Password." = "Wrong Email Or Password.";
+"Ok" = "Ok";
+"Email field is blank" = "Email field is blank";
+
+/*addAddressController*/
+"State *" = "State *";
+"Country *" = "Country *";
+"Address Added Successfully" = "Address Added Successfully";
+"All fields are required"="All fields are required";
+"Enter letters only in firstname"="Enter letters only in firstname";
+"Enter letters only in lastname"="Enter letters only in lastname";
+"Enter letters only in city"="Enter letters only in city";
+"Enter digits only in phone"="Enter digits only in phone";
+"Enter digits only in zip"="Enter digits only in zip";
+"Enter letters only in ship_firstname"="Enter letters only in ship_firstname";
+"Enter letters only in ship_lastname"="Enter letters only in ship_lastname";
+"Enter letters only in ship_city"="Enter letters only in ship_city";
+"Enter digits only in ship_phone"="Enter digits only in ship_phone";
+"Enter digits only in ship_zip"="Enter digits only in ship_zip";
+
+/*selectPaymentMethod*/
+"Select payment method" = "Select payment method";
+"Some error occured" = "Some error occured";
+
+/*selectShippingMethod*/
+"Select shipping method" = "Select shipping method";
+"Shipping Method Changed Successfully" = "Shipping Method Changed Successfully";
+
+/*mageWooEditProfile*/
+"All Fields are Required." = "All Fields are Required.";
+"First Name Is Required." = "First Name Is Required.";
+"Last Name Is Required." = "Last Name Is Required.";
+"Email is Required." = "Email is Required.";
+"Please enter same password for confirm password" = "Please enter same password for confirm password";
+
+/*productSearch*/
+"Enter some text to search products." = "Enter some text to search products.";
+"No Result found" = "No Result found";
+
+/*mageWooProductView*/
+"Wrong Input." = "Wrong Input.";
+"Please enter quantity of maximum 3 digits." = "Please enter quantity of maximum 3 digits.";
+"Wrong Input." = "Wrong Input.";
+"Please enter positive integer number for quantity." = "Please enter positive integer number for quantity.";
+"Please enter 1 or more quantity for product to add to cart." = "Please enter 1 or more quantity for product to add to cart.";
+"Please enter 1 or more quantity with whole number." = "Please enter 1 or more quantity with whole number.";
+"Please add atleast 1 as quantity." = "Please add atleast 1 as quantity.";
+"Please Login First...!" = "Please Login First...!";
+"Product is not available" = "Product is not available";
+"Please select all the variants" = "Please select all the variants";
+"Out Of Stock!" = "Out Of Stock!";
+"Some error occured" = "Some error occured";
+"Product not available" = "Product not available";
+
+/*CartProductListView*/
+"Your Order" = "Your Order";
+" items" = " items";
+"Shopping Cart" = "Shopping Cart";
+"Remove Coupon" = "Remove Coupon";
+"Apply Coupon" = "Apply Coupon";
+"Free" = "Free";
+"Enter coupon code"="Enter coupon code";
+"Wrong Input." = "Wrong Input.";
+"Please enter quantity of maximum 3 digits." = "Please enter quantity of maximum 3 digits.";
+"Please enter positive integer number for quantity." = "Please enter positive integer number for quantity.";
+"Please enter 1 or more quantity for product to add to cart." = "Please enter 1 or more quantity for product to add to cart.";
+"Please enter 1 or more quantity with whole number." = "Please enter 1 or more quantity with whole number.";
+"Please add atleast 1 as quantity." = "Please add atleast 1 as quantity.";
+"Quantity Updated." = "Quantity Updated.";
+"Are you sure to remove the product from cart..?" = "Are you sure to remove the product from cart..?";
+"Empty" = "Empty";
+"Your cart is empty please add some items to it." = "Your cart is empty please add some items to it.";
+"Item is removed from cart." = "Item is removed from cart.";
+"Cancel" = "Cancel";
+"Confirmation..!" = "Confirmation..!";
+"Are You sure you want to empty the cart." = "Are You sure you want to empty the cart.";
+"Deleted" = "Deleted";
+"Your cart is Empty Now" = "Your cart is Empty Now";
+"OK" = "OK";
+"No" = "No";
+"Error" = "Error";
+"qtyerror" = "qtyerror";
+"Total: " = "Total: ";
+
+/*CategoryProductsView*/
+"Please Login First...!" = "Please Login First...!";
+"Product removed from wishlist." = "Product removed from wishlist.";
+"Product added to wishlist." = "Product added to wishlist.";
+
+/*mageWooHome*/
+"BEST SELLING" = "BEST SELLING";
+"NEW ARRIVALS" = "NEW ARRIVALS";
+"FEATURED PRODUCTS" = "FEATURED PRODUCTS";
+
+/*checkoutWebView*/
+"Some error occured"="Some error occured";
+
+/*mageWooAddReviews*/
+"Please provide rating" = "Please provide rating";
+"Required fields cannot be blank" = "Required fields cannot be blank";
+"Email is invalid" = "Email is invalid";
+
+/*wooMageDrawer*/
+"Login" = "Login";
+
+/*wooMageMainDrawer*/
+"User" = "User";
+"Guest" = "Guest";
+"LOGIN/SIGNUP" = "LOGIN/SIGNUP";
+"Logout" = "Logout";
+"No products available" = "No products available";
+
+/*subCategoryCell*/
+"Please Login First...!" = "Please Login First...!";
+"Product removed from wishlist." = "Product removed from wishlist.";
+"Product added to wishlist." = "Product added to wishlist.";
+
+/*ProductFiltersViewController*/
+"Apply Filter" = "Apply Filter";
+"Clear Filter" = "Clear Filter";
+
+/*mageWooFilters*/
+"Apply Filter" = "Apply Filter";
+"Clear Filter" = "Clear Filter";
+
+/*sortByExtension*/
+"Sort Items By :" = "Sort Items By :";
+
+/*magehomeProductlist*/
+"Please Login First...!" = "Please Login First...!";
+
+/*mageWooWishList*/
+"Please Login First...!" = "Please Login First...!";
+"Product removed from wishlist." = "Product removed from wishlist.";
+"Product added to wishlist." = "Product added to wishlist.";
+"Total Items : " = "Total Items : ";
+
+/*wooMageLogin*/
+"Some fields are blank" = "Some fields are blank";
+"Email is invalid" = "Email is invalid";
+"Login Successful" = "Login Successful";
+"Error" = "Error";
+"Wrong Email Or Password." = "Wrong Email Or Password.";
+"Ok" = "Ok";
+
+/*wooMageRegister*/
+"Email is not valid" = "Email is not valid";
+"Name is not valid" = "Name is not valid";
+"Some fields are blank" = "Some fields are blank";
+"Some Error Occured" = "Some Error Occured";
+"Message" = "Message";
+
+/*mageWooForgotPassword*/
+"Email is required" = "Email is required";
+"Email is invalid" = "Email is invalid";
+
+/*cedMageHomeCategoryCell*/
+"MORE" = "MORE";
+
+/*cedMagePopularProductCell*/
+"MOST" = "MOST";
+"POPULAR" = "POPULAR";
+"NEW" = "NEW";
+"ARRIVALS" = "ARRIVALS";
+
+/*cedMageWooNetwork*/
+"Error" = "Error";
+"OK" = "OK";
+"Select Store" = "Select Store";
+"Payment Methods Not Available" = "Payment Methods Not Available";
+"No reviews found" = "No reviews found";
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+
+/* Class = "UILabel"; text = "Your Ratings"; ObjectID = "4c9-oM-tgd"; */
+"4c9-oM-tgd.text" = "Your Ratings";
+
+/* Class = "UILabel"; text = "Reviews"; ObjectID = "FBa-L8-Nzb"; */
+"FBa-L8-Nzb.text" = "Reviews";
+
+/* Class = "UIButton"; normalTitle = "Write A Review"; ObjectID = "LlE-Kf-e9t"; */
+"LlE-Kf-e9t.normalTitle" = "Write A Review";
+
+/* Class = "UIButton"; normalTitle = "Write A Review"; ObjectID = "PaF-ZF-vXG"; */
+"PaF-ZF-vXG.normalTitle" = "Write A Review";
+
+/* Class = "UILabel"; text = "Write A Review"; ObjectID = "eUj-UI-6VJ"; */
+"eUj-UI-6VJ.text" = "Write A Review";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "kKP-GV-3Ga"; */
+"kKP-GV-3Ga.text" = "Date";
+
+"qKp-zq-3r6.placeholder" = "Write A Review";

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14810.11" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14766.13"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="starRatingView" customModule="Magenative_App_For_Woocommerce" customModuleProvider="target">
+            <connections>
+                <outlet property="starButton" destination="mEK-Ze-pXe" id="6a5-tH-gZw"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEK-Ze-pXe">
+                    <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                    <state key="normal" image="StarEmpty"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="mEK-Ze-pXe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="5BZ-M8-9H9"/>
+                <constraint firstAttribute="trailing" secondItem="mEK-Ze-pXe" secondAttribute="trailing" id="QR4-cF-3eb"/>
+                <constraint firstAttribute="bottom" secondItem="mEK-Ze-pXe" secondAttribute="bottom" id="cbc-NE-fW2"/>
+                <constraint firstItem="mEK-Ze-pXe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="elx-w3-V7Q"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="135" y="128"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="StarEmpty" width="50" height="50"/>
+    </resources>
+</document>

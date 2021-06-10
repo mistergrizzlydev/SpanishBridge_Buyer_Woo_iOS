@@ -1,0 +1,55 @@
+
+/* Class = "UIButton"; normalTitle = "Sign in"; ObjectID = "BFb-wa-027"; */
+"BFb-wa-027.normalTitle" = "تسجيل الدخول";
+
+/* Class = "UITextField"; placeholder = "Email ID *"; ObjectID = "LnC-Sd-eQJ"; */
+"LnC-Sd-eQJ.placeholder" = "البريد الإلكترونى *";
+
+/* Class = "UILabel"; text = "Sign Up"; ObjectID = "PRA-TI-6JK"; */
+"PRA-TI-6JK.text" = "التسجيل";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "T7R-Rt-I6f"; */
+"T7R-Rt-I6f.placeholder" = "البريد الإلكترونى";
+
+/* Class = "UILabel"; text = "Sign in"; ObjectID = "YWU-Xe-h4R"; */
+"YWU-Xe-h4R.text" = "تسجيل الدخول";
+
+/* Class = "UIButton"; normalTitle = "OR"; ObjectID = "aDJ-Zl-xkm"; */
+"aDJ-Zl-xkm.normalTitle" = "أو";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "b8h-9Q-UJc"; */
+"b8h-9Q-UJc.placeholder" = "الأسم";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "eyN-fT-sWj"; */
+"eyN-fT-sWj.placeholder" = "البريد الإلكترونى";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "hIV-yp-UFm"; */
+"hIV-yp-UFm.placeholder" = "كلمة المرور";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "irf-ap-enO"; */
+"irf-ap-enO.normalTitle" = "تفعيل";
+
+/* Class = "UIButton"; normalTitle = "Show Password"; ObjectID = "kzH-Et-dR8"; */
+"kzH-Et-dR8.normalTitle" = "إظهار كلمة المرور";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "mfH-at-xKf"; */
+"mfH-at-xKf.placeholder" = "كلمة المرور";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "ql7-Dv-bEW"; */
+"ql7-Dv-bEW.normalTitle" = "التسجيل";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "rIN-yj-2Gs"; */
+"rIN-yj-2Gs.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Send Link"; ObjectID = "rW4-9N-yvH"; */
+"rW4-9N-yvH.normalTitle" = "ارسال الرابط";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password?"; ObjectID = "xx0-JU-DAp"; */
+"xx0-JU-DAp.normalTitle" = "هل نسيت كلمة المرور؟";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "zAI-E7-Ynt"; */
+"zAI-E7-Ynt.placeholder" = "الأسم الأخير";
+
+/* Class = "UIButton"; normalTitle = "Show Password"; ObjectID = "zWx-7v-Dq2"; */
+"zWx-7v-Dq2.normalTitle" = "إظهار كلمة المرور";
+

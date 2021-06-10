@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PickerXibView" customModule="Magenative_Woocommerce_App" customModuleProvider="target">
+            <connections>
+                <outlet property="cancelButton" destination="vbW-Cq-Wig" id="gpn-QJ-zwG"/>
+                <outlet property="doneButton" destination="ufU-Vd-IF4" id="bTu-LH-qJj"/>
+                <outlet property="mainPickerView" destination="tmt-ff-1qf" id="Gdv-Jf-CWd"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tmt-ff-1qf">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="260"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </pickerView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ufU-Vd-IF4">
+                    <rect key="frame" x="0.0" y="265" width="184.5" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="PaG-OJ-ldF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                    <state key="normal" title="Done">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbW-Cq-Wig">
+                    <rect key="frame" x="190.5" y="265" width="184.5" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="GFW-Wu-hiR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                    <state key="normal" title="Cancel">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="ufU-Vd-IF4" firstAttribute="top" secondItem="tmt-ff-1qf" secondAttribute="bottom" constant="5" id="2hb-8h-O3z"/>
+                <constraint firstAttribute="trailing" secondItem="vbW-Cq-Wig" secondAttribute="trailing" id="4nl-51-Izn"/>
+                <constraint firstItem="vbW-Cq-Wig" firstAttribute="bottom" secondItem="ufU-Vd-IF4" secondAttribute="bottom" id="6Tn-uD-gzl"/>
+                <constraint firstItem="tmt-ff-1qf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="IFg-85-cI6"/>
+                <constraint firstItem="ufU-Vd-IF4" firstAttribute="leading" secondItem="tmt-ff-1qf" secondAttribute="leading" id="Obt-qV-mmN"/>
+                <constraint firstItem="tmt-ff-1qf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="PtR-9F-D4a"/>
+                <constraint firstItem="ufU-Vd-IF4" firstAttribute="width" secondItem="tmt-ff-1qf" secondAttribute="width" multiplier="0.5" constant="-3" id="SPq-jv-uFK"/>
+                <constraint firstAttribute="bottom" secondItem="ufU-Vd-IF4" secondAttribute="bottom" constant="5" id="djC-aq-5lQ"/>
+                <constraint firstItem="vbW-Cq-Wig" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.5" constant="-3" id="moP-Q6-SCi"/>
+                <constraint firstAttribute="trailing" secondItem="tmt-ff-1qf" secondAttribute="trailing" id="nFs-xB-jKd"/>
+                <constraint firstItem="vbW-Cq-Wig" firstAttribute="top" secondItem="ufU-Vd-IF4" secondAttribute="top" id="uLa-If-rir"/>
+                <constraint firstItem="vbW-Cq-Wig" firstAttribute="height" secondItem="ufU-Vd-IF4" secondAttribute="height" id="wnE-op-lsw"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="32.5" y="88"/>
+        </view>
+    </objects>
+</document>

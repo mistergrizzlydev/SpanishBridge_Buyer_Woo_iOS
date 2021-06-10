@@ -1,0 +1,31 @@
+
+/* Class = "UIButton"; normalTitle = "Reviews"; ObjectID = "3g0-GW-XvH"; */
+"3g0-GW-XvH.normalTitle" = "التقييمات";
+
+/* Class = "UIButton"; normalTitle = "Additional Information"; ObjectID = "Ekj-d9-crO"; */
+"Ekj-d9-crO.normalTitle" = "معلومات إضافية";
+
+/* Class = "UIButton"; normalTitle = "BUY NOW"; ObjectID = "IZM-Pw-Xhx"; */
+"IZM-Pw-Xhx.normalTitle" = "إشترى الآن";
+
+/* Class = "UILabel"; text = "Quantity"; ObjectID = "QGg-Mo-xp0"; */
+"QGg-Mo-xp0.text" = "العدد";
+
+/* Class = "UILabel"; text = "Related Products"; ObjectID = "USs-on-vCX"; */
+"USs-on-vCX.text" = "منتجات مشابهه";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "VaY-gq-rAX"; */
+"VaY-gq-rAX.text" = "الوصف";
+
+/* Class = "UIButton"; normalTitle = "ADD TO CART"; ObjectID = "WeT-Gl-oog"; */
+"WeT-Gl-oog.normalTitle" = "أضف للسلة";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ZPs-n5-KQv"; */
+"ZPs-n5-KQv.text" = "Label";
+
+/* Class = "UILabel"; text = "SALE!"; ObjectID = "bah-jO-mNo"; */
+"bah-jO-mNo.text" = "خصم!";
+
+/* Class = "UIButton"; normalTitle = "Long Description"; ObjectID = "wGb-dn-qGl"; */
+"wGb-dn-qGl.normalTitle" = "الوصف الكامل";
+

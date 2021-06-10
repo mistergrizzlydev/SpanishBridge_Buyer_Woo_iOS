@@ -1,0 +1,93 @@
+
+/* Class = "UILabel"; text = "Shipping Method"; ObjectID = "2uk-YL-c1m"; */
+"2uk-YL-c1m.text" = "Shipping Method";
+
+/* Class = "UITextField"; placeholder = "Zip *"; ObjectID = "339-4e-vFS"; */
+"339-4e-vFS.placeholder" = "Zip *";
+
+/* Class = "UIButton"; normalTitle = "Proceed"; ObjectID = "884-9E-Xx8"; */
+"884-9E-Xx8.normalTitle" = "Proceed";
+
+/* Class = "UIButton"; normalTitle = "Continue Shopping"; ObjectID = "8Yn-4H-lZl"; */
+"8Yn-4H-lZl.normalTitle" = "Continue Shopping";
+
+/* Class = "UILabel"; text = "Tax"; ObjectID = "I6C-PM-NF5"; */
+"I6C-PM-NF5.text" = "Tax";
+
+/* Class = "UITextField"; placeholder = "Phone *"; ObjectID = "MHb-sR-CNy"; */
+"MHb-sR-CNy.placeholder" = "Phone *";
+
+/* Class = "UILabel"; text = "Shipping Cost"; ObjectID = "Mh9-SZ-JGk"; */
+"Mh9-SZ-JGk.text" = "Shipping Cost";
+
+/* Class = "UILabel"; text = "Subtotal"; ObjectID = "Mmu-JL-uGN"; */
+"Mmu-JL-uGN.text" = "Subtotal";
+
+/* Class = "UIButton"; normalTitle = "Continue Shopping"; ObjectID = "NRM-iV-WE6"; */
+"NRM-iV-WE6.normalTitle" = "Continue Shopping";
+
+/* Class = "UIButton"; normalTitle = "Proceed"; ObjectID = "PCb-p0-z4c"; */
+"PCb-p0-z4c.normalTitle" = "Proceed";
+
+/* Class = "UILabel"; text = "Select Payment Method"; ObjectID = "PZB-4j-diQ"; */
+"PZB-4j-diQ.text" = "Select Payment Method";
+
+/* Class = "UITextField"; placeholder = "Password *"; ObjectID = "UlH-yY-7Uh"; */
+"UlH-yY-7Uh.placeholder" = "Password *";
+
+/* Class = "UILabel"; text = "Grand Total"; ObjectID = "VGi-PM-HVY"; */
+"VGi-PM-HVY.text" = "Grand Total";
+
+/* Class = "UIButton"; normalTitle = "Proceed"; ObjectID = "VWZ-jW-b4V"; */
+"VWZ-jW-b4V.normalTitle" = "Proceed";
+
+/* Class = "UILabel"; text = "Don't Have Account?"; ObjectID = "XH8-Rj-ENf"; */
+"XH8-Rj-ENf.text" = "Don't Have Account?";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "YOV-ut-Chb"; */
+"YOV-ut-Chb.text" = "Address";
+
+/* Class = "UIButton"; normalTitle = "SignUp"; ObjectID = "YeS-b1-aNn"; */
+"YeS-b1-aNn.normalTitle" = "SignUp";
+
+/* Class = "UITextField"; placeholder = "First Name *"; ObjectID = "ZN3-FM-ic3"; */
+"ZN3-FM-ic3.placeholder" = "First Name *";
+
+/* Class = "UIButton"; normalTitle = "Different Shipping Address"; ObjectID = "aDP-2Y-tSh"; */
+"aDP-2Y-tSh.normalTitle" = "Different Shipping Address";
+
+/* Class = "UILabel"; text = "Subtotal"; ObjectID = "alD-TF-ObR"; */
+"alD-TF-ObR.text" = "Subtotal";
+
+/* Class = "UITextField"; placeholder = "Last Name *"; ObjectID = "baX-8A-0r4"; */
+"baX-8A-0r4.placeholder" = "Last Name *";
+
+/* Class = "UIButton"; normalTitle = "Proceed"; ObjectID = "guO-TM-I7g"; */
+"guO-TM-I7g.normalTitle" = "Proceed";
+
+/* Class = "UIButton"; normalTitle = "Guest"; ObjectID = "hVt-pF-pAN"; */
+"hVt-pF-pAN.normalTitle" = "Guest";
+
+/* Class = "UIButton"; normalTitle = "Existing User"; ObjectID = "kpl-3q-OCn"; */
+"kpl-3q-OCn.normalTitle" = "Existing User";
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "lgg-Cu-F7U"; */
+"lgg-Cu-F7U.text" = "Total";
+
+/* Class = "UITextField"; placeholder = "Email *"; ObjectID = "mMs-H8-X23"; */
+"mMs-H8-X23.placeholder" = "Email *";
+
+/* Class = "UITextField"; placeholder = "City *"; ObjectID = "mx3-Aw-bQa"; */
+"mx3-Aw-bQa.placeholder" = "City *";
+
+/* Class = "UILabel"; text = "Checkout As"; ObjectID = "owg-yl-QVr"; */
+"owg-yl-QVr.text" = "Checkout As";
+
+/* Class = "UITextField"; placeholder = "Address Line 2"; ObjectID = "pco-iK-9ga"; */
+"pco-iK-9ga.placeholder" = "Address Line 2";
+
+/* Class = "UITextField"; placeholder = "Address Line 1 *"; ObjectID = "sBP-iW-TBE"; */
+"sBP-iW-TBE.placeholder" = "Address Line 1 *";
+
+/* Class = "UILabel"; text = "Tax"; ObjectID = "zcb-JV-EG2"; */
+"zcb-JV-EG2.text" = "Tax";

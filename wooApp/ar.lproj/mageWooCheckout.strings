@@ -1,0 +1,94 @@
+
+/* Class = "UILabel"; text = "Shipping Method"; ObjectID = "2uk-YL-c1m"; */
+"2uk-YL-c1m.text" = "وسائل الشحن";
+
+/* Class = "UITextField"; placeholder = "Zip *"; ObjectID = "339-4e-vFS"; */
+"339-4e-vFS.placeholder" = "الرمز البريدى *";
+
+/* Class = "UIButton"; normalTitle = "Proceed"; ObjectID = "884-9E-Xx8"; */
+"884-9E-Xx8.normalTitle" = "اكمال الطلب";
+
+/* Class = "UIButton"; normalTitle = "Continue Shopping"; ObjectID = "8Yn-4H-lZl"; */
+"8Yn-4H-lZl.normalTitle" = "استكمال التسوق";
+
+/* Class = "UILabel"; text = "Tax"; ObjectID = "I6C-PM-NF5"; */
+"I6C-PM-NF5.text" = "الضرائب";
+
+/* Class = "UITextField"; placeholder = "Phone *"; ObjectID = "MHb-sR-CNy"; */
+"MHb-sR-CNy.placeholder" = "الهاتف *";
+
+/* Class = "UILabel"; text = "Shipping Cost"; ObjectID = "Mh9-SZ-JGk"; */
+"Mh9-SZ-JGk.text" = "تكلفة الشحن";
+
+/* Class = "UILabel"; text = "Subtotal"; ObjectID = "Mmu-JL-uGN"; */
+"Mmu-JL-uGN.text" = "الإجمالى";
+
+/* Class = "UIButton"; normalTitle = "Continue Shopping"; ObjectID = "NRM-iV-WE6"; */
+"NRM-iV-WE6.normalTitle" = "استكمال التسوق";
+
+/* Class = "UIButton"; normalTitle = "Proceed"; ObjectID = "PCb-p0-z4c"; */
+"PCb-p0-z4c.normalTitle" = "اكمال الطلب";
+
+/* Class = "UILabel"; text = "Select Payment Method"; ObjectID = "PZB-4j-diQ"; */
+"PZB-4j-diQ.text" = "اختار وسيلة الدفع";
+
+/* Class = "UITextField"; placeholder = "Password *"; ObjectID = "UlH-yY-7Uh"; */
+"UlH-yY-7Uh.placeholder" = "كلمة المرور *";
+
+/* Class = "UILabel"; text = "Grand Total"; ObjectID = "VGi-PM-HVY"; */
+"VGi-PM-HVY.text" = "المبلغ الإجمالى";
+
+/* Class = "UIButton"; normalTitle = "Proceed"; ObjectID = "VWZ-jW-b4V"; */
+"VWZ-jW-b4V.normalTitle" = "اكمال الطلب";
+
+/* Class = "UILabel"; text = "Don't Have Account?"; ObjectID = "XH8-Rj-ENf"; */
+"XH8-Rj-ENf.text" = "لا تمتلك حساب؟";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "YOV-ut-Chb"; */
+"YOV-ut-Chb.text" = "العنوان";
+
+/* Class = "UIButton"; normalTitle = "SignUp"; ObjectID = "YeS-b1-aNn"; */
+"YeS-b1-aNn.normalTitle" = "التسجيل";
+
+/* Class = "UITextField"; placeholder = "First Name *"; ObjectID = "ZN3-FM-ic3"; */
+"ZN3-FM-ic3.placeholder" = "الأسم الأول*";
+
+/* Class = "UIButton"; normalTitle = "Different Shipping Address"; ObjectID = "aDP-2Y-tSh"; */
+"aDP-2Y-tSh.normalTitle" = "عنوان مختلف للشحن";
+
+/* Class = "UILabel"; text = "Subtotal"; ObjectID = "alD-TF-ObR"; */
+"alD-TF-ObR.text" = "الإجمالى";
+
+/* Class = "UITextField"; placeholder = "Last Name *"; ObjectID = "baX-8A-0r4"; */
+"baX-8A-0r4.placeholder" = "الأسم الأخير *";
+
+/* Class = "UIButton"; normalTitle = "Proceed"; ObjectID = "guO-TM-I7g"; */
+"guO-TM-I7g.normalTitle" = "اكمال الطلب";
+
+/* Class = "UIButton"; normalTitle = "Guest"; ObjectID = "hVt-pF-pAN"; */
+"hVt-pF-pAN.normalTitle" = "زائر";
+
+/* Class = "UIButton"; normalTitle = "Existing User"; ObjectID = "kpl-3q-OCn"; */
+"kpl-3q-OCn.normalTitle" = "مستخدم موجود";
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "lgg-Cu-F7U"; */
+"lgg-Cu-F7U.text" = "الإجمالى";
+
+/* Class = "UITextField"; placeholder = "Email *"; ObjectID = "mMs-H8-X23"; */
+"mMs-H8-X23.placeholder" = "البريد الإلكترونى *";
+
+/* Class = "UITextField"; placeholder = "City *"; ObjectID = "mx3-Aw-bQa"; */
+"mx3-Aw-bQa.placeholder" = "المدينة *";
+
+/* Class = "UILabel"; text = "Checkout As"; ObjectID = "owg-yl-QVr"; */
+"owg-yl-QVr.text" = "الخروج كـ";
+
+/* Class = "UITextField"; placeholder = "Address Line 2"; ObjectID = "pco-iK-9ga"; */
+"pco-iK-9ga.placeholder" = "عنوان 2";
+
+/* Class = "UITextField"; placeholder = "Address Line 1 *"; ObjectID = "sBP-iW-TBE"; */
+"sBP-iW-TBE.placeholder" = "عنوان 1 *";
+
+/* Class = "UILabel"; text = "Tax"; ObjectID = "zcb-JV-EG2"; */
+"zcb-JV-EG2.text" = "الضرائب";
+

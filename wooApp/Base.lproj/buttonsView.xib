@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="buttonsView" customModule="wooApp" customModuleProvider="target">
+            <connections>
+                <outlet property="saveAndClose" destination="zil-Bh-fJl" id="RdF-tP-K0U"/>
+                <outlet property="saveAndContinue" destination="pef-rT-0KR" id="kfw-Sf-rcz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pef-rT-0KR">
+                    <rect key="frame" x="0.0" y="10" width="185" height="40"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="dmG-DL-aBg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
+                    <state key="normal" title="Save Settings">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zil-Bh-fJl">
+                    <rect key="frame" x="190" y="10" width="185" height="40"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Uvs-5P-DB9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
+                    <state key="normal" title="Save and Close">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="zil-Bh-fJl" secondAttribute="bottom" constant="10" id="Ek2-EW-NMD"/>
+                <constraint firstItem="zil-Bh-fJl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="WjF-eL-tzj"/>
+                <constraint firstItem="pef-rT-0KR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ZZJ-Yp-Yim"/>
+                <constraint firstAttribute="trailing" secondItem="zil-Bh-fJl" secondAttribute="trailing" id="c8C-5m-cPN"/>
+                <constraint firstAttribute="bottom" secondItem="pef-rT-0KR" secondAttribute="bottom" constant="10" id="ckL-4d-djh"/>
+                <constraint firstItem="zil-Bh-fJl" firstAttribute="leading" secondItem="pef-rT-0KR" secondAttribute="trailing" constant="5" id="rxu-5G-cld"/>
+                <constraint firstItem="pef-rT-0KR" firstAttribute="width" secondItem="zil-Bh-fJl" secondAttribute="width" id="zGu-K8-EhF"/>
+                <constraint firstItem="pef-rT-0KR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="zmK-q9-jX6"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

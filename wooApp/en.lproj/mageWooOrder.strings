@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Order Id:"; ObjectID = "BzL-J5-9Wm"; */
+"BzL-J5-9Wm.text" = "Order Id:";
+
+/* Class = "UIButton"; normalTitle = "View Details"; ObjectID = "R5F-TZ-Fci"; */
+"R5F-TZ-Fci.normalTitle" = "View Details";
+
+/* Class = "UILabel"; text = "Orders"; ObjectID = "Wen-T3-LGa"; */
+"Wen-T3-LGa.text" = "Orders";
+
+/* Class = "UILabel"; text = "AMOUNT"; ObjectID = "XEh-h3-AoD"; */
+"XEh-h3-AoD.text" = "AMOUNT";
+
+/* Class = "UILabel"; text = "Order Details"; ObjectID = "bkt-el-EHU"; */
+"bkt-el-EHU.text" = "Order Details";
+
+/* Class = "UILabel"; text = "Placed on:"; ObjectID = "nJv-ul-zIt"; */
+"nJv-ul-zIt.text" = "Placed on:";
+
+/* Class = "UILabel"; text = "STATUS NATIVE"; ObjectID = "ycu-zX-MeZ"; */
+"ycu-zX-MeZ.text" = "STATUS NATIVE";

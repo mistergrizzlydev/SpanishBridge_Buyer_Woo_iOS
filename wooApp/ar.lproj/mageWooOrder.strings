@@ -1,0 +1,22 @@
+
+/* Class = "UILabel"; text = "Order Id:"; ObjectID = "BzL-J5-9Wm"; */
+"BzL-J5-9Wm.text" = "رقم الطلب:";
+
+/* Class = "UIButton"; normalTitle = "View Details"; ObjectID = "R5F-TZ-Fci"; */
+"R5F-TZ-Fci.normalTitle" = "التفاصيل";
+
+/* Class = "UILabel"; text = "Orders"; ObjectID = "Wen-T3-LGa"; */
+"Wen-T3-LGa.text" = "الطلبات";
+
+/* Class = "UILabel"; text = "AMOUNT"; ObjectID = "XEh-h3-AoD"; */
+"XEh-h3-AoD.text" = "القيمة";
+
+/* Class = "UILabel"; text = "Order Details"; ObjectID = "bkt-el-EHU"; */
+"bkt-el-EHU.text" = "تفاصيل الطلب";
+
+/* Class = "UILabel"; text = "Placed on:"; ObjectID = "nJv-ul-zIt"; */
+"nJv-ul-zIt.text" = "موضوع على:";
+
+/* Class = "UILabel"; text = "STATUS NATIVE"; ObjectID = "ycu-zX-MeZ"; */
+"ycu-zX-MeZ.text" = "الحالة";
+

@@ -1,0 +1,2147 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E4EA93524395DF300622225 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4EA93424395DF300622225 /* UICollectionView+Extension.swift */; };
+		2E6FB6732282A5F1003EF361 /* cedMageSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6FB6722282A5F1003EF361 /* cedMageSplashViewController.swift */; };
+		2E7EA3EB2312C31000898211 /* SubCategoryNamesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7EA3E92312C30F00898211 /* SubCategoryNamesCell.swift */; };
+		2E7EA3EC2312C31000898211 /* subCategoryNameCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7EA3EA2312C30F00898211 /* subCategoryNameCollectionCell.swift */; };
+		2E8E52FB244FFD980042E3D3 /* cedMageNewAddressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E52FA244FFD980042E3D3 /* cedMageNewAddressController.swift */; };
+		2E8E52FD244FFDB70042E3D3 /* TextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E8E52FC244FFDB70042E3D3 /* TextFieldView.xib */; };
+		2E8E52FF244FFE130042E3D3 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E52FE244FFE130042E3D3 /* TextFieldView.swift */; };
+		2E8E5301244FFE290042E3D3 /* TextViewXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E5300244FFE290042E3D3 /* TextViewXib.swift */; };
+		2E8E5303244FFE5F0042E3D3 /* ButtonXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E5302244FFE5F0042E3D3 /* ButtonXibView.swift */; };
+		2E8E5305244FFE6D0042E3D3 /* ButtonXibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E8E5304244FFE6D0042E3D3 /* ButtonXibView.xib */; };
+		2E8E5307244FFE7E0042E3D3 /* TextViewXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E8E5306244FFE7E0042E3D3 /* TextViewXib.xib */; };
+		2E8E53092450016E0042E3D3 /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E53082450016E0042E3D3 /* AddressModel.swift */; };
+		2E8F80562387ED0C00DD1158 /* webfile.css in Resources */ = {isa = PBXBuildFile; fileRef = 2E8F80552387ED0C00DD1158 /* webfile.css */; };
+		2EAB2A052439B66100B81B7D /* mageWooAppSiteTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB2A042439B66100B81B7D /* mageWooAppSiteTheme.swift */; };
+		2EAB2A072439B6F300B81B7D /* cedMageBestSellingTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB2A062439B6F300B81B7D /* cedMageBestSellingTableCell.swift */; };
+		2EAB2A0A2439B77E00B81B7D /* cedMageRecentlyViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB2A082439B77E00B81B7D /* cedMageRecentlyViewCell.swift */; };
+		2EAB2A0B2439B77E00B81B7D /* cedMageRecentlyViewCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB2A092439B77E00B81B7D /* cedMageRecentlyViewCollectionCell.swift */; };
+		2EAB2A0D2439B85000B81B7D /* cedMageNewArrivalsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB2A0C2439B85000B81B7D /* cedMageNewArrivalsCell.swift */; };
+		2EAB2A102439B9C500B81B7D /* cedMageVIewAllProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB2A0E2439B9C500B81B7D /* cedMageVIewAllProduct.swift */; };
+		2EAB2A112439B9C500B81B7D /* cedMageViewAllCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB2A0F2439B9C500B81B7D /* cedMageViewAllCollectionViewCell.swift */; };
+		2EAB2A182439BA1500B81B7D /* ShimmerAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB2A132439BA1400B81B7D /* ShimmerAnimation.swift */; };
+		2EAB2A192439BA1500B81B7D /* ShimmerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB2A142439BA1400B81B7D /* ShimmerOptions.swift */; };
+		2EAB2A1A2439BA1500B81B7D /* UITableView+Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB2A152439BA1400B81B7D /* UITableView+Shimmer.swift */; };
+		2EAB2A1B2439BA1500B81B7D /* UIView+Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB2A162439BA1400B81B7D /* UIView+Shimmer.swift */; };
+		2EAB2A1C2439BA1500B81B7D /* UICollectionView+Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB2A172439BA1400B81B7D /* UICollectionView+Shimmer.swift */; };
+		2EAB2A1E2439C4C800B81B7D /* HomeCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB2A1D2439C4C800B81B7D /* HomeCategoryCell.swift */; };
+		2EE23CFD24441E73006B6D10 /* StripeApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE23CFC24441E73006B6D10 /* StripeApiClient.swift */; };
+		2EE23CFF24441EE8006B6D10 /* StripeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE23CFE24441EE8006B6D10 /* StripeViewController.swift */; };
+		2EE77C3524593D1100B28DE4 /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE77C3424593D1100B28DE4 /* UITextView+Extension.swift */; };
+		2EE77C3724593DB800B28DE4 /* CheckboxView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EE77C3624593DB800B28DE4 /* CheckboxView.xib */; };
+		2EE77C3924593E7D00B28DE4 /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE77C3824593E7D00B28DE4 /* CheckboxView.swift */; };
+		56D677B95E5E9D2F7482C0C6 /* Pods_Notifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0572B71231DFF5AC4BCA9D5 /* Pods_Notifications.framework */; };
+		CF034B212015F8B900917C9B /* cedMageCategoryOtherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF034B202015F8B900917C9B /* cedMageCategoryOtherCell.swift */; };
+		CF090FCC1FD56E2700CECB64 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF090FCB1FD56E2700CECB64 /* NotificationService.swift */; };
+		CF090FD01FD56E2700CECB64 /* Notifications.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CF090FC91FD56E2700CECB64 /* Notifications.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CF11AAA21F8F4273002B7513 /* cedMageColorButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11AAA01F8F4273002B7513 /* cedMageColorButtonView.swift */; };
+		CF11AAA61F8F4325002B7513 /* cedMageButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11AAA41F8F4325002B7513 /* cedMageButtonsView.swift */; };
+		CF11AAAA1F8F433B002B7513 /* cedMageDropdownButtonLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11AAA81F8F433B002B7513 /* cedMageDropdownButtonLabelView.swift */; };
+		CF11AAAE1F8F4348002B7513 /* cedMageLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11AAAC1F8F4348002B7513 /* cedMageLabelView.swift */; };
+		CF11AABE1F8F9CEA002B7513 /* NSBundle+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = CF11AABD1F8F9CEA002B7513 /* NSBundle+Language.m */; };
+		CF19015B1F514A9B001D390C /* cedMageLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF19015A1F514A9B001D390C /* cedMageLogin.swift */; };
+		CF19015D1F514AE2001D390C /* cedMageLoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF19015C1F514AE2001D390C /* cedMageLoginCell.swift */; };
+		CF19015F1F5169A2001D390C /* cedMageRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF19015E1F5169A2001D390C /* cedMageRegister.swift */; };
+		CF1901611F516AAD001D390C /* cedMageRegisterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1901601F516AAD001D390C /* cedMageRegisterCell.swift */; };
+		CF1F800C1FD29E43007BD648 /* cedMagePaymentMethodsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1F800B1FD29E43007BD648 /* cedMagePaymentMethodsCell.swift */; };
+		CF223BE71F8F7685002952CA /* ProductOptions.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF223BE91F8F7685002952CA /* ProductOptions.xib */; };
+		CF223BEE1F8F770A002952CA /* radioButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF223BF01F8F770A002952CA /* radioButtonView.xib */; };
+		CF223BF51F8F7740002952CA /* addressFieldsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF223BF71F8F7740002952CA /* addressFieldsView.xib */; };
+		CF223BFC1F8F77C5002952CA /* PickerXibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF223BFE1F8F77C5002952CA /* PickerXibView.xib */; };
+		CF223C031F8F780B002952CA /* starRatingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF223C051F8F780B002952CA /* starRatingView.xib */; };
+		CF223C0A1F8F7828002952CA /* buttonsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF223C0C1F8F7828002952CA /* buttonsView.xib */; };
+		CF223C111F8F7863002952CA /* SortByView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF223C131F8F7863002952CA /* SortByView.xib */; };
+		CF223C181F8F7882002952CA /* colorButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF223C1A1F8F7882002952CA /* colorButtonView.xib */; };
+		CF223C1F1F8F7891002952CA /* labelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF223C211F8F7891002952CA /* labelView.xib */; };
+		CF223C261F8F78B2002952CA /* dropdownButtonLabelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF223C281F8F78B2002952CA /* dropdownButtonLabelView.xib */; };
+		CF223C2D1F8F78D3002952CA /* sortByAndFilterButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF223C2F1F8F78D3002952CA /* sortByAndFilterButtonView.xib */; };
+		CF223C341F8F7952002952CA /* downloaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF223C361F8F7952002952CA /* downloaderView.xib */; };
+		CF223C3B1F8F79BF002952CA /* CustomOptionDropDownView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF223C3D1F8F79BF002952CA /* CustomOptionDropDownView.xib */; };
+		CF223C421F8F7ACA002952CA /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF223C441F8F7ACA002952CA /* DropDownCell.xib */; };
+		CF223C491F8F7AE1002952CA /* ProductOptionsDropdown.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF223C4B1F8F7AE1002952CA /* ProductOptionsDropdown.xib */; };
+		CF223C501F8F7B45002952CA /* singleAddressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF223C521F8F7B45002952CA /* singleAddressView.xib */; };
+		CF223C571F8F7B55002952CA /* ProductGalleryImagesCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF223C591F8F7B55002952CA /* ProductGalleryImagesCollectionCell.xib */; };
+		CF223C5E1F8F7B61002952CA /* ProductQtyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF223C601F8F7B61002952CA /* ProductQtyView.xib */; };
+		CF223C651F8F7B6E002952CA /* ProductNamePriceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF223C671F8F7B6E002952CA /* ProductNamePriceView.xib */; };
+		CF223C6C1F8F7B7A002952CA /* ProductParallaxImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF223C6E1F8F7B7A002952CA /* ProductParallaxImageView.xib */; };
+		CF223C731F8F7B88002952CA /* productfilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF223C751F8F7B88002952CA /* productfilterView.xib */; };
+		CF223C7A1F8F7CA5002952CA /* mageWooLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF223C7C1F8F7CA5002952CA /* mageWooLogin.storyboard */; };
+		CF223C851F8F7E2D002952CA /* productsData.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF223C871F8F7E2D002952CA /* productsData.storyboard */; };
+		CF223C8C1F8F7E67002952CA /* mageWooProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF223C8E1F8F7E67002952CA /* mageWooProfile.storyboard */; };
+		CF223C931F8F7E96002952CA /* mageWooCheckout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF223C951F8F7E96002952CA /* mageWooCheckout.storyboard */; };
+		CF223C9A1F8F7EC2002952CA /* mageWooOrder.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF223C9C1F8F7EC2002952CA /* mageWooOrder.storyboard */; };
+		CF223CA11F8F8360002952CA /* mageWooReview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF223CA31F8F8360002952CA /* mageWooReview.storyboard */; };
+		CF22E66F20073B1C00E989FD /* cedMageSubCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF22E66E20073B1C00E989FD /* cedMageSubCategories.swift */; };
+		CF22E67120073D6C00E989FD /* cedMageCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF22E67020073D6C00E989FD /* cedMageCategoryCell.swift */; };
+		CF22E67320076DED00E989FD /* CategoryPageNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF22E67220076DED00E989FD /* CategoryPageNavigation.swift */; };
+		CF22E6752007A6FA00E989FD /* cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF22E6742007A6F900E989FD /* cells.swift */; };
+		CF235BCB1F7CDCC70070DE77 /* cedMageSortByAndFilterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF235BCA1F7CDCC70070DE77 /* cedMageSortByAndFilterButtonView.swift */; };
+		CF235BCD1F7D0C190070DE77 /* cedMageFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF235BCC1F7D0C190070DE77 /* cedMageFilters.swift */; };
+		CF23C8E61F4167BD0083EFF0 /* cedMageMenuSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23C8E51F4167BC0083EFF0 /* cedMageMenuSlider.swift */; };
+		CF23C8E81F41693F0083EFF0 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23C8E71F41693E0083EFF0 /* CAPSPageMenu.swift */; };
+		CF23C8ED1F416C380083EFF0 /* cedMageSingleAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23C8EC1F416C380083EFF0 /* cedMageSingleAddressView.swift */; };
+		CF23C8F41F417F6D0083EFF0 /* cedMageProductParallaxImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23C8F21F417F6D0083EFF0 /* cedMageProductParallaxImageView.swift */; };
+		CF23C8F81F4180300083EFF0 /* cedMageProductNamePriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23C8F61F4180300083EFF0 /* cedMageProductNamePriceView.swift */; };
+		CF23C9001F41814F0083EFF0 /* cedMageProductQtyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23C8FE1F41814F0083EFF0 /* cedMageProductQtyView.swift */; };
+		CF23C9041F4182C50083EFF0 /* cedMageProductGalleryImagesCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23C9021F4182C40083EFF0 /* cedMageProductGalleryImagesCollectionCell.swift */; };
+		CF23C9071F4183410083EFF0 /* cedMageImageSliderRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23C9061F4183410083EFF0 /* cedMageImageSliderRoot.swift */; };
+		CF23C9091F4189710083EFF0 /* cedMageSingleProductImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23C9081F4189710083EFF0 /* cedMageSingleProductImage.swift */; };
+		CF23C90B1F41A5300083EFF0 /* cedMageLoaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23C90A1F41A5300083EFF0 /* cedMageLoaders.swift */; };
+		CF23C9111F41BD940083EFF0 /* cedMageProductNamePriceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23C9101F41BD940083EFF0 /* cedMageProductNamePriceCell.swift */; };
+		CF23C9131F41BDB90083EFF0 /* cedMageProductQtyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23C9121F41BDB90083EFF0 /* cedMageProductQtyCell.swift */; };
+		CF23C9151F41BDE50083EFF0 /* cedMageProductDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23C9141F41BDE50083EFF0 /* cedMageProductDescriptionCell.swift */; };
+		CF23C9171F41BE040083EFF0 /* cedMageProductSizeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23C9161F41BE040083EFF0 /* cedMageProductSizeCell.swift */; };
+		CF23C9191F41BE200083EFF0 /* cedMageProductColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23C9181F41BE200083EFF0 /* cedMageProductColorCell.swift */; };
+		CF23C91D1F41C7100083EFF0 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = CF23C91C1F41C7100083EFF0 /* MMMaterialDesignSpinner.m */; };
+		CF24349A20416B5B00448FE4 /* cedMageOrderListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF24349920416B5B00448FE4 /* cedMageOrderListing.swift */; };
+		CF26209520878AFD00C0B18D /* cedMageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26209420878AFD00C0B18D /* cedMageStore.swift */; };
+		CF26209720878D7F00C0B18D /* cedMageStoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26209620878D7F00C0B18D /* cedMageStoreCell.swift */; };
+		CF2656F21F875F0200509707 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF2656F41F875F0200509707 /* Localizable.strings */; };
+		CF2921DE203D95EF0028C8B8 /* cedMageNotificationNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2921DD203D95EF0028C8B8 /* cedMageNotificationNavigation.swift */; };
+		CF2BADDD2005E66D00BA27C5 /* cedMageHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2BADDC2005E66D00BA27C5 /* cedMageHomePage.swift */; };
+		CF2BADDF2005E76E00BA27C5 /* cedMageHomeCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2BADDE2005E76E00BA27C5 /* cedMageHomeCategoryCell.swift */; };
+		CF2BADE12005E7CE00BA27C5 /* cedMageHomeCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2BADE02005E7CE00BA27C5 /* cedMageHomeCollectionCell.swift */; };
+		CF2BADE32005ECC800BA27C5 /* cedMagePopularProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2BADE22005ECC800BA27C5 /* cedMagePopularProductCell.swift */; };
+		CF2C589C1F67BADB006DE437 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2C58991F67BADB006DE437 /* Accelerate.framework */; };
+		CF2C589D1F67BADB006DE437 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2C589A1F67BADB006DE437 /* AudioToolbox.framework */; };
+		CF2C589E1F67BADB006DE437 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2C589B1F67BADB006DE437 /* AVFoundation.framework */; };
+		CF2C58A01F67BAF2006DE437 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2C589F1F67BAF2006DE437 /* CoreLocation.framework */; };
+		CF2C58A21F67BB13006DE437 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2C58A11F67BB13006DE437 /* CoreMedia.framework */; };
+		CF2C58A51F67BB2B006DE437 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2C58A31F67BB2B006DE437 /* MessageUI.framework */; };
+		CF2C58A61F67BB2B006DE437 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2C58A41F67BB2B006DE437 /* MobileCoreServices.framework */; };
+		CF2C58A91F67BB42006DE437 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2C58A71F67BB42006DE437 /* SafariServices.framework */; };
+		CF2C58AA1F67BB42006DE437 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2C58A81F67BB42006DE437 /* SystemConfiguration.framework */; };
+		CF2C58AE1F6802DB006DE437 /* cedMagePickerXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2C58AD1F6802DA006DE437 /* cedMagePickerXibView.swift */; };
+		CF2F6F6B20F4B17C00FEC6E7 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF1658FC1F46B86200E51A80 /* Roboto-Black.ttf */; };
+		CF2F6F6C20F4B17C00FEC6E7 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF1658FD1F46B86200E51A80 /* Roboto-Bold.ttf */; };
+		CF2F6F6D20F4B17C00FEC6E7 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF1658FE1F46B86200E51A80 /* Roboto-Light.ttf */; };
+		CF2F6F6E20F4B17C00FEC6E7 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF1658FF1F46B86200E51A80 /* Roboto-Medium.ttf */; };
+		CF2F6F6F20F4B17C00FEC6E7 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF1659001F46B86200E51A80 /* Roboto-Regular.ttf */; };
+		CF2F6F7020F4B17C00FEC6E7 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF1659011F46B86200E51A80 /* Roboto-Thin.ttf */; };
+		CF34979C1FB41B5B0080F21B /* AdditionalInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF34979B1FB41B5B0080F21B /* AdditionalInfoView.xib */; };
+		CF34979E1FB41CEF0080F21B /* cedMageAdditionalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34979D1FB41CEF0080F21B /* cedMageAdditionalInfoView.swift */; };
+		CF36CD6620466EA000A159D7 /* StateTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF36CD6520466EA000A159D7 /* StateTextFieldView.xib */; };
+		CF36CD6820466FF700A159D7 /* StateTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF36CD6720466FF700A159D7 /* StateTextFieldView.swift */; };
+		CF3E7C902019AFAF0012C7CC /* cedMageCategoryProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3E7C8F2019AFAF0012C7CC /* cedMageCategoryProductCell.swift */; };
+		CF3E7C922019AFE00012C7CC /* cedMageCategoryProdCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3E7C912019AFE00012C7CC /* cedMageCategoryProdCollectionCell.swift */; };
+		CF3E7C94201A03BB0012C7CC /* cedMageTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3E7C93201A03BB0012C7CC /* cedMageTabBar.swift */; };
+		CF3FC2091F62B9C30052AB11 /* cedMageProductSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3FC2081F62B9C30052AB11 /* cedMageProductSearch.swift */; };
+		CF467BBB1F0E67730043DCAF /* cedMageHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF467BBA1F0E67730043DCAF /* cedMageHome.swift */; };
+		CF467BBF1F0E6AD90043DCAF /* cedMageUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF467BBE1F0E6AD90043DCAF /* cedMageUser.swift */; };
+		CF467BC11F0E6B3E0043DCAF /* cedMageWooSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF467BC01F0E6B3E0043DCAF /* cedMageWooSettings.swift */; };
+		CF467BC31F0E6CDB0043DCAF /* cedMageWooNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF467BC21F0E6CDB0043DCAF /* cedMageWooNetwork.swift */; };
+		CF557A532018722B0091C855 /* cedMageAccountNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF557A522018722B0091C855 /* cedMageAccountNavigation.swift */; };
+		CF557A55201875640091C855 /* cedMageWishlistNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF557A54201875640091C855 /* cedMageWishlistNavigation.swift */; };
+		CF557D4F1F44033100CCF729 /* cedMageProductOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF557D4D1F44033100CCF729 /* cedMageProductOptions.swift */; };
+		CF557D5E1F44068100CCF729 /* cedMageCustomOptionDropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF557D521F44068100CCF729 /* cedMageCustomOptionDropDownView.swift */; };
+		CF557D601F44068100CCF729 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF557D541F44068100CCF729 /* DPDConstants.swift */; };
+		CF557D611F44068100CCF729 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF557D551F44068100CCF729 /* DPDKeyboardListener.swift */; };
+		CF557D621F44068100CCF729 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF557D561F44068100CCF729 /* DPDUIView+Extension.swift */; };
+		CF557D631F44068100CCF729 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF557D581F44068100CCF729 /* DropDown.swift */; };
+		CF557D641F44068100CCF729 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF557D591F44068100CCF729 /* DropDown+Appearance.swift */; };
+		CF557D651F44068100CCF729 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF557D5A1F44068100CCF729 /* DropDownCell.swift */; };
+		CF557D671F44068100CCF729 /* cedMageProductOptionsDropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF557D5C1F44068100CCF729 /* cedMageProductOptionsDropdown.swift */; };
+		CF5594B41F555A6800FFBFB4 /* cedMageRadioButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5594B31F555A6800FFBFB4 /* cedMageRadioButtonView.swift */; };
+		CF5594B81F555CC600FFBFB4 /* cedMageSelectPaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5594B71F555CC600FFBFB4 /* cedMageSelectPaymentMethod.swift */; };
+		CF5594BA1F55786600FFBFB4 /* cedMageSelectShippingMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5594B91F55786600FFBFB4 /* cedMageSelectShippingMethod.swift */; };
+		CF5A05CD1F5D16CA00730EF0 /* UIBarButtonItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5A05CC1F5D16CA00730EF0 /* UIBarButtonItem+Badge.m */; };
+		CF5A05CF1F5D768C00730EF0 /* cedMageMainDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5A05CE1F5D768C00730EF0 /* cedMageMainDrawer.swift */; };
+		CF5A05D21F5D77E900730EF0 /* cedMageUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5A05D11F5D77E900730EF0 /* cedMageUserCell.swift */; };
+		CF5A05D41F5D780800730EF0 /* cedMageHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5A05D31F5D780800730EF0 /* cedMageHomeCell.swift */; };
+		CF5A05D61F5D783500730EF0 /* cedMageProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5A05D51F5D783500730EF0 /* cedMageProfileCell.swift */; };
+		CF5A05D81F5D784F00730EF0 /* cedMageLogoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5A05D71F5D784F00730EF0 /* cedMageLogoutCell.swift */; };
+		CF5BAB23205A3DAF005262CD /* PlistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5BAB20205A3DAE005262CD /* PlistManager.swift */; };
+		CF5BAB24205A3DAF005262CD /* cedMageTest.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF5BAB21205A3DAE005262CD /* cedMageTest.plist */; };
+		CF5BAB25205A3DAF005262CD /* cedMageTrial.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5BAB22205A3DAF005262CD /* cedMageTrial.swift */; };
+		CF5BAB27205A418B005262CD /* cedMageNotAvailable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5BAB26205A418B005262CD /* cedMageNotAvailable.swift */; };
+		CF5CD6C620203C670042B5E1 /* Explodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5CD6C520203C670042B5E1 /* Explodable.swift */; };
+		CF6958E11F10B5CE00FE669F /* cedMageProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6958E01F10B5CE00FE669F /* cedMageProductView.swift */; };
+		CF6958E91F10CEAE00FE669F /* cedMageSideEmbbedSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6958E61F10CEAE00FE669F /* cedMageSideEmbbedSegue.swift */; };
+		CF6958EA1F10CEAE00FE669F /* cedMageSideDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6958E71F10CEAE00FE669F /* cedMageSideDrawer.swift */; };
+		CF6958EB1F10CEAE00FE669F /* cedMageSideMainSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6958E81F10CEAE00FE669F /* cedMageSideMainSegue.swift */; };
+		CF6B8F511F5E7A340011BFBD /* cedMageHomeWebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6B8F501F5E7A330011BFBD /* cedMageHomeWebController.swift */; };
+		CF6B8F581F5EBCF50011BFBD /* cedMagedownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6B8F531F5EBCF50011BFBD /* cedMagedownloadView.swift */; };
+		CF6B8F591F5EBCF60011BFBD /* cedMageMydownloadcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6B8F541F5EBCF50011BFBD /* cedMageMydownloadcell.swift */; };
+		CF6B8F5A1F5EBCF60011BFBD /* cedMageMyDownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6B8F551F5EBCF50011BFBD /* cedMageMyDownloadView.swift */; };
+		CF6B8F5B1F5EBCF60011BFBD /* cedMageDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6B8F561F5EBCF50011BFBD /* cedMageDownload.swift */; };
+		CF6D949B2013188600E42FED /* ced_maindrawernormalcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6D949A2013188500E42FED /* ced_maindrawernormalcell.swift */; };
+		CF768BF61F503B840024517F /* cedMageSubCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF768BF51F503B830024517F /* cedMageSubCategoryCell.swift */; };
+		CF768BF81F505AB70024517F /* cedMageCategoryProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF768BF71F505AB60024517F /* cedMageCategoryProductsView.swift */; };
+		CF7AD2A01F59205400EADF7F /* cedMageWooSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7AD29F1F59205400EADF7F /* cedMageWooSearchCell.swift */; };
+		CF7E70C71F8248260018D11C /* cedMageWooNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7E70C61F8248250018D11C /* cedMageWooNotifications.swift */; };
+		CF7E70C91F82485D0018D11C /* cedMageNotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7E70C81F82485D0018D11C /* cedMageNotificationCell.swift */; };
+		CF7E70CB1F836C5E0018D11C /* cedMageSortByExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7E70CA1F836C5D0018D11C /* cedMageSortByExtension.swift */; };
+		CF7E70CE1F836DA70018D11C /* cedMageSortByView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7E70CC1F836DA70018D11C /* cedMageSortByView.swift */; };
+		CF7E70D21F837C200018D11C /* cedMageProductfilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7E70D01F837C200018D11C /* cedMageProductfilterView.swift */; };
+		CF7E70D51F849D6E0018D11C /* cedMageProductFiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7E70D41F849D6D0018D11C /* cedMageProductFiltersViewController.swift */; };
+		CF841A151F7917B7008A7238 /* cedMageRelatedProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF841A141F7917B7008A7238 /* cedMageRelatedProductCell.swift */; };
+		CF841A171F79182F008A7238 /* cedMageRelatedProdCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF841A161F79182F008A7238 /* cedMageRelatedProdCollectionCell.swift */; };
+		CF841A201F7BCF1D008A7238 /* cedMageWooReviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF841A1F1F7BCF1D008A7238 /* cedMageWooReviews.swift */; };
+		CF841A221F7BE3B1008A7238 /* cedMageWooAddReviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF841A211F7BE3B1008A7238 /* cedMageWooAddReviews.swift */; };
+		CF841A241F7BE3F7008A7238 /* cedMageReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF841A231F7BE3F7008A7238 /* cedMageReviewCell.swift */; };
+		CF841A261F7BE420008A7238 /* cedMageAddReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF841A251F7BE420008A7238 /* cedMageAddReviewCell.swift */; };
+		CF841A2A1F7BE778008A7238 /* cedMageStarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF841A291F7BE777008A7238 /* cedMageStarRatingView.swift */; };
+		CF91C47D1F1373B3001CD5FF /* cedMageNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF91C47C1F1373B3001CD5FF /* cedMageNavigation.swift */; };
+		CF91C4811F138A3C001CD5FF /* cedMageWooCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF91C4801F138A3C001CD5FF /* cedMageWooCommon.swift */; };
+		CF9366A71F14A8F0009400A6 /* cedMageWooFetchProductData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9366A61F14A8F0009400A6 /* cedMageWooFetchProductData.swift */; };
+		CF9366AB1F14AED3009400A6 /* cedMageProductImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9366AA1F14AED3009400A6 /* cedMageProductImageCell.swift */; };
+		CF9724D22050091E000047C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF9724D12050091D000047C8 /* GoogleService-Info.plist */; };
+		CF9781721F0F688B0033A397 /* cedMageHomeProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9781711F0F688B0033A397 /* cedMageHomeProductCell.swift */; };
+		CF9781741F0F68B20033A397 /* cedMageHomeProdutlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9781731F0F68B20033A397 /* cedMageHomeProdutlist.swift */; };
+		CF97817B1F0F8D790033A397 /* KIImagePager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF97817A1F0F8D790033A397 /* KIImagePager.m */; };
+		CF97817D1F0F8E1F0033A397 /* cedMageWooBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF97817C1F0F8E1F0033A397 /* cedMageWooBannerCell.swift */; };
+		CF9781801F0FA38D0033A397 /* cedMageWooMaincategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF97817F1F0FA38D0033A397 /* cedMageWooMaincategory.swift */; };
+		CF9781841F0FB2800033A397 /* cedMageWishList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9781831F0FB2800033A397 /* cedMageWishList.swift */; };
+		CF9781861F0FBCA50033A397 /* cedMageWishCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9781851F0FBCA50033A397 /* cedMageWishCell.swift */; };
+		CFA0CEEC1F7101C900F2EDE0 /* cedMageOrderFailed.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA0CEEB1F7101C800F2EDE0 /* cedMageOrderFailed.swift */; };
+		CFB98BB51F57D69800EABDAA /* cedMageOrderCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB98BB41F57D69800EABDAA /* cedMageOrderCompletion.swift */; };
+		CFB98BB91F57DEF800EABDAA /* cedMageAddressFieldsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB98BB81F57DEF800EABDAA /* cedMageAddressFieldsView.swift */; };
+		CFB98BC01F5824E500EABDAA /* cedMageOrderListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB98BBF1F5824E500EABDAA /* cedMageOrderListCell.swift */; };
+		CFB98BC21F58318000EABDAA /* cedMageOrderProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB98BC11F58318000EABDAA /* cedMageOrderProductCell.swift */; };
+		CFB98BC41F5831D500EABDAA /* cedMageOrderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB98BC31F5831D500EABDAA /* cedMageOrderDetail.swift */; };
+		CFBB058F1EFA4DAF00F3692D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB058E1EFA4DAF00F3692D /* AppDelegate.swift */; };
+		CFBB05911EFA4DAF00F3692D /* cedMageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB05901EFA4DAF00F3692D /* cedMageViewController.swift */; };
+		CFBB05941EFA4DAF00F3692D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBB05921EFA4DAF00F3692D /* Main.storyboard */; };
+		CFBB05961EFA4DAF00F3692D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFBB05951EFA4DAF00F3692D /* Assets.xcassets */; };
+		CFBB05991EFA4DAF00F3692D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBB05971EFA4DAF00F3692D /* LaunchScreen.storyboard */; };
+		CFC7C38F2004B1F700FAC8FE /* swiftGifLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC7C38E2004B1F600FAC8FE /* swiftGifLoader.swift */; };
+		CFCB518F208DACF200A1B2DC /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB518C208DACF100A1B2DC /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		CFCB5190208DACF200A1B2DC /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB518D208DACF200A1B2DC /* SkyFloatingLabelTextField.swift */; };
+		CFCB5191208DACF200A1B2DC /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB518E208DACF200A1B2DC /* UITextField+fixCaretPosition.swift */; };
+		CFE4A4FC203C0B4C00AA83E2 /* cedMageErrorPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4A4FB203C0B4C00AA83E2 /* cedMageErrorPageView.swift */; };
+		CFE4FA7C207C8B120076AE94 /* cedMageTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4FA7B207C8B100076AE94 /* cedMageTitleCell.swift */; };
+		CFED686C1F6A667D00D43B6D /* cedMageCheckoutWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED686B1F6A667D00D43B6D /* cedMageCheckoutWebView.swift */; };
+		CFFA79D61F50676A00D28F73 /* cedMageWooEditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFA79D51F50676A00D28F73 /* cedMageWooEditProfile.swift */; };
+		CFFD61DE1F457AB600959976 /* cedMageProductViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD61DD1F457AB500959976 /* cedMageProductViewCell.swift */; };
+		CFFD61E01F45A49700959976 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD61DF1F45A49700959976 /* Toast.swift */; };
+		CFFD61E31F45C01D00959976 /* cedMageCartProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD61E11F45C01D00959976 /* cedMageCartProductListView.swift */; };
+		CFFD61E41F45C01D00959976 /* cedMageCartViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD61E21F45C01D00959976 /* cedMageCartViewCell.swift */; };
+		CFFD61E81F45E27500959976 /* cedMageBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD61E71F45E27500959976 /* cedMageBaseViewController.swift */; };
+		CFFFC11A1F53EAF10081E502 /* cedMageForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFFC1191F53EAF10081E502 /* cedMageForgotPassword.swift */; };
+		CFFFC11F1F54086B0081E502 /* cedMageCheckOutAsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFFC11E1F54086B0081E502 /* cedMageCheckOutAsController.swift */; };
+		CFFFC1211F54107C0081E502 /* cedMageAddAddressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFFC1201F54107B0081E502 /* cedMageAddAddressController.swift */; };
+		CFFFC1231F5426D30081E502 /* cedMageFetchCountryState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFFC1221F5426D20081E502 /* cedMageFetchCountryState.swift */; };
+		E13AE04A1B35C071E7F3A5FD /* Pods_wooApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AAC754C3A0E58B4FB222B6 /* Pods_wooApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF090FCE1FD56E2700CECB64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFBB05831EFA4DAF00F3692D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF090FC81FD56E2700CECB64;
+			remoteInfo = Notifications;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF6FE39E1F63E135008B5A40 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CF090FD01FD56E2700CECB64 /* Notifications.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0BF151F84900C4FA24724A21 /* Pods-Notifications.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notifications.release.xcconfig"; path = "Target Support Files/Pods-Notifications/Pods-Notifications.release.xcconfig"; sourceTree = "<group>"; };
+		2E4EA93424395DF300622225 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		2E6FB6722282A5F1003EF361 /* cedMageSplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cedMageSplashViewController.swift; sourceTree = "<group>"; };
+		2E7EA3E92312C30F00898211 /* SubCategoryNamesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubCategoryNamesCell.swift; path = subcategories/SubCategoryNamesCell.swift; sourceTree = "<group>"; };
+		2E7EA3EA2312C30F00898211 /* subCategoryNameCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = subCategoryNameCollectionCell.swift; path = subcategories/subCategoryNameCollectionCell.swift; sourceTree = "<group>"; };
+		2E8E52FA244FFD980042E3D3 /* cedMageNewAddressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cedMageNewAddressController.swift; sourceTree = "<group>"; };
+		2E8E52FC244FFDB70042E3D3 /* TextFieldView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldView.xib; sourceTree = "<group>"; };
+		2E8E52FE244FFE130042E3D3 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		2E8E5300244FFE290042E3D3 /* TextViewXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewXib.swift; sourceTree = "<group>"; };
+		2E8E5302244FFE5F0042E3D3 /* ButtonXibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonXibView.swift; sourceTree = "<group>"; };
+		2E8E5304244FFE6D0042E3D3 /* ButtonXibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonXibView.xib; sourceTree = "<group>"; };
+		2E8E5306244FFE7E0042E3D3 /* TextViewXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewXib.xib; sourceTree = "<group>"; };
+		2E8E53082450016E0042E3D3 /* AddressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressModel.swift; sourceTree = "<group>"; };
+		2E8F80552387ED0C00DD1158 /* webfile.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = webfile.css; sourceTree = "<group>"; };
+		2E8FFBE42671CF400016D5EE /* Spanish Bridge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Spanish Bridge.entitlements"; sourceTree = "<group>"; };
+		2EAB2A042439B66100B81B7D /* mageWooAppSiteTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mageWooAppSiteTheme.swift; sourceTree = "<group>"; };
+		2EAB2A062439B6F300B81B7D /* cedMageBestSellingTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cedMageBestSellingTableCell.swift; sourceTree = "<group>"; };
+		2EAB2A082439B77E00B81B7D /* cedMageRecentlyViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageRecentlyViewCell.swift; sourceTree = "<group>"; };
+		2EAB2A092439B77E00B81B7D /* cedMageRecentlyViewCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageRecentlyViewCollectionCell.swift; sourceTree = "<group>"; };
+		2EAB2A0C2439B85000B81B7D /* cedMageNewArrivalsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cedMageNewArrivalsCell.swift; sourceTree = "<group>"; };
+		2EAB2A0E2439B9C500B81B7D /* cedMageVIewAllProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageVIewAllProduct.swift; sourceTree = "<group>"; };
+		2EAB2A0F2439B9C500B81B7D /* cedMageViewAllCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageViewAllCollectionViewCell.swift; sourceTree = "<group>"; };
+		2EAB2A132439BA1400B81B7D /* ShimmerAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShimmerAnimation.swift; sourceTree = "<group>"; };
+		2EAB2A142439BA1400B81B7D /* ShimmerOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShimmerOptions.swift; sourceTree = "<group>"; };
+		2EAB2A152439BA1400B81B7D /* UITableView+Shimmer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Shimmer.swift"; sourceTree = "<group>"; };
+		2EAB2A162439BA1400B81B7D /* UIView+Shimmer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Shimmer.swift"; sourceTree = "<group>"; };
+		2EAB2A172439BA1400B81B7D /* UICollectionView+Shimmer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Shimmer.swift"; sourceTree = "<group>"; };
+		2EAB2A1D2439C4C800B81B7D /* HomeCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCategoryCell.swift; sourceTree = "<group>"; };
+		2EE23CFC24441E73006B6D10 /* StripeApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripeApiClient.swift; sourceTree = "<group>"; };
+		2EE23CFE24441EE8006B6D10 /* StripeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripeViewController.swift; sourceTree = "<group>"; };
+		2EE77C3424593D1100B28DE4 /* UITextView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
+		2EE77C3624593DB800B28DE4 /* CheckboxView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckboxView.xib; sourceTree = "<group>"; };
+		2EE77C3824593E7D00B28DE4 /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
+		3436525E02465160A30E24CB /* Pods-wooApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wooApp.release.xcconfig"; path = "Target Support Files/Pods-wooApp/Pods-wooApp.release.xcconfig"; sourceTree = "<group>"; };
+		39F571059F8B481310FBF4DB /* Pods-Notifications.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notifications.debug.xcconfig"; path = "Target Support Files/Pods-Notifications/Pods-Notifications.debug.xcconfig"; sourceTree = "<group>"; };
+		42AAC754C3A0E58B4FB222B6 /* Pods_wooApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wooApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0572B71231DFF5AC4BCA9D5 /* Pods_Notifications.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Notifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF034B202015F8B900917C9B /* cedMageCategoryOtherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cedMageCategoryOtherCell.swift; sourceTree = "<group>"; };
+		CF090FC91FD56E2700CECB64 /* Notifications.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Notifications.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF090FCB1FD56E2700CECB64 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		CF090FCD1FD56E2700CECB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF11AAA01F8F4273002B7513 /* cedMageColorButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageColorButtonView.swift; sourceTree = "<group>"; };
+		CF11AAA41F8F4325002B7513 /* cedMageButtonsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageButtonsView.swift; sourceTree = "<group>"; };
+		CF11AAA81F8F433B002B7513 /* cedMageDropdownButtonLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageDropdownButtonLabelView.swift; sourceTree = "<group>"; };
+		CF11AAAC1F8F4348002B7513 /* cedMageLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageLabelView.swift; sourceTree = "<group>"; };
+		CF11AABC1F8F9CEA002B7513 /* NSBundle+Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Language.h"; sourceTree = "<group>"; };
+		CF11AABD1F8F9CEA002B7513 /* NSBundle+Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Language.m"; sourceTree = "<group>"; };
+		CF1658FC1F46B86200E51A80 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		CF1658FD1F46B86200E51A80 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		CF1658FE1F46B86200E51A80 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		CF1658FF1F46B86200E51A80 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		CF1659001F46B86200E51A80 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		CF1659011F46B86200E51A80 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		CF19015A1F514A9B001D390C /* cedMageLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageLogin.swift; sourceTree = "<group>"; };
+		CF19015C1F514AE2001D390C /* cedMageLoginCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageLoginCell.swift; sourceTree = "<group>"; };
+		CF19015E1F5169A2001D390C /* cedMageRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageRegister.swift; sourceTree = "<group>"; };
+		CF1901601F516AAD001D390C /* cedMageRegisterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageRegisterCell.swift; sourceTree = "<group>"; };
+		CF1F800B1FD29E43007BD648 /* cedMagePaymentMethodsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cedMagePaymentMethodsCell.swift; sourceTree = "<group>"; };
+		CF223BE81F8F7685002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ProductOptions.xib; sourceTree = "<group>"; };
+		CF223BEB1F8F7692002952CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ProductOptions.strings; sourceTree = "<group>"; };
+		CF223BED1F8F7695002952CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ProductOptions.strings; sourceTree = "<group>"; };
+		CF223BEF1F8F770A002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/radioButtonView.xib; sourceTree = "<group>"; };
+		CF223BF21F8F7710002952CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/radioButtonView.strings; sourceTree = "<group>"; };
+		CF223BF41F8F7713002952CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/radioButtonView.strings; sourceTree = "<group>"; };
+		CF223BF61F8F7740002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/addressFieldsView.xib; sourceTree = "<group>"; };
+		CF223BF91F8F7743002952CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/addressFieldsView.strings; sourceTree = "<group>"; };
+		CF223BFB1F8F7746002952CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/addressFieldsView.strings; sourceTree = "<group>"; };
+		CF223BFD1F8F77C5002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PickerXibView.xib; sourceTree = "<group>"; };
+		CF223C001F8F77C7002952CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/PickerXibView.strings; sourceTree = "<group>"; };
+		CF223C021F8F77CB002952CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/PickerXibView.strings; sourceTree = "<group>"; };
+		CF223C041F8F780B002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/starRatingView.xib; sourceTree = "<group>"; };
+		CF223C071F8F780F002952CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/starRatingView.strings; sourceTree = "<group>"; };
+		CF223C091F8F7811002952CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/starRatingView.strings; sourceTree = "<group>"; };
+		CF223C0B1F8F7828002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/buttonsView.xib; sourceTree = "<group>"; };
+		CF223C0E1F8F782C002952CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/buttonsView.strings; sourceTree = "<group>"; };
+		CF223C101F8F782E002952CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/buttonsView.strings; sourceTree = "<group>"; };
+		CF223C121F8F7863002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SortByView.xib; sourceTree = "<group>"; };
+		CF223C151F8F7865002952CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SortByView.strings; sourceTree = "<group>"; };
+		CF223C171F8F7867002952CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/SortByView.strings; sourceTree = "<group>"; };
+		CF223C191F8F7882002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/colorButtonView.xib; sourceTree = "<group>"; };
+		CF223C1C1F8F7884002952CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/colorButtonView.strings; sourceTree = "<group>"; };
+		CF223C1E1F8F7885002952CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/colorButtonView.strings; sourceTree = "<group>"; };
+		CF223C201F8F7891002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/labelView.xib; sourceTree = "<group>"; };
+		CF223C231F8F7893002952CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/labelView.strings; sourceTree = "<group>"; };
+		CF223C251F8F7894002952CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/labelView.strings; sourceTree = "<group>"; };
+		CF223C271F8F78B2002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/dropdownButtonLabelView.xib; sourceTree = "<group>"; };
+		CF223C2A1F8F78B7002952CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/dropdownButtonLabelView.strings; sourceTree = "<group>"; };
+		CF223C2C1F8F78B8002952CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/dropdownButtonLabelView.strings; sourceTree = "<group>"; };
+		CF223C2E1F8F78D3002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/sortByAndFilterButtonView.xib; sourceTree = "<group>"; };
+		CF223C311F8F78D6002952CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/sortByAndFilterButtonView.strings; sourceTree = "<group>"; };
+		CF223C331F8F78D7002952CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/sortByAndFilterButtonView.strings; sourceTree = "<group>"; };
+		CF223C351F8F7952002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/downloaderView.xib; sourceTree = "<group>"; };
+		CF223C381F8F7956002952CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/downloaderView.strings; sourceTree = "<group>"; };
+		CF223C3A1F8F7957002952CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/downloaderView.strings; sourceTree = "<group>"; };
+		CF223C3C1F8F79BF002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CustomOptionDropDownView.xib; sourceTree = "<group>"; };
+		CF223C3F1F8F7AA5002952CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/CustomOptionDropDownView.strings; sourceTree = "<group>"; };
+		CF223C411F8F7AA7002952CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/CustomOptionDropDownView.strings; sourceTree = "<group>"; };
+		CF223C431F8F7ACA002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/DropDownCell.xib; sourceTree = "<group>"; };
+		CF223C461F8F7ACD002952CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/DropDownCell.strings; sourceTree = "<group>"; };
+		CF223C481F8F7ACE002952CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/DropDownCell.strings; sourceTree = "<group>"; };
+		CF223C4A1F8F7AE1002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ProductOptionsDropdown.xib; sourceTree = "<group>"; };
+		CF223C4D1F8F7AE3002952CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ProductOptionsDropdown.strings; sourceTree = "<group>"; };
+		CF223C4F1F8F7AE5002952CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ProductOptionsDropdown.strings; sourceTree = "<group>"; };
+		CF223C511F8F7B45002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/singleAddressView.xib; sourceTree = "<group>"; };
+		CF223C541F8F7B48002952CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/singleAddressView.strings; sourceTree = "<group>"; };
+		CF223C561F8F7B49002952CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/singleAddressView.strings; sourceTree = "<group>"; };
+		CF223C581F8F7B55002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ProductGalleryImagesCollectionCell.xib; sourceTree = "<group>"; };
+		CF223C5B1F8F7B57002952CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ProductGalleryImagesCollectionCell.strings; sourceTree = "<group>"; };
+		CF223C5D1F8F7B59002952CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ProductGalleryImagesCollectionCell.strings; sourceTree = "<group>"; };
+		CF223C5F1F8F7B61002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ProductQtyView.xib; sourceTree = "<group>"; };
+		CF223C621F8F7B64002952CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ProductQtyView.strings; sourceTree = "<group>"; };
+		CF223C641F8F7B66002952CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ProductQtyView.strings; sourceTree = "<group>"; };
+		CF223C661F8F7B6E002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ProductNamePriceView.xib; sourceTree = "<group>"; };
+		CF223C691F8F7B71002952CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ProductNamePriceView.strings; sourceTree = "<group>"; };
+		CF223C6B1F8F7B72002952CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ProductNamePriceView.strings; sourceTree = "<group>"; };
+		CF223C6D1F8F7B7A002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ProductParallaxImageView.xib; sourceTree = "<group>"; };
+		CF223C701F8F7B7D002952CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ProductParallaxImageView.strings; sourceTree = "<group>"; };
+		CF223C721F8F7B7F002952CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ProductParallaxImageView.strings; sourceTree = "<group>"; };
+		CF223C741F8F7B88002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/productfilterView.xib; sourceTree = "<group>"; };
+		CF223C771F8F7B8A002952CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/productfilterView.strings; sourceTree = "<group>"; };
+		CF223C791F8F7B8D002952CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/productfilterView.strings; sourceTree = "<group>"; };
+		CF223C7B1F8F7CA5002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/mageWooLogin.storyboard; sourceTree = "<group>"; };
+		CF223C841F8F7E21002952CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		CF223C861F8F7E2D002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/productsData.storyboard; sourceTree = "<group>"; };
+		CF223C8D1F8F7E67002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/mageWooProfile.storyboard; sourceTree = "<group>"; };
+		CF223C941F8F7E96002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/mageWooCheckout.storyboard; sourceTree = "<group>"; };
+		CF223C9B1F8F7EC2002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/mageWooOrder.storyboard; sourceTree = "<group>"; };
+		CF223CA21F8F8360002952CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/mageWooReview.storyboard; sourceTree = "<group>"; };
+		CF22E66E20073B1C00E989FD /* cedMageSubCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cedMageSubCategories.swift; sourceTree = "<group>"; };
+		CF22E67020073D6C00E989FD /* cedMageCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cedMageCategoryCell.swift; sourceTree = "<group>"; };
+		CF22E67220076DED00E989FD /* CategoryPageNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPageNavigation.swift; sourceTree = "<group>"; };
+		CF22E6742007A6F900E989FD /* cells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cells.swift; sourceTree = "<group>"; };
+		CF235BCA1F7CDCC70070DE77 /* cedMageSortByAndFilterButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageSortByAndFilterButtonView.swift; sourceTree = "<group>"; };
+		CF235BCC1F7D0C190070DE77 /* cedMageFilters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageFilters.swift; sourceTree = "<group>"; };
+		CF23C8E51F4167BC0083EFF0 /* cedMageMenuSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageMenuSlider.swift; sourceTree = "<group>"; };
+		CF23C8E71F41693E0083EFF0 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
+		CF23C8EC1F416C380083EFF0 /* cedMageSingleAddressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageSingleAddressView.swift; sourceTree = "<group>"; };
+		CF23C8F21F417F6D0083EFF0 /* cedMageProductParallaxImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageProductParallaxImageView.swift; sourceTree = "<group>"; };
+		CF23C8F61F4180300083EFF0 /* cedMageProductNamePriceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageProductNamePriceView.swift; sourceTree = "<group>"; };
+		CF23C8FE1F41814F0083EFF0 /* cedMageProductQtyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageProductQtyView.swift; sourceTree = "<group>"; };
+		CF23C9021F4182C40083EFF0 /* cedMageProductGalleryImagesCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageProductGalleryImagesCollectionCell.swift; sourceTree = "<group>"; };
+		CF23C9061F4183410083EFF0 /* cedMageImageSliderRoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageImageSliderRoot.swift; sourceTree = "<group>"; };
+		CF23C9081F4189710083EFF0 /* cedMageSingleProductImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageSingleProductImage.swift; sourceTree = "<group>"; };
+		CF23C90A1F41A5300083EFF0 /* cedMageLoaders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageLoaders.swift; sourceTree = "<group>"; };
+		CF23C9101F41BD940083EFF0 /* cedMageProductNamePriceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageProductNamePriceCell.swift; sourceTree = "<group>"; };
+		CF23C9121F41BDB90083EFF0 /* cedMageProductQtyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageProductQtyCell.swift; sourceTree = "<group>"; };
+		CF23C9141F41BDE50083EFF0 /* cedMageProductDescriptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageProductDescriptionCell.swift; sourceTree = "<group>"; };
+		CF23C9161F41BE040083EFF0 /* cedMageProductSizeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageProductSizeCell.swift; sourceTree = "<group>"; };
+		CF23C9181F41BE200083EFF0 /* cedMageProductColorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageProductColorCell.swift; sourceTree = "<group>"; };
+		CF23C91B1F41C7100083EFF0 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
+		CF23C91C1F41C7100083EFF0 /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
+		CF24349920416B5B00448FE4 /* cedMageOrderListing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cedMageOrderListing.swift; sourceTree = "<group>"; };
+		CF26209420878AFD00C0B18D /* cedMageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cedMageStore.swift; sourceTree = "<group>"; };
+		CF26209620878D7F00C0B18D /* cedMageStoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cedMageStoreCell.swift; sourceTree = "<group>"; };
+		CF2656F31F875F0200509707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CF2921DD203D95EF0028C8B8 /* cedMageNotificationNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cedMageNotificationNavigation.swift; sourceTree = "<group>"; };
+		CF2BADDC2005E66D00BA27C5 /* cedMageHomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cedMageHomePage.swift; sourceTree = "<group>"; };
+		CF2BADDE2005E76E00BA27C5 /* cedMageHomeCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cedMageHomeCategoryCell.swift; sourceTree = "<group>"; };
+		CF2BADE02005E7CE00BA27C5 /* cedMageHomeCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cedMageHomeCollectionCell.swift; sourceTree = "<group>"; };
+		CF2BADE22005ECC800BA27C5 /* cedMagePopularProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cedMagePopularProductCell.swift; sourceTree = "<group>"; };
+		CF2C58991F67BADB006DE437 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		CF2C589A1F67BADB006DE437 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CF2C589B1F67BADB006DE437 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CF2C589F1F67BAF2006DE437 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CF2C58A11F67BB13006DE437 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CF2C58A31F67BB2B006DE437 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CF2C58A41F67BB2B006DE437 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CF2C58A71F67BB42006DE437 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		CF2C58A81F67BB42006DE437 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CF2C58AD1F6802DA006DE437 /* cedMagePickerXibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMagePickerXibView.swift; sourceTree = "<group>"; };
+		CF34979B1FB41B5B0080F21B /* AdditionalInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdditionalInfoView.xib; sourceTree = "<group>"; };
+		CF34979D1FB41CEF0080F21B /* cedMageAdditionalInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cedMageAdditionalInfoView.swift; sourceTree = "<group>"; };
+		CF36CD6520466EA000A159D7 /* StateTextFieldView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StateTextFieldView.xib; sourceTree = "<group>"; };
+		CF36CD6720466FF700A159D7 /* StateTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateTextFieldView.swift; sourceTree = "<group>"; };
+		CF3E7C8F2019AFAF0012C7CC /* cedMageCategoryProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cedMageCategoryProductCell.swift; sourceTree = "<group>"; };
+		CF3E7C912019AFE00012C7CC /* cedMageCategoryProdCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cedMageCategoryProdCollectionCell.swift; sourceTree = "<group>"; };
+		CF3E7C93201A03BB0012C7CC /* cedMageTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cedMageTabBar.swift; sourceTree = "<group>"; };
+		CF3FC2081F62B9C30052AB11 /* cedMageProductSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageProductSearch.swift; sourceTree = "<group>"; };
+		CF467BBA1F0E67730043DCAF /* cedMageHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageHome.swift; sourceTree = "<group>"; };
+		CF467BBE1F0E6AD90043DCAF /* cedMageUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageUser.swift; sourceTree = "<group>"; };
+		CF467BC01F0E6B3E0043DCAF /* cedMageWooSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageWooSettings.swift; sourceTree = "<group>"; };
+		CF467BC21F0E6CDB0043DCAF /* cedMageWooNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageWooNetwork.swift; sourceTree = "<group>"; };
+		CF557A522018722B0091C855 /* cedMageAccountNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cedMageAccountNavigation.swift; sourceTree = "<group>"; };
+		CF557A54201875640091C855 /* cedMageWishlistNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cedMageWishlistNavigation.swift; sourceTree = "<group>"; };
+		CF557D4D1F44033100CCF729 /* cedMageProductOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageProductOptions.swift; sourceTree = "<group>"; };
+		CF557D521F44068100CCF729 /* cedMageCustomOptionDropDownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageCustomOptionDropDownView.swift; sourceTree = "<group>"; };
+		CF557D541F44068100CCF729 /* DPDConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPDConstants.swift; sourceTree = "<group>"; };
+		CF557D551F44068100CCF729 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		CF557D561F44068100CCF729 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		CF557D571F44068100CCF729 /* DropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDown.h; sourceTree = "<group>"; };
+		CF557D581F44068100CCF729 /* DropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
+		CF557D591F44068100CCF729 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		CF557D5A1F44068100CCF729 /* DropDownCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownCell.swift; sourceTree = "<group>"; };
+		CF557D5C1F44068100CCF729 /* cedMageProductOptionsDropdown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageProductOptionsDropdown.swift; sourceTree = "<group>"; };
+		CF5594B31F555A6800FFBFB4 /* cedMageRadioButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageRadioButtonView.swift; sourceTree = "<group>"; };
+		CF5594B71F555CC600FFBFB4 /* cedMageSelectPaymentMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageSelectPaymentMethod.swift; sourceTree = "<group>"; };
+		CF5594B91F55786600FFBFB4 /* cedMageSelectShippingMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageSelectShippingMethod.swift; sourceTree = "<group>"; };
+		CF5A05CB1F5D16CA00730EF0 /* UIBarButtonItem+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+Badge.h"; path = "badge/UIBarButtonItem+Badge.h"; sourceTree = "<group>"; };
+		CF5A05CC1F5D16CA00730EF0 /* UIBarButtonItem+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+Badge.m"; path = "badge/UIBarButtonItem+Badge.m"; sourceTree = "<group>"; };
+		CF5A05CE1F5D768C00730EF0 /* cedMageMainDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageMainDrawer.swift; sourceTree = "<group>"; };
+		CF5A05D11F5D77E900730EF0 /* cedMageUserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageUserCell.swift; sourceTree = "<group>"; };
+		CF5A05D31F5D780800730EF0 /* cedMageHomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageHomeCell.swift; sourceTree = "<group>"; };
+		CF5A05D51F5D783500730EF0 /* cedMageProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageProfileCell.swift; sourceTree = "<group>"; };
+		CF5A05D71F5D784F00730EF0 /* cedMageLogoutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageLogoutCell.swift; sourceTree = "<group>"; };
+		CF5BAB20205A3DAE005262CD /* PlistManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlistManager.swift; path = trial/PlistManager.swift; sourceTree = "<group>"; };
+		CF5BAB21205A3DAE005262CD /* cedMageTest.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = cedMageTest.plist; path = trial/cedMageTest.plist; sourceTree = "<group>"; };
+		CF5BAB22205A3DAF005262CD /* cedMageTrial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = cedMageTrial.swift; path = trial/cedMageTrial.swift; sourceTree = "<group>"; };
+		CF5BAB26205A418B005262CD /* cedMageNotAvailable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cedMageNotAvailable.swift; sourceTree = "<group>"; };
+		CF5CD6C520203C670042B5E1 /* Explodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Explodable.swift; sourceTree = "<group>"; };
+		CF6958E01F10B5CE00FE669F /* cedMageProductView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageProductView.swift; sourceTree = "<group>"; };
+		CF6958E61F10CEAE00FE669F /* cedMageSideEmbbedSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageSideEmbbedSegue.swift; sourceTree = "<group>"; };
+		CF6958E71F10CEAE00FE669F /* cedMageSideDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageSideDrawer.swift; sourceTree = "<group>"; };
+		CF6958E81F10CEAE00FE669F /* cedMageSideMainSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageSideMainSegue.swift; sourceTree = "<group>"; };
+		CF6B8F501F5E7A330011BFBD /* cedMageHomeWebController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageHomeWebController.swift; sourceTree = "<group>"; };
+		CF6B8F531F5EBCF50011BFBD /* cedMagedownloadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = cedMagedownloadView.swift; path = downloads/cedMagedownloadView.swift; sourceTree = "<group>"; };
+		CF6B8F541F5EBCF50011BFBD /* cedMageMydownloadcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = cedMageMydownloadcell.swift; path = downloads/cedMageMydownloadcell.swift; sourceTree = "<group>"; };
+		CF6B8F551F5EBCF50011BFBD /* cedMageMyDownloadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = cedMageMyDownloadView.swift; path = downloads/cedMageMyDownloadView.swift; sourceTree = "<group>"; };
+		CF6B8F561F5EBCF50011BFBD /* cedMageDownload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = cedMageDownload.swift; path = downloads/cedMageDownload.swift; sourceTree = "<group>"; };
+		CF6D949A2013188500E42FED /* ced_maindrawernormalcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ced_maindrawernormalcell.swift; sourceTree = "<group>"; };
+		CF768BF51F503B830024517F /* cedMageSubCategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageSubCategoryCell.swift; sourceTree = "<group>"; };
+		CF768BF71F505AB60024517F /* cedMageCategoryProductsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageCategoryProductsView.swift; sourceTree = "<group>"; };
+		CF7AD29F1F59205400EADF7F /* cedMageWooSearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageWooSearchCell.swift; sourceTree = "<group>"; };
+		CF7E70C61F8248250018D11C /* cedMageWooNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageWooNotifications.swift; sourceTree = "<group>"; };
+		CF7E70C81F82485D0018D11C /* cedMageNotificationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageNotificationCell.swift; sourceTree = "<group>"; };
+		CF7E70CA1F836C5D0018D11C /* cedMageSortByExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageSortByExtension.swift; sourceTree = "<group>"; };
+		CF7E70CC1F836DA70018D11C /* cedMageSortByView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageSortByView.swift; sourceTree = "<group>"; };
+		CF7E70D01F837C200018D11C /* cedMageProductfilterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageProductfilterView.swift; sourceTree = "<group>"; };
+		CF7E70D41F849D6D0018D11C /* cedMageProductFiltersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageProductFiltersViewController.swift; sourceTree = "<group>"; };
+		CF841A141F7917B7008A7238 /* cedMageRelatedProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageRelatedProductCell.swift; sourceTree = "<group>"; };
+		CF841A161F79182F008A7238 /* cedMageRelatedProdCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageRelatedProdCollectionCell.swift; sourceTree = "<group>"; };
+		CF841A191F7A2D1C008A7238 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		CF841A1F1F7BCF1D008A7238 /* cedMageWooReviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageWooReviews.swift; sourceTree = "<group>"; };
+		CF841A211F7BE3B1008A7238 /* cedMageWooAddReviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageWooAddReviews.swift; sourceTree = "<group>"; };
+		CF841A231F7BE3F7008A7238 /* cedMageReviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageReviewCell.swift; sourceTree = "<group>"; };
+		CF841A251F7BE420008A7238 /* cedMageAddReviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageAddReviewCell.swift; sourceTree = "<group>"; };
+		CF841A291F7BE777008A7238 /* cedMageStarRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageStarRatingView.swift; sourceTree = "<group>"; };
+		CF91C47C1F1373B3001CD5FF /* cedMageNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageNavigation.swift; sourceTree = "<group>"; };
+		CF91C4801F138A3C001CD5FF /* cedMageWooCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageWooCommon.swift; sourceTree = "<group>"; };
+		CF9366A61F14A8F0009400A6 /* cedMageWooFetchProductData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageWooFetchProductData.swift; sourceTree = "<group>"; };
+		CF9366AA1F14AED3009400A6 /* cedMageProductImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageProductImageCell.swift; sourceTree = "<group>"; };
+		CF9724D12050091D000047C8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CF9781711F0F688B0033A397 /* cedMageHomeProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageHomeProductCell.swift; sourceTree = "<group>"; };
+		CF9781731F0F68B20033A397 /* cedMageHomeProdutlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageHomeProdutlist.swift; sourceTree = "<group>"; };
+		CF9781751F0F7DE10033A397 /* wooApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wooApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		CF9781791F0F8D790033A397 /* KIImagePager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIImagePager.h; sourceTree = "<group>"; };
+		CF97817A1F0F8D790033A397 /* KIImagePager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIImagePager.m; sourceTree = "<group>"; };
+		CF97817C1F0F8E1F0033A397 /* cedMageWooBannerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageWooBannerCell.swift; sourceTree = "<group>"; };
+		CF97817F1F0FA38D0033A397 /* cedMageWooMaincategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageWooMaincategory.swift; sourceTree = "<group>"; };
+		CF9781831F0FB2800033A397 /* cedMageWishList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageWishList.swift; sourceTree = "<group>"; };
+		CF9781851F0FBCA50033A397 /* cedMageWishCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageWishCell.swift; sourceTree = "<group>"; };
+		CFA0CEEB1F7101C800F2EDE0 /* cedMageOrderFailed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageOrderFailed.swift; sourceTree = "<group>"; };
+		CFB98BB41F57D69800EABDAA /* cedMageOrderCompletion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageOrderCompletion.swift; sourceTree = "<group>"; };
+		CFB98BB81F57DEF800EABDAA /* cedMageAddressFieldsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageAddressFieldsView.swift; sourceTree = "<group>"; };
+		CFB98BBF1F5824E500EABDAA /* cedMageOrderListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageOrderListCell.swift; sourceTree = "<group>"; };
+		CFB98BC11F58318000EABDAA /* cedMageOrderProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageOrderProductCell.swift; sourceTree = "<group>"; };
+		CFB98BC31F5831D500EABDAA /* cedMageOrderDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageOrderDetail.swift; sourceTree = "<group>"; };
+		CFBB058B1EFA4DAF00F3692D /* Spanish Bridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spanish Bridge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFBB058E1EFA4DAF00F3692D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFBB05901EFA4DAF00F3692D /* cedMageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cedMageViewController.swift; sourceTree = "<group>"; };
+		CFBB05931EFA4DAF00F3692D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFBB05951EFA4DAF00F3692D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFBB05981EFA4DAF00F3692D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFBB059A1EFA4DAF00F3692D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC7C38E2004B1F600FAC8FE /* swiftGifLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swiftGifLoader.swift; sourceTree = "<group>"; };
+		CFCB516F208DA48D00A1B2DC /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/mageWooReview.strings; sourceTree = "<group>"; };
+		CFCB5171208DA49600A1B2DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/mageWooReview.strings; sourceTree = "<group>"; };
+		CFCB518C208DACF100A1B2DC /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = skyFloatingtext/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		CFCB518D208DACF200A1B2DC /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = skyFloatingtext/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		CFCB518E208DACF200A1B2DC /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "skyFloatingtext/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		CFE4A4FB203C0B4C00AA83E2 /* cedMageErrorPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageErrorPageView.swift; sourceTree = "<group>"; };
+		CFE4FA7B207C8B100076AE94 /* cedMageTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageTitleCell.swift; sourceTree = "<group>"; };
+		CFED686B1F6A667D00D43B6D /* cedMageCheckoutWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageCheckoutWebView.swift; sourceTree = "<group>"; };
+		CFF654C52057F9FF00A1729D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CFF654C62057FA0300A1729D /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CFF654C82057FA3800A1729D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/mageWooOrder.strings; sourceTree = "<group>"; };
+		CFF654CA2057FA3D00A1729D /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/mageWooOrder.strings; sourceTree = "<group>"; };
+		CFF654CC2057FA8A00A1729D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/mageWooCheckout.strings; sourceTree = "<group>"; };
+		CFF654CE2057FA8D00A1729D /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/mageWooCheckout.strings; sourceTree = "<group>"; };
+		CFF654D02057FAA900A1729D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/mageWooProfile.strings; sourceTree = "<group>"; };
+		CFF654D22057FAAB00A1729D /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/mageWooProfile.strings; sourceTree = "<group>"; };
+		CFF654D42057FAC100A1729D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/productsData.strings; sourceTree = "<group>"; };
+		CFF654D62057FAC400A1729D /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/productsData.strings; sourceTree = "<group>"; };
+		CFF654D82057FADD00A1729D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/mageWooLogin.strings; sourceTree = "<group>"; };
+		CFF654DA2057FAE400A1729D /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/mageWooLogin.strings; sourceTree = "<group>"; };
+		CFF654DC2057FB2800A1729D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		CFF654DE2057FB3000A1729D /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		CFFA79D51F50676A00D28F73 /* cedMageWooEditProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageWooEditProfile.swift; sourceTree = "<group>"; };
+		CFFD61DD1F457AB500959976 /* cedMageProductViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageProductViewCell.swift; sourceTree = "<group>"; };
+		CFFD61DF1F45A49700959976 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		CFFD61E11F45C01D00959976 /* cedMageCartProductListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageCartProductListView.swift; sourceTree = "<group>"; };
+		CFFD61E21F45C01D00959976 /* cedMageCartViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageCartViewCell.swift; sourceTree = "<group>"; };
+		CFFD61E71F45E27500959976 /* cedMageBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageBaseViewController.swift; sourceTree = "<group>"; };
+		CFFFC1191F53EAF10081E502 /* cedMageForgotPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageForgotPassword.swift; sourceTree = "<group>"; };
+		CFFFC11E1F54086B0081E502 /* cedMageCheckOutAsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageCheckOutAsController.swift; sourceTree = "<group>"; };
+		CFFFC1201F54107B0081E502 /* cedMageAddAddressController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageAddAddressController.swift; sourceTree = "<group>"; };
+		CFFFC1221F5426D20081E502 /* cedMageFetchCountryState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cedMageFetchCountryState.swift; sourceTree = "<group>"; };
+		F8B973397D2C93750D0B564E /* Pods-wooApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wooApp.debug.xcconfig"; path = "Target Support Files/Pods-wooApp/Pods-wooApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF090FC61FD56E2700CECB64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D677B95E5E9D2F7482C0C6 /* Pods_Notifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBB05881EFA4DAF00F3692D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2C58A91F67BB42006DE437 /* SafariServices.framework in Frameworks */,
+				CF2C58AA1F67BB42006DE437 /* SystemConfiguration.framework in Frameworks */,
+				CF2C58A51F67BB2B006DE437 /* MessageUI.framework in Frameworks */,
+				CF2C58A61F67BB2B006DE437 /* MobileCoreServices.framework in Frameworks */,
+				CF2C58A21F67BB13006DE437 /* CoreMedia.framework in Frameworks */,
+				CF2C58A01F67BAF2006DE437 /* CoreLocation.framework in Frameworks */,
+				CF2C589C1F67BADB006DE437 /* Accelerate.framework in Frameworks */,
+				CF2C589D1F67BADB006DE437 /* AudioToolbox.framework in Frameworks */,
+				CF2C589E1F67BADB006DE437 /* AVFoundation.framework in Frameworks */,
+				E13AE04A1B35C071E7F3A5FD /* Pods_wooApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E8E52F9244FFD690042E3D3 /* Address */ = {
+			isa = PBXGroup;
+			children = (
+				2E8E52FA244FFD980042E3D3 /* cedMageNewAddressController.swift */,
+				2E8E52FC244FFDB70042E3D3 /* TextFieldView.xib */,
+				2E8E52FE244FFE130042E3D3 /* TextFieldView.swift */,
+				2E8E5300244FFE290042E3D3 /* TextViewXib.swift */,
+				2E8E5302244FFE5F0042E3D3 /* ButtonXibView.swift */,
+				2E8E5304244FFE6D0042E3D3 /* ButtonXibView.xib */,
+				2E8E5306244FFE7E0042E3D3 /* TextViewXib.xib */,
+				2E8E53082450016E0042E3D3 /* AddressModel.swift */,
+				2EE77C3424593D1100B28DE4 /* UITextView+Extension.swift */,
+				2EE77C3624593DB800B28DE4 /* CheckboxView.xib */,
+				2EE77C3824593E7D00B28DE4 /* CheckboxView.swift */,
+			);
+			name = Address;
+			sourceTree = "<group>";
+		};
+		2EAB2A032439B62600B81B7D /* AppSiteTheme */ = {
+			isa = PBXGroup;
+			children = (
+				2EAB2A042439B66100B81B7D /* mageWooAppSiteTheme.swift */,
+				2EAB2A082439B77E00B81B7D /* cedMageRecentlyViewCell.swift */,
+				2EAB2A092439B77E00B81B7D /* cedMageRecentlyViewCollectionCell.swift */,
+				2EAB2A0F2439B9C500B81B7D /* cedMageViewAllCollectionViewCell.swift */,
+				2EAB2A0E2439B9C500B81B7D /* cedMageVIewAllProduct.swift */,
+				2EAB2A062439B6F300B81B7D /* cedMageBestSellingTableCell.swift */,
+				2EAB2A0C2439B85000B81B7D /* cedMageNewArrivalsCell.swift */,
+				2EAB2A1D2439C4C800B81B7D /* HomeCategoryCell.swift */,
+			);
+			name = AppSiteTheme;
+			sourceTree = "<group>";
+		};
+		2EAB2A122439B9F900B81B7D /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				2EAB2A132439BA1400B81B7D /* ShimmerAnimation.swift */,
+				2EAB2A142439BA1400B81B7D /* ShimmerOptions.swift */,
+				2EAB2A172439BA1400B81B7D /* UICollectionView+Shimmer.swift */,
+				2EAB2A152439BA1400B81B7D /* UITableView+Shimmer.swift */,
+				2EAB2A162439BA1400B81B7D /* UIView+Shimmer.swift */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		2EE23CFB24441E60006B6D10 /* Stripe */ = {
+			isa = PBXGroup;
+			children = (
+				2EE23CFC24441E73006B6D10 /* StripeApiClient.swift */,
+				2EE23CFE24441EE8006B6D10 /* StripeViewController.swift */,
+			);
+			name = Stripe;
+			sourceTree = "<group>";
+		};
+		65C34068D739E04F2A5593F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39F571059F8B481310FBF4DB /* Pods-Notifications.debug.xcconfig */,
+				0BF151F84900C4FA24724A21 /* Pods-Notifications.release.xcconfig */,
+				F8B973397D2C93750D0B564E /* Pods-wooApp.debug.xcconfig */,
+				3436525E02465160A30E24CB /* Pods-wooApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CF090FCA1FD56E2700CECB64 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				CF090FCB1FD56E2700CECB64 /* NotificationService.swift */,
+				CF090FCD1FD56E2700CECB64 /* Info.plist */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		CF1658FB1F46B84700E51A80 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CF1658FC1F46B86200E51A80 /* Roboto-Black.ttf */,
+				CF1658FD1F46B86200E51A80 /* Roboto-Bold.ttf */,
+				CF1658FE1F46B86200E51A80 /* Roboto-Light.ttf */,
+				CF1658FF1F46B86200E51A80 /* Roboto-Medium.ttf */,
+				CF1659001F46B86200E51A80 /* Roboto-Regular.ttf */,
+				CF1659011F46B86200E51A80 /* Roboto-Thin.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		CF23C8E91F416BA00083EFF0 /* Address Book */ = {
+			isa = PBXGroup;
+			children = (
+				CF223C521F8F7B45002952CA /* singleAddressView.xib */,
+				CF23C8EC1F416C380083EFF0 /* cedMageSingleAddressView.swift */,
+			);
+			name = "Address Book";
+			sourceTree = "<group>";
+		};
+		CF23C91A1F41C6F40083EFF0 /* Loaders */ = {
+			isa = PBXGroup;
+			children = (
+				CF23C91B1F41C7100083EFF0 /* MMMaterialDesignSpinner.h */,
+				CF23C91C1F41C7100083EFF0 /* MMMaterialDesignSpinner.m */,
+				CFFD61DF1F45A49700959976 /* Toast.swift */,
+			);
+			name = Loaders;
+			sourceTree = "<group>";
+		};
+		CF557D4C1F44027E00CCF729 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				CF557D4D1F44033100CCF729 /* cedMageProductOptions.swift */,
+				CF223BE91F8F7685002952CA /* ProductOptions.xib */,
+				CF5594B31F555A6800FFBFB4 /* cedMageRadioButtonView.swift */,
+				CF223BF01F8F770A002952CA /* radioButtonView.xib */,
+				CF223BF71F8F7740002952CA /* addressFieldsView.xib */,
+				CFB98BB81F57DEF800EABDAA /* cedMageAddressFieldsView.swift */,
+				CF223BFE1F8F77C5002952CA /* PickerXibView.xib */,
+				CF2C58AD1F6802DA006DE437 /* cedMagePickerXibView.swift */,
+				CF223C051F8F780B002952CA /* starRatingView.xib */,
+				CF11AAA41F8F4325002B7513 /* cedMageButtonsView.swift */,
+				CF223C0C1F8F7828002952CA /* buttonsView.xib */,
+				CF7E70CC1F836DA70018D11C /* cedMageSortByView.swift */,
+				CF223C131F8F7863002952CA /* SortByView.xib */,
+				CF841A291F7BE777008A7238 /* cedMageStarRatingView.swift */,
+				CF11AAA01F8F4273002B7513 /* cedMageColorButtonView.swift */,
+				CF223C1A1F8F7882002952CA /* colorButtonView.xib */,
+				CF11AAAC1F8F4348002B7513 /* cedMageLabelView.swift */,
+				CF223C211F8F7891002952CA /* labelView.xib */,
+				CF11AAA81F8F433B002B7513 /* cedMageDropdownButtonLabelView.swift */,
+				CF223C281F8F78B2002952CA /* dropdownButtonLabelView.xib */,
+				CF223C2F1F8F78D3002952CA /* sortByAndFilterButtonView.xib */,
+				CF235BCA1F7CDCC70070DE77 /* cedMageSortByAndFilterButtonView.swift */,
+				CF34979B1FB41B5B0080F21B /* AdditionalInfoView.xib */,
+				CF34979D1FB41CEF0080F21B /* cedMageAdditionalInfoView.swift */,
+				CF36CD6520466EA000A159D7 /* StateTextFieldView.xib */,
+				CF36CD6720466FF700A159D7 /* StateTextFieldView.swift */,
+			);
+			name = xib;
+			sourceTree = "<group>";
+		};
+		CF557D511F4405F600CCF729 /* Dropdown */ = {
+			isa = PBXGroup;
+			children = (
+				CF557D521F44068100CCF729 /* cedMageCustomOptionDropDownView.swift */,
+				CF223C3D1F8F79BF002952CA /* CustomOptionDropDownView.xib */,
+				CF557D541F44068100CCF729 /* DPDConstants.swift */,
+				CF557D551F44068100CCF729 /* DPDKeyboardListener.swift */,
+				CF557D561F44068100CCF729 /* DPDUIView+Extension.swift */,
+				CF557D571F44068100CCF729 /* DropDown.h */,
+				CF557D581F44068100CCF729 /* DropDown.swift */,
+				CF557D591F44068100CCF729 /* DropDown+Appearance.swift */,
+				CF557D5A1F44068100CCF729 /* DropDownCell.swift */,
+				CF223C441F8F7ACA002952CA /* DropDownCell.xib */,
+				CF557D5C1F44068100CCF729 /* cedMageProductOptionsDropdown.swift */,
+				CF223C4B1F8F7AE1002952CA /* ProductOptionsDropdown.xib */,
+			);
+			name = Dropdown;
+			sourceTree = "<group>";
+		};
+		CF5A05CA1F5D16A400730EF0 /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				CF5A05CB1F5D16CA00730EF0 /* UIBarButtonItem+Badge.h */,
+				CF5A05CC1F5D16CA00730EF0 /* UIBarButtonItem+Badge.m */,
+			);
+			name = Badge;
+			sourceTree = "<group>";
+		};
+		CF5A05D01F5D77B200730EF0 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				CF5A05D11F5D77E900730EF0 /* cedMageUserCell.swift */,
+				CF5A05D31F5D780800730EF0 /* cedMageHomeCell.swift */,
+				CF5A05D51F5D783500730EF0 /* cedMageProfileCell.swift */,
+				CF5A05D71F5D784F00730EF0 /* cedMageLogoutCell.swift */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		CF5BAB1F205A3D9D005262CD /* trial */ = {
+			isa = PBXGroup;
+			children = (
+				CF5BAB22205A3DAF005262CD /* cedMageTrial.swift */,
+				CF5BAB20205A3DAE005262CD /* PlistManager.swift */,
+				CF5BAB26205A418B005262CD /* cedMageNotAvailable.swift */,
+			);
+			name = trial;
+			sourceTree = "<group>";
+		};
+		CF6958DA1F109E4900FE669F /* cartPages */ = {
+			isa = PBXGroup;
+			children = (
+				CFFD61E11F45C01D00959976 /* cedMageCartProductListView.swift */,
+				CFFD61E21F45C01D00959976 /* cedMageCartViewCell.swift */,
+			);
+			name = cartPages;
+			sourceTree = "<group>";
+		};
+		CF6958DF1F10B57E00FE669F /* Product Pages */ = {
+			isa = PBXGroup;
+			children = (
+				CFD2C64C1F3B2E99005F769F /* productSearchViews */,
+				CFD2C6491F3B242B005F769F /* productView */,
+				CF6958E21F10CDD100FE669F /* productListing */,
+				CF6958E01F10B5CE00FE669F /* cedMageProductView.swift */,
+				CF9366AA1F14AED3009400A6 /* cedMageProductImageCell.swift */,
+			);
+			name = "Product Pages";
+			sourceTree = "<group>";
+		};
+		CF6958E21F10CDD100FE669F /* productListing */ = {
+			isa = PBXGroup;
+			children = (
+				CF9366A61F14A8F0009400A6 /* cedMageWooFetchProductData.swift */,
+				CFFD61DD1F457AB500959976 /* cedMageProductViewCell.swift */,
+				CF841A141F7917B7008A7238 /* cedMageRelatedProductCell.swift */,
+				CF841A161F79182F008A7238 /* cedMageRelatedProdCollectionCell.swift */,
+			);
+			name = productListing;
+			sourceTree = "<group>";
+		};
+		CF6958E51F10CE8100FE669F /* Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				CF22E6742007A6F900E989FD /* cells.swift */,
+				CF5A05D01F5D77B200730EF0 /* cell */,
+				CF6958E61F10CEAE00FE669F /* cedMageSideEmbbedSegue.swift */,
+				CF6958E71F10CEAE00FE669F /* cedMageSideDrawer.swift */,
+				CF6958E81F10CEAE00FE669F /* cedMageSideMainSegue.swift */,
+				CF91C47C1F1373B3001CD5FF /* cedMageNavigation.swift */,
+				CF5A05CE1F5D768C00730EF0 /* cedMageMainDrawer.swift */,
+			);
+			name = Drawer;
+			sourceTree = "<group>";
+		};
+		CF6B8F521F5EBC020011BFBD /* Downloads */ = {
+			isa = PBXGroup;
+			children = (
+				CF6B8F531F5EBCF50011BFBD /* cedMagedownloadView.swift */,
+				CF6B8F541F5EBCF50011BFBD /* cedMageMydownloadcell.swift */,
+				CF6B8F551F5EBCF50011BFBD /* cedMageMyDownloadView.swift */,
+				CF6B8F561F5EBCF50011BFBD /* cedMageDownload.swift */,
+				CF223C361F8F7952002952CA /* downloaderView.xib */,
+			);
+			name = Downloads;
+			sourceTree = "<group>";
+		};
+		CF7E70C51F8247840018D11C /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				CF7E70C61F8248250018D11C /* cedMageWooNotifications.swift */,
+				CF7E70C81F82485D0018D11C /* cedMageNotificationCell.swift */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+		CF841A1E1F7BCEBC008A7238 /* Reviews */ = {
+			isa = PBXGroup;
+			children = (
+				CF841A1F1F7BCF1D008A7238 /* cedMageWooReviews.swift */,
+				CF841A211F7BE3B1008A7238 /* cedMageWooAddReviews.swift */,
+				CF841A231F7BE3F7008A7238 /* cedMageReviewCell.swift */,
+				CF841A251F7BE420008A7238 /* cedMageAddReviewCell.swift */,
+			);
+			name = Reviews;
+			sourceTree = "<group>";
+		};
+		CF97816F1F0F65580033A397 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				CFE4A4FB203C0B4C00AA83E2 /* cedMageErrorPageView.swift */,
+				CFC7C38E2004B1F600FAC8FE /* swiftGifLoader.swift */,
+				CF467BBE1F0E6AD90043DCAF /* cedMageUser.swift */,
+				CF9781831F0FB2800033A397 /* cedMageWishList.swift */,
+				CF9781851F0FBCA50033A397 /* cedMageWishCell.swift */,
+				CF19015A1F514A9B001D390C /* cedMageLogin.swift */,
+				CF19015C1F514AE2001D390C /* cedMageLoginCell.swift */,
+				CF19015E1F5169A2001D390C /* cedMageRegister.swift */,
+				CF1901601F516AAD001D390C /* cedMageRegisterCell.swift */,
+				CFFFC1191F53EAF10081E502 /* cedMageForgotPassword.swift */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		CF9781701F0F65760033A397 /* homePage */ = {
+			isa = PBXGroup;
+			children = (
+				2EAB2A122439B9F900B81B7D /* Animation */,
+				2EAB2A032439B62600B81B7D /* AppSiteTheme */,
+				CF9781791F0F8D790033A397 /* KIImagePager.h */,
+				CF97817A1F0F8D790033A397 /* KIImagePager.m */,
+				CF467BBA1F0E67730043DCAF /* cedMageHome.swift */,
+				CF9781711F0F688B0033A397 /* cedMageHomeProductCell.swift */,
+				CF9781731F0F68B20033A397 /* cedMageHomeProdutlist.swift */,
+				CF97817C1F0F8E1F0033A397 /* cedMageWooBannerCell.swift */,
+				CF7AD29F1F59205400EADF7F /* cedMageWooSearchCell.swift */,
+				CF6B8F501F5E7A330011BFBD /* cedMageHomeWebController.swift */,
+				CF2BADDC2005E66D00BA27C5 /* cedMageHomePage.swift */,
+				CF2BADDE2005E76E00BA27C5 /* cedMageHomeCategoryCell.swift */,
+				CF2BADE02005E7CE00BA27C5 /* cedMageHomeCollectionCell.swift */,
+				CF2BADE22005ECC800BA27C5 /* cedMagePopularProductCell.swift */,
+				2E6FB6722282A5F1003EF361 /* cedMageSplashViewController.swift */,
+			);
+			name = homePage;
+			sourceTree = "<group>";
+		};
+		CF97817E1F0FA3590033A397 /* categoryPages */ = {
+			isa = PBXGroup;
+			children = (
+				CF6D949A2013188500E42FED /* ced_maindrawernormalcell.swift */,
+				2E7EA3EA2312C30F00898211 /* subCategoryNameCollectionCell.swift */,
+				2E7EA3E92312C30F00898211 /* SubCategoryNamesCell.swift */,
+				CF97817F1F0FA38D0033A397 /* cedMageWooMaincategory.swift */,
+				CF23C8E51F4167BC0083EFF0 /* cedMageMenuSlider.swift */,
+				CF768BF51F503B830024517F /* cedMageSubCategoryCell.swift */,
+				CF7E70D01F837C200018D11C /* cedMageProductfilterView.swift */,
+				CF223C751F8F7B88002952CA /* productfilterView.xib */,
+				CF768BF71F505AB60024517F /* cedMageCategoryProductsView.swift */,
+				CF7E70D41F849D6D0018D11C /* cedMageProductFiltersViewController.swift */,
+				CF235BCC1F7D0C190070DE77 /* cedMageFilters.swift */,
+				CF7E70CA1F836C5D0018D11C /* cedMageSortByExtension.swift */,
+				CF22E66E20073B1C00E989FD /* cedMageSubCategories.swift */,
+				CF22E67020073D6C00E989FD /* cedMageCategoryCell.swift */,
+				CF034B202015F8B900917C9B /* cedMageCategoryOtherCell.swift */,
+				CF3E7C8F2019AFAF0012C7CC /* cedMageCategoryProductCell.swift */,
+				CF3E7C912019AFE00012C7CC /* cedMageCategoryProdCollectionCell.swift */,
+			);
+			name = categoryPages;
+			sourceTree = "<group>";
+		};
+		CFB98BBC1F5823E200EABDAA /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				CFB98BC11F58318000EABDAA /* cedMageOrderProductCell.swift */,
+				CFB98BBF1F5824E500EABDAA /* cedMageOrderListCell.swift */,
+				CFB98BC31F5831D500EABDAA /* cedMageOrderDetail.swift */,
+				CF24349920416B5B00448FE4 /* cedMageOrderListing.swift */,
+			);
+			name = Order;
+			sourceTree = "<group>";
+		};
+		CFBB05821EFA4DAF00F3692D = {
+			isa = PBXGroup;
+			children = (
+				CFBB058D1EFA4DAF00F3692D /* wooApp */,
+				CF090FCA1FD56E2700CECB64 /* Notifications */,
+				CFBB058C1EFA4DAF00F3692D /* Products */,
+				EEF34D093DCA145D23E17A0D /* Frameworks */,
+				65C34068D739E04F2A5593F6 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		CFBB058C1EFA4DAF00F3692D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFBB058B1EFA4DAF00F3692D /* Spanish Bridge.app */,
+				CF090FC91FD56E2700CECB64 /* Notifications.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFBB058D1EFA4DAF00F3692D /* wooApp */ = {
+			isa = PBXGroup;
+			children = (
+				2E8FFBE42671CF400016D5EE /* Spanish Bridge.entitlements */,
+				CFBB05A31EFA500A00F3692D /* classes */,
+				CFBB05A21EFA4FFA00F3692D /* Resources */,
+			);
+			path = wooApp;
+			sourceTree = "<group>";
+		};
+		CFBB05A21EFA4FFA00F3692D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF9724D12050091D000047C8 /* GoogleService-Info.plist */,
+				CF5BAB21205A3DAE005262CD /* cedMageTest.plist */,
+				2E8F80552387ED0C00DD1158 /* webfile.css */,
+				CFBB05921EFA4DAF00F3692D /* Main.storyboard */,
+				CFBB05951EFA4DAF00F3692D /* Assets.xcassets */,
+				CFBB05971EFA4DAF00F3692D /* LaunchScreen.storyboard */,
+				CFBB059A1EFA4DAF00F3692D /* Info.plist */,
+				CF223C7C1F8F7CA5002952CA /* mageWooLogin.storyboard */,
+				CF223C871F8F7E2D002952CA /* productsData.storyboard */,
+				CF223C8E1F8F7E67002952CA /* mageWooProfile.storyboard */,
+				CF223C951F8F7E96002952CA /* mageWooCheckout.storyboard */,
+				CF223C9C1F8F7EC2002952CA /* mageWooOrder.storyboard */,
+				CF2656F41F875F0200509707 /* Localizable.strings */,
+				CF223CA31F8F8360002952CA /* mageWooReview.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CFBB05A31EFA500A00F3692D /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				CF5BAB1F205A3D9D005262CD /* trial */,
+				CF7E70C51F8247840018D11C /* Notification */,
+				CF841A1E1F7BCEBC008A7238 /* Reviews */,
+				CF6B8F521F5EBC020011BFBD /* Downloads */,
+				CF5A05CA1F5D16A400730EF0 /* Badge */,
+				CFB98BBC1F5823E200EABDAA /* Order */,
+				CFFFC11D1F5408280081E502 /* Checkout */,
+				CFFA79D41F50611700D28F73 /* Profile */,
+				CFFA79CD1F5060E500D28F73 /* skyFloatingTextField */,
+				CF1658FB1F46B84700E51A80 /* Fonts */,
+				CF557D511F4405F600CCF729 /* Dropdown */,
+				CF557D4C1F44027E00CCF729 /* xib */,
+				CF23C91A1F41C6F40083EFF0 /* Loaders */,
+				CF23C8E91F416BA00083EFF0 /* Address Book */,
+				CF6958E51F10CE8100FE669F /* Drawer */,
+				CF6958DF1F10B57E00FE669F /* Product Pages */,
+				CF6958DA1F109E4900FE669F /* cartPages */,
+				CF97817E1F0FA3590033A397 /* categoryPages */,
+				CF9781701F0F65760033A397 /* homePage */,
+				CF97816F1F0F65580033A397 /* User */,
+				CFBB058E1EFA4DAF00F3692D /* AppDelegate.swift */,
+				CFBB05901EFA4DAF00F3692D /* cedMageViewController.swift */,
+				CF23C8E71F41693E0083EFF0 /* CAPSPageMenu.swift */,
+				CF467BC01F0E6B3E0043DCAF /* cedMageWooSettings.swift */,
+				CF91C4801F138A3C001CD5FF /* cedMageWooCommon.swift */,
+				CF467BC21F0E6CDB0043DCAF /* cedMageWooNetwork.swift */,
+				CF5CD6C520203C670042B5E1 /* Explodable.swift */,
+				CF26209420878AFD00C0B18D /* cedMageStore.swift */,
+				CF26209620878D7F00C0B18D /* cedMageStoreCell.swift */,
+				CF23C90A1F41A5300083EFF0 /* cedMageLoaders.swift */,
+				CF11AABC1F8F9CEA002B7513 /* NSBundle+Language.h */,
+				CF11AABD1F8F9CEA002B7513 /* NSBundle+Language.m */,
+				CF9781751F0F7DE10033A397 /* wooApp-Bridging-Header.h */,
+				CFE4FA7B207C8B100076AE94 /* cedMageTitleCell.swift */,
+				CFFD61E71F45E27500959976 /* cedMageBaseViewController.swift */,
+				CF22E67220076DED00E989FD /* CategoryPageNavigation.swift */,
+				CF557A522018722B0091C855 /* cedMageAccountNavigation.swift */,
+				CF557A54201875640091C855 /* cedMageWishlistNavigation.swift */,
+				CF3E7C93201A03BB0012C7CC /* cedMageTabBar.swift */,
+				CF2921DD203D95EF0028C8B8 /* cedMageNotificationNavigation.swift */,
+				2E4EA93424395DF300622225 /* UICollectionView+Extension.swift */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		CFD2C6491F3B242B005F769F /* productView */ = {
+			isa = PBXGroup;
+			children = (
+				CF23C9081F4189710083EFF0 /* cedMageSingleProductImage.swift */,
+				CF23C9061F4183410083EFF0 /* cedMageImageSliderRoot.swift */,
+				CF23C9021F4182C40083EFF0 /* cedMageProductGalleryImagesCollectionCell.swift */,
+				CF223C591F8F7B55002952CA /* ProductGalleryImagesCollectionCell.xib */,
+				CF23C8FE1F41814F0083EFF0 /* cedMageProductQtyView.swift */,
+				CF223C601F8F7B61002952CA /* ProductQtyView.xib */,
+				CF23C8F61F4180300083EFF0 /* cedMageProductNamePriceView.swift */,
+				CF223C671F8F7B6E002952CA /* ProductNamePriceView.xib */,
+				CF23C8F21F417F6D0083EFF0 /* cedMageProductParallaxImageView.swift */,
+				CF223C6E1F8F7B7A002952CA /* ProductParallaxImageView.xib */,
+				CF23C9101F41BD940083EFF0 /* cedMageProductNamePriceCell.swift */,
+				CF23C9121F41BDB90083EFF0 /* cedMageProductQtyCell.swift */,
+				CF23C9141F41BDE50083EFF0 /* cedMageProductDescriptionCell.swift */,
+				CF23C9161F41BE040083EFF0 /* cedMageProductSizeCell.swift */,
+				CF23C9181F41BE200083EFF0 /* cedMageProductColorCell.swift */,
+			);
+			name = productView;
+			sourceTree = "<group>";
+		};
+		CFD2C64C1F3B2E99005F769F /* productSearchViews */ = {
+			isa = PBXGroup;
+			children = (
+				CF3FC2081F62B9C30052AB11 /* cedMageProductSearch.swift */,
+			);
+			name = productSearchViews;
+			sourceTree = "<group>";
+		};
+		CFFA79CD1F5060E500D28F73 /* skyFloatingTextField */ = {
+			isa = PBXGroup;
+			children = (
+				CFCB518D208DACF200A1B2DC /* SkyFloatingLabelTextField.swift */,
+				CFCB518C208DACF100A1B2DC /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				CFCB518E208DACF200A1B2DC /* UITextField+fixCaretPosition.swift */,
+			);
+			name = skyFloatingTextField;
+			sourceTree = "<group>";
+		};
+		CFFA79D41F50611700D28F73 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CFFA79D51F50676A00D28F73 /* cedMageWooEditProfile.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		CFFFC11D1F5408280081E502 /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				2E8E52F9244FFD690042E3D3 /* Address */,
+				2EE23CFB24441E60006B6D10 /* Stripe */,
+				CFFFC11E1F54086B0081E502 /* cedMageCheckOutAsController.swift */,
+				CFFFC1201F54107B0081E502 /* cedMageAddAddressController.swift */,
+				CFFFC1221F5426D20081E502 /* cedMageFetchCountryState.swift */,
+				CF5594B71F555CC600FFBFB4 /* cedMageSelectPaymentMethod.swift */,
+				CF5594B91F55786600FFBFB4 /* cedMageSelectShippingMethod.swift */,
+				CFB98BB41F57D69800EABDAA /* cedMageOrderCompletion.swift */,
+				CFED686B1F6A667D00D43B6D /* cedMageCheckoutWebView.swift */,
+				CFA0CEEB1F7101C800F2EDE0 /* cedMageOrderFailed.swift */,
+				CF1F800B1FD29E43007BD648 /* cedMagePaymentMethodsCell.swift */,
+			);
+			name = Checkout;
+			sourceTree = "<group>";
+		};
+		EEF34D093DCA145D23E17A0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF2C58A71F67BB42006DE437 /* SafariServices.framework */,
+				CF2C58A81F67BB42006DE437 /* SystemConfiguration.framework */,
+				CF2C58A31F67BB2B006DE437 /* MessageUI.framework */,
+				CF2C58A41F67BB2B006DE437 /* MobileCoreServices.framework */,
+				CF2C58A11F67BB13006DE437 /* CoreMedia.framework */,
+				CF2C589F1F67BAF2006DE437 /* CoreLocation.framework */,
+				CF2C58991F67BADB006DE437 /* Accelerate.framework */,
+				CF2C589A1F67BADB006DE437 /* AudioToolbox.framework */,
+				CF2C589B1F67BADB006DE437 /* AVFoundation.framework */,
+				C0572B71231DFF5AC4BCA9D5 /* Pods_Notifications.framework */,
+				42AAC754C3A0E58B4FB222B6 /* Pods_wooApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF090FC81FD56E2700CECB64 /* Notifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF090FD11FD56E2700CECB64 /* Build configuration list for PBXNativeTarget "Notifications" */;
+			buildPhases = (
+				8CD65C57D8559050BE1680AF /* [CP] Check Pods Manifest.lock */,
+				CF090FC51FD56E2700CECB64 /* Sources */,
+				CF090FC61FD56E2700CECB64 /* Frameworks */,
+				CF090FC71FD56E2700CECB64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Notifications;
+			productName = Notifications;
+			productReference = CF090FC91FD56E2700CECB64 /* Notifications.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CFBB058A1EFA4DAF00F3692D /* wooApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFBB059D1EFA4DAF00F3692D /* Build configuration list for PBXNativeTarget "wooApp" */;
+			buildPhases = (
+				A41B1B4A3F4E368182ABCEE2 /* [CP] Check Pods Manifest.lock */,
+				CFBB05871EFA4DAF00F3692D /* Sources */,
+				CFBB05881EFA4DAF00F3692D /* Frameworks */,
+				CFBB05891EFA4DAF00F3692D /* Resources */,
+				CF6FE39E1F63E135008B5A40 /* Embed App Extensions */,
+				EDF32680D4E52F4923614E3C /* [CP] Embed Pods Frameworks */,
+				D16B4EE1EE7D64743B775535 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF090FCF1FD56E2700CECB64 /* PBXTargetDependency */,
+			);
+			name = wooApp;
+			productName = wooApp;
+			productReference = CFBB058B1EFA4DAF00F3692D /* Spanish Bridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFBB05831EFA4DAF00F3692D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = MageNative;
+				TargetAttributes = {
+					CF090FC81FD56E2700CECB64 = {
+						CreatedOnToolsVersion = 9.1;
+						DevelopmentTeam = L3HJJJ69X7;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+					};
+					CFBB058A1EFA4DAF00F3692D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = L3HJJJ69X7;
+						LastSwiftMigration = 1140;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = CFBB05861EFA4DAF00F3692D /* Build configuration list for PBXProject "wooApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = CFBB05821EFA4DAF00F3692D;
+			productRefGroup = CFBB058C1EFA4DAF00F3692D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFBB058A1EFA4DAF00F3692D /* wooApp */,
+				CF090FC81FD56E2700CECB64 /* Notifications */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF090FC71FD56E2700CECB64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBB05891EFA4DAF00F3692D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF223BE71F8F7685002952CA /* ProductOptions.xib in Resources */,
+				CF223C931F8F7E96002952CA /* mageWooCheckout.storyboard in Resources */,
+				CF2F6F6F20F4B17C00FEC6E7 /* Roboto-Regular.ttf in Resources */,
+				CF34979C1FB41B5B0080F21B /* AdditionalInfoView.xib in Resources */,
+				CF223C491F8F7AE1002952CA /* ProductOptionsDropdown.xib in Resources */,
+				CF223C341F8F7952002952CA /* downloaderView.xib in Resources */,
+				CF223C181F8F7882002952CA /* colorButtonView.xib in Resources */,
+				CF223C651F8F7B6E002952CA /* ProductNamePriceView.xib in Resources */,
+				CF223C8C1F8F7E67002952CA /* mageWooProfile.storyboard in Resources */,
+				CF223BF51F8F7740002952CA /* addressFieldsView.xib in Resources */,
+				2E8E5307244FFE7E0042E3D3 /* TextViewXib.xib in Resources */,
+				CF223BEE1F8F770A002952CA /* radioButtonView.xib in Resources */,
+				CF2F6F6D20F4B17C00FEC6E7 /* Roboto-Light.ttf in Resources */,
+				CF223C501F8F7B45002952CA /* singleAddressView.xib in Resources */,
+				CF223C031F8F780B002952CA /* starRatingView.xib in Resources */,
+				CF2656F21F875F0200509707 /* Localizable.strings in Resources */,
+				CF223C421F8F7ACA002952CA /* DropDownCell.xib in Resources */,
+				2EE77C3724593DB800B28DE4 /* CheckboxView.xib in Resources */,
+				CF223C3B1F8F79BF002952CA /* CustomOptionDropDownView.xib in Resources */,
+				CF223C261F8F78B2002952CA /* dropdownButtonLabelView.xib in Resources */,
+				CF223C571F8F7B55002952CA /* ProductGalleryImagesCollectionCell.xib in Resources */,
+				CF223C0A1F8F7828002952CA /* buttonsView.xib in Resources */,
+				CFBB05991EFA4DAF00F3692D /* LaunchScreen.storyboard in Resources */,
+				CFBB05961EFA4DAF00F3692D /* Assets.xcassets in Resources */,
+				CF223C7A1F8F7CA5002952CA /* mageWooLogin.storyboard in Resources */,
+				CF223C9A1F8F7EC2002952CA /* mageWooOrder.storyboard in Resources */,
+				CF223C2D1F8F78D3002952CA /* sortByAndFilterButtonView.xib in Resources */,
+				CF2F6F6B20F4B17C00FEC6E7 /* Roboto-Black.ttf in Resources */,
+				CFBB05941EFA4DAF00F3692D /* Main.storyboard in Resources */,
+				2E8E52FD244FFDB70042E3D3 /* TextFieldView.xib in Resources */,
+				2E8E5305244FFE6D0042E3D3 /* ButtonXibView.xib in Resources */,
+				CF2F6F6E20F4B17C00FEC6E7 /* Roboto-Medium.ttf in Resources */,
+				CF223C6C1F8F7B7A002952CA /* ProductParallaxImageView.xib in Resources */,
+				CF223C851F8F7E2D002952CA /* productsData.storyboard in Resources */,
+				2E8F80562387ED0C00DD1158 /* webfile.css in Resources */,
+				CF223C731F8F7B88002952CA /* productfilterView.xib in Resources */,
+				CF223C1F1F8F7891002952CA /* labelView.xib in Resources */,
+				CF5BAB24205A3DAF005262CD /* cedMageTest.plist in Resources */,
+				CF223BFC1F8F77C5002952CA /* PickerXibView.xib in Resources */,
+				CF2F6F6C20F4B17C00FEC6E7 /* Roboto-Bold.ttf in Resources */,
+				CF9724D22050091E000047C8 /* GoogleService-Info.plist in Resources */,
+				CF36CD6620466EA000A159D7 /* StateTextFieldView.xib in Resources */,
+				CF223C111F8F7863002952CA /* SortByView.xib in Resources */,
+				CF223CA11F8F8360002952CA /* mageWooReview.storyboard in Resources */,
+				CF2F6F7020F4B17C00FEC6E7 /* Roboto-Thin.ttf in Resources */,
+				CF223C5E1F8F7B61002952CA /* ProductQtyView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8CD65C57D8559050BE1680AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Notifications-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A41B1B4A3F4E368182ABCEE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wooApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D16B4EE1EE7D64743B775535 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wooApp/Pods-wooApp-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wooApp/Pods-wooApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDF32680D4E52F4923614E3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wooApp/Pods-wooApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseMessaging/FirebaseMessaging.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TTRangeSlider/TTRangeSlider.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseMessaging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMAppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTRangeSlider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wooApp/Pods-wooApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF090FC51FD56E2700CECB64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF090FCC1FD56E2700CECB64 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBB05871EFA4DAF00F3692D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6B8F591F5EBCF60011BFBD /* cedMageMydownloadcell.swift in Sources */,
+				CF34979E1FB41CEF0080F21B /* cedMageAdditionalInfoView.swift in Sources */,
+				CF5A05D61F5D783500730EF0 /* cedMageProfileCell.swift in Sources */,
+				CF557D631F44068100CCF729 /* DropDown.swift in Sources */,
+				2E8E5303244FFE5F0042E3D3 /* ButtonXibView.swift in Sources */,
+				CF1F800C1FD29E43007BD648 /* cedMagePaymentMethodsCell.swift in Sources */,
+				2EAB2A102439B9C500B81B7D /* cedMageVIewAllProduct.swift in Sources */,
+				CF23C9151F41BDE50083EFF0 /* cedMageProductDescriptionCell.swift in Sources */,
+				CF557D621F44068100CCF729 /* DPDUIView+Extension.swift in Sources */,
+				CF768BF81F505AB70024517F /* cedMageCategoryProductsView.swift in Sources */,
+				CF3E7C94201A03BB0012C7CC /* cedMageTabBar.swift in Sources */,
+				CF26209520878AFD00C0B18D /* cedMageStore.swift in Sources */,
+				CF6958E91F10CEAE00FE669F /* cedMageSideEmbbedSegue.swift in Sources */,
+				CFB98BB91F57DEF800EABDAA /* cedMageAddressFieldsView.swift in Sources */,
+				CF26209720878D7F00C0B18D /* cedMageStoreCell.swift in Sources */,
+				CF7E70CE1F836DA70018D11C /* cedMageSortByView.swift in Sources */,
+				CF3E7C902019AFAF0012C7CC /* cedMageCategoryProductCell.swift in Sources */,
+				CF7E70C71F8248260018D11C /* cedMageWooNotifications.swift in Sources */,
+				CF557D611F44068100CCF729 /* DPDKeyboardListener.swift in Sources */,
+				CF23C9091F4189710083EFF0 /* cedMageSingleProductImage.swift in Sources */,
+				2EAB2A072439B6F300B81B7D /* cedMageBestSellingTableCell.swift in Sources */,
+				CF467BC31F0E6CDB0043DCAF /* cedMageWooNetwork.swift in Sources */,
+				CF467BC11F0E6B3E0043DCAF /* cedMageWooSettings.swift in Sources */,
+				2EE77C3924593E7D00B28DE4 /* CheckboxView.swift in Sources */,
+				CF7E70D51F849D6E0018D11C /* cedMageProductFiltersViewController.swift in Sources */,
+				CF841A201F7BCF1D008A7238 /* cedMageWooReviews.swift in Sources */,
+				CF23C9191F41BE200083EFF0 /* cedMageProductColorCell.swift in Sources */,
+				CFFD61DE1F457AB600959976 /* cedMageProductViewCell.swift in Sources */,
+				CF2BADDD2005E66D00BA27C5 /* cedMageHomePage.swift in Sources */,
+				CF557D671F44068100CCF729 /* cedMageProductOptionsDropdown.swift in Sources */,
+				CF768BF61F503B840024517F /* cedMageSubCategoryCell.swift in Sources */,
+				CF7AD2A01F59205400EADF7F /* cedMageWooSearchCell.swift in Sources */,
+				CF841A171F79182F008A7238 /* cedMageRelatedProdCollectionCell.swift in Sources */,
+				CF235BCB1F7CDCC70070DE77 /* cedMageSortByAndFilterButtonView.swift in Sources */,
+				CF5BAB25205A3DAF005262CD /* cedMageTrial.swift in Sources */,
+				CFB98BC01F5824E500EABDAA /* cedMageOrderListCell.swift in Sources */,
+				CF6B8F5B1F5EBCF60011BFBD /* cedMageDownload.swift in Sources */,
+				CF22E67320076DED00E989FD /* CategoryPageNavigation.swift in Sources */,
+				CF2BADE32005ECC800BA27C5 /* cedMagePopularProductCell.swift in Sources */,
+				CF23C8E61F4167BD0083EFF0 /* cedMageMenuSlider.swift in Sources */,
+				CF23C8F41F417F6D0083EFF0 /* cedMageProductParallaxImageView.swift in Sources */,
+				2E7EA3EC2312C31000898211 /* subCategoryNameCollectionCell.swift in Sources */,
+				2E4EA93524395DF300622225 /* UICollectionView+Extension.swift in Sources */,
+				CF11AAAA1F8F433B002B7513 /* cedMageDropdownButtonLabelView.swift in Sources */,
+				CF557D641F44068100CCF729 /* DropDown+Appearance.swift in Sources */,
+				CF5CD6C620203C670042B5E1 /* Explodable.swift in Sources */,
+				CFB98BB51F57D69800EABDAA /* cedMageOrderCompletion.swift in Sources */,
+				2EAB2A1A2439BA1500B81B7D /* UITableView+Shimmer.swift in Sources */,
+				CF841A241F7BE3F7008A7238 /* cedMageReviewCell.swift in Sources */,
+				2E8E5301244FFE290042E3D3 /* TextViewXib.swift in Sources */,
+				CF5A05CD1F5D16CA00730EF0 /* UIBarButtonItem+Badge.m in Sources */,
+				CFFA79D61F50676A00D28F73 /* cedMageWooEditProfile.swift in Sources */,
+				CF1901611F516AAD001D390C /* cedMageRegisterCell.swift in Sources */,
+				CF5594B81F555CC600FFBFB4 /* cedMageSelectPaymentMethod.swift in Sources */,
+				2EAB2A0B2439B77E00B81B7D /* cedMageRecentlyViewCollectionCell.swift in Sources */,
+				CFBB05911EFA4DAF00F3692D /* cedMageViewController.swift in Sources */,
+				CF235BCD1F7D0C190070DE77 /* cedMageFilters.swift in Sources */,
+				CFE4FA7C207C8B120076AE94 /* cedMageTitleCell.swift in Sources */,
+				CF36CD6820466FF700A159D7 /* StateTextFieldView.swift in Sources */,
+				CF91C4811F138A3C001CD5FF /* cedMageWooCommon.swift in Sources */,
+				CF2BADDF2005E76E00BA27C5 /* cedMageHomeCategoryCell.swift in Sources */,
+				2EAB2A1C2439BA1500B81B7D /* UICollectionView+Shimmer.swift in Sources */,
+				CF5A05D41F5D780800730EF0 /* cedMageHomeCell.swift in Sources */,
+				CF9366AB1F14AED3009400A6 /* cedMageProductImageCell.swift in Sources */,
+				CF6D949B2013188600E42FED /* ced_maindrawernormalcell.swift in Sources */,
+				CF3E7C922019AFE00012C7CC /* cedMageCategoryProdCollectionCell.swift in Sources */,
+				CF5A05D81F5D784F00730EF0 /* cedMageLogoutCell.swift in Sources */,
+				CFFFC1231F5426D30081E502 /* cedMageFetchCountryState.swift in Sources */,
+				CFA0CEEC1F7101C900F2EDE0 /* cedMageOrderFailed.swift in Sources */,
+				CF7E70CB1F836C5E0018D11C /* cedMageSortByExtension.swift in Sources */,
+				CF557D651F44068100CCF729 /* DropDownCell.swift in Sources */,
+				CFCB518F208DACF200A1B2DC /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				CF9781841F0FB2800033A397 /* cedMageWishList.swift in Sources */,
+				CFC7C38F2004B1F700FAC8FE /* swiftGifLoader.swift in Sources */,
+				CFFD61E31F45C01D00959976 /* cedMageCartProductListView.swift in Sources */,
+				CF557D601F44068100CCF729 /* DPDConstants.swift in Sources */,
+				CF19015F1F5169A2001D390C /* cedMageRegister.swift in Sources */,
+				2E6FB6732282A5F1003EF361 /* cedMageSplashViewController.swift in Sources */,
+				CF7E70D21F837C200018D11C /* cedMageProductfilterView.swift in Sources */,
+				CF5A05CF1F5D768C00730EF0 /* cedMageMainDrawer.swift in Sources */,
+				CFB98BC21F58318000EABDAA /* cedMageOrderProductCell.swift in Sources */,
+				CF23C9131F41BDB90083EFF0 /* cedMageProductQtyCell.swift in Sources */,
+				CF22E66F20073B1C00E989FD /* cedMageSubCategories.swift in Sources */,
+				CFCB5191208DACF200A1B2DC /* UITextField+fixCaretPosition.swift in Sources */,
+				CF5BAB23205A3DAF005262CD /* PlistManager.swift in Sources */,
+				2EE23CFF24441EE8006B6D10 /* StripeViewController.swift in Sources */,
+				2EAB2A0D2439B85000B81B7D /* cedMageNewArrivalsCell.swift in Sources */,
+				CFED686C1F6A667D00D43B6D /* cedMageCheckoutWebView.swift in Sources */,
+				CF23C9041F4182C50083EFF0 /* cedMageProductGalleryImagesCollectionCell.swift in Sources */,
+				CF23C9171F41BE040083EFF0 /* cedMageProductSizeCell.swift in Sources */,
+				CF557D4F1F44033100CCF729 /* cedMageProductOptions.swift in Sources */,
+				CF11AABE1F8F9CEA002B7513 /* NSBundle+Language.m in Sources */,
+				CF6958E11F10B5CE00FE669F /* cedMageProductView.swift in Sources */,
+				CF23C8ED1F416C380083EFF0 /* cedMageSingleAddressView.swift in Sources */,
+				CF557D5E1F44068100CCF729 /* cedMageCustomOptionDropDownView.swift in Sources */,
+				CFFFC11A1F53EAF10081E502 /* cedMageForgotPassword.swift in Sources */,
+				CFFFC1211F54107C0081E502 /* cedMageAddAddressController.swift in Sources */,
+				CF841A2A1F7BE778008A7238 /* cedMageStarRatingView.swift in Sources */,
+				2E8E52FF244FFE130042E3D3 /* TextFieldView.swift in Sources */,
+				CF23C9001F41814F0083EFF0 /* cedMageProductQtyView.swift in Sources */,
+				2EAB2A112439B9C500B81B7D /* cedMageViewAllCollectionViewCell.swift in Sources */,
+				CF841A261F7BE420008A7238 /* cedMageAddReviewCell.swift in Sources */,
+				CF6958EA1F10CEAE00FE669F /* cedMageSideDrawer.swift in Sources */,
+				CF5594B41F555A6800FFBFB4 /* cedMageRadioButtonView.swift in Sources */,
+				CF2BADE12005E7CE00BA27C5 /* cedMageHomeCollectionCell.swift in Sources */,
+				CF22E6752007A6FA00E989FD /* cells.swift in Sources */,
+				CF2921DE203D95EF0028C8B8 /* cedMageNotificationNavigation.swift in Sources */,
+				CF6B8F581F5EBCF50011BFBD /* cedMagedownloadView.swift in Sources */,
+				CF11AAAE1F8F4348002B7513 /* cedMageLabelView.swift in Sources */,
+				CFE4A4FC203C0B4C00AA83E2 /* cedMageErrorPageView.swift in Sources */,
+				2E8E52FB244FFD980042E3D3 /* cedMageNewAddressController.swift in Sources */,
+				CFB98BC41F5831D500EABDAA /* cedMageOrderDetail.swift in Sources */,
+				CF91C47D1F1373B3001CD5FF /* cedMageNavigation.swift in Sources */,
+				CFFFC11F1F54086B0081E502 /* cedMageCheckOutAsController.swift in Sources */,
+				CF6B8F511F5E7A340011BFBD /* cedMageHomeWebController.swift in Sources */,
+				CF23C8F81F4180300083EFF0 /* cedMageProductNamePriceView.swift in Sources */,
+				CF9781741F0F68B20033A397 /* cedMageHomeProdutlist.swift in Sources */,
+				2EAB2A192439BA1500B81B7D /* ShimmerOptions.swift in Sources */,
+				CF19015B1F514A9B001D390C /* cedMageLogin.swift in Sources */,
+				CF5594BA1F55786600FFBFB4 /* cedMageSelectShippingMethod.swift in Sources */,
+				CF5A05D21F5D77E900730EF0 /* cedMageUserCell.swift in Sources */,
+				CF19015D1F514AE2001D390C /* cedMageLoginCell.swift in Sources */,
+				CFFD61E81F45E27500959976 /* cedMageBaseViewController.swift in Sources */,
+				2E8E53092450016E0042E3D3 /* AddressModel.swift in Sources */,
+				CF9781721F0F688B0033A397 /* cedMageHomeProductCell.swift in Sources */,
+				CF034B212015F8B900917C9B /* cedMageCategoryOtherCell.swift in Sources */,
+				CF23C9111F41BD940083EFF0 /* cedMageProductNamePriceCell.swift in Sources */,
+				2EE23CFD24441E73006B6D10 /* StripeApiClient.swift in Sources */,
+				2EAB2A1E2439C4C800B81B7D /* HomeCategoryCell.swift in Sources */,
+				CF24349A20416B5B00448FE4 /* cedMageOrderListing.swift in Sources */,
+				2EAB2A0A2439B77E00B81B7D /* cedMageRecentlyViewCell.swift in Sources */,
+				CF23C9071F4183410083EFF0 /* cedMageImageSliderRoot.swift in Sources */,
+				2EAB2A052439B66100B81B7D /* mageWooAppSiteTheme.swift in Sources */,
+				CF6B8F5A1F5EBCF60011BFBD /* cedMageMyDownloadView.swift in Sources */,
+				CF557A55201875640091C855 /* cedMageWishlistNavigation.swift in Sources */,
+				CF11AAA21F8F4273002B7513 /* cedMageColorButtonView.swift in Sources */,
+				CF22E67120073D6C00E989FD /* cedMageCategoryCell.swift in Sources */,
+				2EE77C3524593D1100B28DE4 /* UITextView+Extension.swift in Sources */,
+				CF23C91D1F41C7100083EFF0 /* MMMaterialDesignSpinner.m in Sources */,
+				2EAB2A182439BA1500B81B7D /* ShimmerAnimation.swift in Sources */,
+				CF7E70C91F82485D0018D11C /* cedMageNotificationCell.swift in Sources */,
+				CFFD61E01F45A49700959976 /* Toast.swift in Sources */,
+				CF23C8E81F41693F0083EFF0 /* CAPSPageMenu.swift in Sources */,
+				CF97817D1F0F8E1F0033A397 /* cedMageWooBannerCell.swift in Sources */,
+				CFCB5190208DACF200A1B2DC /* SkyFloatingLabelTextField.swift in Sources */,
+				2EAB2A1B2439BA1500B81B7D /* UIView+Shimmer.swift in Sources */,
+				CF841A151F7917B7008A7238 /* cedMageRelatedProductCell.swift in Sources */,
+				CF467BBB1F0E67730043DCAF /* cedMageHome.swift in Sources */,
+				CF9781801F0FA38D0033A397 /* cedMageWooMaincategory.swift in Sources */,
+				CF3FC2091F62B9C30052AB11 /* cedMageProductSearch.swift in Sources */,
+				CFFD61E41F45C01D00959976 /* cedMageCartViewCell.swift in Sources */,
+				CF5BAB27205A418B005262CD /* cedMageNotAvailable.swift in Sources */,
+				CF841A221F7BE3B1008A7238 /* cedMageWooAddReviews.swift in Sources */,
+				2E7EA3EB2312C31000898211 /* SubCategoryNamesCell.swift in Sources */,
+				CF9781861F0FBCA50033A397 /* cedMageWishCell.swift in Sources */,
+				CF467BBF1F0E6AD90043DCAF /* cedMageUser.swift in Sources */,
+				CF9366A71F14A8F0009400A6 /* cedMageWooFetchProductData.swift in Sources */,
+				CF2C58AE1F6802DB006DE437 /* cedMagePickerXibView.swift in Sources */,
+				CFBB058F1EFA4DAF00F3692D /* AppDelegate.swift in Sources */,
+				CF6958EB1F10CEAE00FE669F /* cedMageSideMainSegue.swift in Sources */,
+				CF557A532018722B0091C855 /* cedMageAccountNavigation.swift in Sources */,
+				CF97817B1F0F8D790033A397 /* KIImagePager.m in Sources */,
+				CF23C90B1F41A5300083EFF0 /* cedMageLoaders.swift in Sources */,
+				CF11AAA61F8F4325002B7513 /* cedMageButtonsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF090FCF1FD56E2700CECB64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF090FC81FD56E2700CECB64 /* Notifications */;
+			targetProxy = CF090FCE1FD56E2700CECB64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF223BE91F8F7685002952CA /* ProductOptions.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223BE81F8F7685002952CA /* Base */,
+				CF223BEB1F8F7692002952CA /* en */,
+				CF223BED1F8F7695002952CA /* ar */,
+			);
+			name = ProductOptions.xib;
+			sourceTree = "<group>";
+		};
+		CF223BF01F8F770A002952CA /* radioButtonView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223BEF1F8F770A002952CA /* Base */,
+				CF223BF21F8F7710002952CA /* en */,
+				CF223BF41F8F7713002952CA /* ar */,
+			);
+			name = radioButtonView.xib;
+			sourceTree = "<group>";
+		};
+		CF223BF71F8F7740002952CA /* addressFieldsView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223BF61F8F7740002952CA /* Base */,
+				CF223BF91F8F7743002952CA /* en */,
+				CF223BFB1F8F7746002952CA /* ar */,
+			);
+			name = addressFieldsView.xib;
+			sourceTree = "<group>";
+		};
+		CF223BFE1F8F77C5002952CA /* PickerXibView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223BFD1F8F77C5002952CA /* Base */,
+				CF223C001F8F77C7002952CA /* en */,
+				CF223C021F8F77CB002952CA /* ar */,
+			);
+			name = PickerXibView.xib;
+			sourceTree = "<group>";
+		};
+		CF223C051F8F780B002952CA /* starRatingView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223C041F8F780B002952CA /* Base */,
+				CF223C071F8F780F002952CA /* en */,
+				CF223C091F8F7811002952CA /* ar */,
+			);
+			name = starRatingView.xib;
+			sourceTree = "<group>";
+		};
+		CF223C0C1F8F7828002952CA /* buttonsView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223C0B1F8F7828002952CA /* Base */,
+				CF223C0E1F8F782C002952CA /* en */,
+				CF223C101F8F782E002952CA /* ar */,
+			);
+			name = buttonsView.xib;
+			sourceTree = "<group>";
+		};
+		CF223C131F8F7863002952CA /* SortByView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223C121F8F7863002952CA /* Base */,
+				CF223C151F8F7865002952CA /* en */,
+				CF223C171F8F7867002952CA /* ar */,
+			);
+			name = SortByView.xib;
+			sourceTree = "<group>";
+		};
+		CF223C1A1F8F7882002952CA /* colorButtonView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223C191F8F7882002952CA /* Base */,
+				CF223C1C1F8F7884002952CA /* en */,
+				CF223C1E1F8F7885002952CA /* ar */,
+			);
+			name = colorButtonView.xib;
+			sourceTree = "<group>";
+		};
+		CF223C211F8F7891002952CA /* labelView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223C201F8F7891002952CA /* Base */,
+				CF223C231F8F7893002952CA /* en */,
+				CF223C251F8F7894002952CA /* ar */,
+			);
+			name = labelView.xib;
+			sourceTree = "<group>";
+		};
+		CF223C281F8F78B2002952CA /* dropdownButtonLabelView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223C271F8F78B2002952CA /* Base */,
+				CF223C2A1F8F78B7002952CA /* en */,
+				CF223C2C1F8F78B8002952CA /* ar */,
+			);
+			name = dropdownButtonLabelView.xib;
+			sourceTree = "<group>";
+		};
+		CF223C2F1F8F78D3002952CA /* sortByAndFilterButtonView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223C2E1F8F78D3002952CA /* Base */,
+				CF223C311F8F78D6002952CA /* en */,
+				CF223C331F8F78D7002952CA /* ar */,
+			);
+			name = sortByAndFilterButtonView.xib;
+			sourceTree = "<group>";
+		};
+		CF223C361F8F7952002952CA /* downloaderView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223C351F8F7952002952CA /* Base */,
+				CF223C381F8F7956002952CA /* en */,
+				CF223C3A1F8F7957002952CA /* ar */,
+			);
+			name = downloaderView.xib;
+			path = downloads;
+			sourceTree = "<group>";
+		};
+		CF223C3D1F8F79BF002952CA /* CustomOptionDropDownView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223C3C1F8F79BF002952CA /* Base */,
+				CF223C3F1F8F7AA5002952CA /* en */,
+				CF223C411F8F7AA7002952CA /* ar */,
+			);
+			name = CustomOptionDropDownView.xib;
+			sourceTree = "<group>";
+		};
+		CF223C441F8F7ACA002952CA /* DropDownCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223C431F8F7ACA002952CA /* Base */,
+				CF223C461F8F7ACD002952CA /* en */,
+				CF223C481F8F7ACE002952CA /* ar */,
+			);
+			name = DropDownCell.xib;
+			sourceTree = "<group>";
+		};
+		CF223C4B1F8F7AE1002952CA /* ProductOptionsDropdown.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223C4A1F8F7AE1002952CA /* Base */,
+				CF223C4D1F8F7AE3002952CA /* en */,
+				CF223C4F1F8F7AE5002952CA /* ar */,
+			);
+			name = ProductOptionsDropdown.xib;
+			sourceTree = "<group>";
+		};
+		CF223C521F8F7B45002952CA /* singleAddressView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223C511F8F7B45002952CA /* Base */,
+				CF223C541F8F7B48002952CA /* en */,
+				CF223C561F8F7B49002952CA /* ar */,
+			);
+			name = singleAddressView.xib;
+			sourceTree = "<group>";
+		};
+		CF223C591F8F7B55002952CA /* ProductGalleryImagesCollectionCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223C581F8F7B55002952CA /* Base */,
+				CF223C5B1F8F7B57002952CA /* en */,
+				CF223C5D1F8F7B59002952CA /* ar */,
+			);
+			name = ProductGalleryImagesCollectionCell.xib;
+			sourceTree = "<group>";
+		};
+		CF223C601F8F7B61002952CA /* ProductQtyView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223C5F1F8F7B61002952CA /* Base */,
+				CF223C621F8F7B64002952CA /* en */,
+				CF223C641F8F7B66002952CA /* ar */,
+			);
+			name = ProductQtyView.xib;
+			sourceTree = "<group>";
+		};
+		CF223C671F8F7B6E002952CA /* ProductNamePriceView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223C661F8F7B6E002952CA /* Base */,
+				CF223C691F8F7B71002952CA /* en */,
+				CF223C6B1F8F7B72002952CA /* ar */,
+			);
+			name = ProductNamePriceView.xib;
+			sourceTree = "<group>";
+		};
+		CF223C6E1F8F7B7A002952CA /* ProductParallaxImageView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223C6D1F8F7B7A002952CA /* Base */,
+				CF223C701F8F7B7D002952CA /* en */,
+				CF223C721F8F7B7F002952CA /* ar */,
+			);
+			name = ProductParallaxImageView.xib;
+			sourceTree = "<group>";
+		};
+		CF223C751F8F7B88002952CA /* productfilterView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223C741F8F7B88002952CA /* Base */,
+				CF223C771F8F7B8A002952CA /* en */,
+				CF223C791F8F7B8D002952CA /* ar */,
+			);
+			name = productfilterView.xib;
+			sourceTree = "<group>";
+		};
+		CF223C7C1F8F7CA5002952CA /* mageWooLogin.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223C7B1F8F7CA5002952CA /* Base */,
+				CFF654D82057FADD00A1729D /* en */,
+				CFF654DA2057FAE400A1729D /* ar */,
+			);
+			name = mageWooLogin.storyboard;
+			sourceTree = "<group>";
+		};
+		CF223C871F8F7E2D002952CA /* productsData.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223C861F8F7E2D002952CA /* Base */,
+				CFF654D42057FAC100A1729D /* en */,
+				CFF654D62057FAC400A1729D /* ar */,
+			);
+			name = productsData.storyboard;
+			sourceTree = "<group>";
+		};
+		CF223C8E1F8F7E67002952CA /* mageWooProfile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223C8D1F8F7E67002952CA /* Base */,
+				CFF654D02057FAA900A1729D /* en */,
+				CFF654D22057FAAB00A1729D /* ar */,
+			);
+			name = mageWooProfile.storyboard;
+			sourceTree = "<group>";
+		};
+		CF223C951F8F7E96002952CA /* mageWooCheckout.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223C941F8F7E96002952CA /* Base */,
+				CFF654CC2057FA8A00A1729D /* en */,
+				CFF654CE2057FA8D00A1729D /* ar */,
+			);
+			name = mageWooCheckout.storyboard;
+			sourceTree = "<group>";
+		};
+		CF223C9C1F8F7EC2002952CA /* mageWooOrder.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223C9B1F8F7EC2002952CA /* Base */,
+				CFF654C82057FA3800A1729D /* en */,
+				CFF654CA2057FA3D00A1729D /* ar */,
+			);
+			name = mageWooOrder.storyboard;
+			sourceTree = "<group>";
+		};
+		CF223CA31F8F8360002952CA /* mageWooReview.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF223CA21F8F8360002952CA /* Base */,
+				CFCB516F208DA48D00A1B2DC /* ar */,
+				CFCB5171208DA49600A1B2DC /* en */,
+			);
+			name = mageWooReview.storyboard;
+			sourceTree = "<group>";
+		};
+		CF2656F41F875F0200509707 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF2656F31F875F0200509707 /* Base */,
+				CFF654C52057F9FF00A1729D /* en */,
+				CFF654C62057FA0300A1729D /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		CFBB05921EFA4DAF00F3692D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFBB05931EFA4DAF00F3692D /* Base */,
+				CFF654DC2057FB2800A1729D /* en */,
+				CFF654DE2057FB3000A1729D /* ar */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFBB05971EFA4DAF00F3692D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFBB05981EFA4DAF00F3692D /* Base */,
+				CF841A191F7A2D1C008A7238 /* ar */,
+				CF223C841F8F7E21002952CA /* en */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF090FD21FD56E2700CECB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39F571059F8B481310FBF4DB /* Pods-Notifications.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
+				DEVELOPMENT_TEAM = L3HJJJ69X7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = Notifications/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myspanishbridge.app.Notifications;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF090FD31FD56E2700CECB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BF151F84900C4FA24724A21 /* Pods-Notifications.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
+				DEVELOPMENT_TEAM = L3HJJJ69X7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = Notifications/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myspanishbridge.app.Notifications;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFBB059B1EFA4DAF00F3692D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFBB059C1EFA4DAF00F3692D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFBB059E1EFA4DAF00F3692D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8B973397D2C93750D0B564E /* Pods-wooApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "wooApp/Spanish Bridge.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0;
+				DEVELOPMENT_TEAM = L3HJJJ69X7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/wooApp",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AppAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMAppAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+				);
+				INFOPLIST_FILE = wooApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myspanishbridge.app;
+				PRODUCT_NAME = "Spanish Bridge";
+				SWIFT_OBJC_BRIDGING_HEADER = "wooApp/wooApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFBB059F1EFA4DAF00F3692D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3436525E02465160A30E24CB /* Pods-wooApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "wooApp/Spanish Bridge.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0;
+				DEVELOPMENT_TEAM = L3HJJJ69X7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/wooApp",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AppAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMAppAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+				);
+				INFOPLIST_FILE = wooApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myspanishbridge.app;
+				PRODUCT_NAME = "Spanish Bridge";
+				SWIFT_OBJC_BRIDGING_HEADER = "wooApp/wooApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF090FD11FD56E2700CECB64 /* Build configuration list for PBXNativeTarget "Notifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF090FD21FD56E2700CECB64 /* Debug */,
+				CF090FD31FD56E2700CECB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFBB05861EFA4DAF00F3692D /* Build configuration list for PBXProject "wooApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBB059B1EFA4DAF00F3692D /* Debug */,
+				CFBB059C1EFA4DAF00F3692D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFBB059D1EFA4DAF00F3692D /* Build configuration list for PBXNativeTarget "wooApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBB059E1EFA4DAF00F3692D /* Debug */,
+				CFBB059F1EFA4DAF00F3692D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFBB05831EFA4DAF00F3692D /* Project object */;
+}

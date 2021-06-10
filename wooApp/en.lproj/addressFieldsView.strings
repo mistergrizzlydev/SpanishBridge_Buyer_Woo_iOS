@@ -1,0 +1,21 @@
+
+/* Class = "UITextField"; placeholder = "Last Name *"; ObjectID = "83C-eD-ySm"; */
+"83C-eD-ySm.placeholder" = "Last Name *";
+
+/* Class = "UITextField"; placeholder = "Address Line 2 *"; ObjectID = "HwM-6g-hZU"; */
+"HwM-6g-hZU.placeholder" = "Address Line 2";
+
+/* Class = "UITextField"; placeholder = "Address Line 1 *"; ObjectID = "QDT-K5-3fA"; */
+"QDT-K5-3fA.placeholder" = "Address Line 1 *";
+
+/* Class = "UITextField"; placeholder = "City *"; ObjectID = "gC5-bX-BUe"; */
+"gC5-bX-BUe.placeholder" = "City *";
+
+/* Class = "UITextField"; placeholder = "Zip *"; ObjectID = "hKR-0r-tni"; */
+"hKR-0r-tni.placeholder" = "Zip *";
+
+/* Class = "UITextField"; placeholder = "Phone *"; ObjectID = "p6p-t2-Er9"; */
+"p6p-t2-Er9.placeholder" = "Phone *";
+
+/* Class = "UITextField"; placeholder = "First Name *"; ObjectID = "qnY-gL-fgE"; */
+"qnY-gL-fgE.placeholder" = "First Name *";

@@ -1,0 +1,22 @@
+@font-face{
+    font-family: 'Roboto-Regular';
+    src: local('Roboto-Regular'),url('Roboto-Regular.ttf') format('opentype');
+    
+}
+:root {
+    color-scheme: light dark;
+    --special-text-color: hsla(60, 100%, 50%, 0.5);
+    --border-color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --special-text-color: hsla(60, 50%, 70%, 0.75);
+        --border-color: white;
+    }
+}
+
+.special {
+    color: var(--special-text-color);
+    border: 1px solid var(--border-color);
+}

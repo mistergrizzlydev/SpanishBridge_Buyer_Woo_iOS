@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Mage Woo Reviews-->
+        <scene sceneID="5oh-qp-T8a">
+            <objects>
+                <viewController storyboardIdentifier="reviewsList" automaticallyAdjustsScrollViewInsets="NO" id="Tdq-Uv-ail" customClass="mageWooReviews" customModule="Magenative_Woocommerce_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="V8E-Pe-DqC"/>
+                        <viewControllerLayoutGuide type="bottom" id="hUK-Mh-s2O"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lIg-IK-y1d">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="W6a-md-SOm">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="writeReviewCell" rowHeight="60" id="Cjf-ei-NKd" customClass="mageReviewCell" customModule="Magenative_Woocommerce_App" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Cjf-ei-NKd" id="sZ4-GG-Xdc">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PaF-ZF-vXG">
+                                                    <rect key="frame" x="20" y="10" width="335" height="40"/>
+                                                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
+                                                    <state key="normal" title="Write A Review">
+                                                        <color key="titleColor" name="LabelTextColor"/>
+                                                    </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="PaF-ZF-vXG" secondAttribute="trailing" constant="20" id="0le-od-qXt"/>
+                                                <constraint firstItem="PaF-ZF-vXG" firstAttribute="leading" secondItem="sZ4-GG-Xdc" secondAttribute="leading" constant="20" id="YBF-g5-RAn"/>
+                                                <constraint firstAttribute="bottom" secondItem="PaF-ZF-vXG" secondAttribute="bottom" constant="10" id="g2I-lP-nsI"/>
+                                                <constraint firstItem="PaF-ZF-vXG" firstAttribute="top" secondItem="sZ4-GG-Xdc" secondAttribute="top" constant="10" id="oK6-85-CPO"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="writeAReviewButton" destination="PaF-ZF-vXG" id="CqC-uv-rr6"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="headingCell" rowHeight="60" id="vjM-Te-2HJ" customClass="mageReviewCell" customModule="Magenative_Woocommerce_App" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="88" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vjM-Te-2HJ" id="xEm-WX-jzU">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reviews" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FBa-L8-Nzb">
+                                                    <rect key="frame" x="20" y="5" width="335" height="50"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
+                                                    <color key="textColor" name="LabelTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="FBa-L8-Nzb" firstAttribute="leading" secondItem="xEm-WX-jzU" secondAttribute="leading" constant="20" id="1fz-G9-N2V"/>
+                                                <constraint firstAttribute="trailing" secondItem="FBa-L8-Nzb" secondAttribute="trailing" constant="20" id="fvZ-tZ-OuR"/>
+                                                <constraint firstItem="FBa-L8-Nzb" firstAttribute="top" secondItem="xEm-WX-jzU" secondAttribute="top" constant="5" id="haZ-U7-sbb"/>
+                                                <constraint firstAttribute="bottom" secondItem="FBa-L8-Nzb" secondAttribute="bottom" constant="5" id="wqd-hI-G4u"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="fieldsCell" rowHeight="125" id="JVn-68-pBg" customClass="mageReviewCell" customModule="Magenative_Woocommerce_App" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="148" width="375" height="125"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JVn-68-pBg" id="Ee0-8t-wYb">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="125"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UsR-9Y-HMB">
+                                                    <rect key="frame" x="5" y="5" width="365" height="115"/>
+                                                    <subviews>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="NnK-XL-PXZ">
+                                                            <rect key="frame" x="220" y="22.5" width="125" height="25"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="25" id="Wju-1b-E8k"/>
+                                                                <constraint firstAttribute="width" constant="125" id="fzn-Op-Ufc"/>
+                                                            </constraints>
+                                                        </stackView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kKP-GV-3Ga">
+                                                            <rect key="frame" x="20" y="20" width="195" height="30"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="30" id="3qt-2v-AuT"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                                            <color key="textColor" name="LabelTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EHS-7T-zod">
+                                                            <rect key="frame" x="20" y="60" width="325" height="30"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="30" id="yzT-Sg-tON"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                                            <color key="textColor" name="LabelTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5cS-x6-zih">
+                                                            <rect key="frame" x="20" y="100" width="325" height="30"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="30" id="Lyd-ZN-mg4"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                            <color key="textColor" name="LabelTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                    <constraints>
+                                                        <constraint firstItem="EHS-7T-zod" firstAttribute="top" secondItem="kKP-GV-3Ga" secondAttribute="bottom" constant="10" id="0c5-dK-J44"/>
+                                                        <constraint firstItem="5cS-x6-zih" firstAttribute="leading" secondItem="UsR-9Y-HMB" secondAttribute="leading" constant="20" id="D8y-9l-BDh"/>
+                                                        <constraint firstAttribute="trailing" secondItem="NnK-XL-PXZ" secondAttribute="trailing" constant="20" id="EYo-Nj-1Kp"/>
+                                                        <constraint firstItem="kKP-GV-3Ga" firstAttribute="top" secondItem="UsR-9Y-HMB" secondAttribute="top" constant="20" id="L1X-ry-Mbl"/>
+                                                        <constraint firstItem="NnK-XL-PXZ" firstAttribute="leading" secondItem="kKP-GV-3Ga" secondAttribute="trailing" constant="5" id="YFa-rd-bXG"/>
+                                                        <constraint firstAttribute="trailing" secondItem="5cS-x6-zih" secondAttribute="trailing" constant="20" id="bv4-Z8-1tc"/>
+                                                        <constraint firstItem="EHS-7T-zod" firstAttribute="leading" secondItem="UsR-9Y-HMB" secondAttribute="leading" constant="20" id="cav-bI-tgE"/>
+                                                        <constraint firstItem="5cS-x6-zih" firstAttribute="top" secondItem="EHS-7T-zod" secondAttribute="bottom" constant="10" id="gAb-hw-wEQ"/>
+                                                        <constraint firstItem="NnK-XL-PXZ" firstAttribute="centerY" secondItem="kKP-GV-3Ga" secondAttribute="centerY" id="n7F-UM-0cr"/>
+                                                        <constraint firstItem="kKP-GV-3Ga" firstAttribute="leading" secondItem="UsR-9Y-HMB" secondAttribute="leading" constant="20" id="ovZ-ub-8Jq"/>
+                                                        <constraint firstAttribute="trailing" secondItem="EHS-7T-zod" secondAttribute="trailing" constant="20" id="s0O-U7-2In"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="UsR-9Y-HMB" firstAttribute="leading" secondItem="Ee0-8t-wYb" secondAttribute="leading" constant="5" id="b1L-k1-J7U"/>
+                                                <constraint firstAttribute="bottom" secondItem="UsR-9Y-HMB" secondAttribute="bottom" constant="5" id="cVp-SU-Vjc"/>
+                                                <constraint firstItem="UsR-9Y-HMB" firstAttribute="top" secondItem="Ee0-8t-wYb" secondAttribute="top" constant="5" id="uI2-Rp-sQr"/>
+                                                <constraint firstAttribute="trailing" secondItem="UsR-9Y-HMB" secondAttribute="trailing" constant="5" id="yaO-kI-FOB"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="cellView" destination="UsR-9Y-HMB" id="gHI-Ub-6DG"/>
+                                            <outlet property="date" destination="kKP-GV-3Ga" id="Bq7-JB-6A0"/>
+                                            <outlet property="name" destination="EHS-7T-zod" id="6Kg-o6-9Yj"/>
+                                            <outlet property="ratingStackView" destination="NnK-XL-PXZ" id="RJ2-uV-z5T"/>
+                                            <outlet property="review" destination="5cS-x6-zih" id="glS-xO-j0H"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="W6a-md-SOm" firstAttribute="leading" secondItem="lIg-IK-y1d" secondAttribute="leading" id="BUg-JS-Ebr"/>
+                            <constraint firstItem="W6a-md-SOm" firstAttribute="top" secondItem="V8E-Pe-DqC" secondAttribute="bottom" id="BYO-yJ-0UB"/>
+                            <constraint firstItem="hUK-Mh-s2O" firstAttribute="top" secondItem="W6a-md-SOm" secondAttribute="bottom" id="MQr-lF-8zg"/>
+                            <constraint firstAttribute="trailing" secondItem="W6a-md-SOm" secondAttribute="trailing" id="yLU-fn-vHS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="reviewTableView" destination="W6a-md-SOm" id="LVr-Jn-wUY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eUB-8a-nof" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-15.199999999999999" y="-37.331334332833585"/>
+        </scene>
+        <!--Mage Woo Add Reviews-->
+        <scene sceneID="dbe-aJ-w1S">
+            <objects>
+                <viewController storyboardIdentifier="addAReview" id="MBI-G6-k4H" customClass="mageWooAddReviews" customModule="Magenative_Woocommerce_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dB1-Lq-8SA"/>
+                        <viewControllerLayoutGuide type="bottom" id="uOr-P6-GnY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="I8P-LF-4dX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="92v-oE-8It">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="headingCell" id="XOu-Oe-kYQ" customClass="mageAddReviewCell" customModule="Magenative_Woocommerce_App" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XOu-Oe-kYQ" id="KiB-SJ-3Sy">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Write A Review" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eUj-UI-6VJ">
+                                                    <rect key="frame" x="20" y="5" width="335" height="34"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="17"/>
+                                                    <color key="textColor" name="LabelTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="eUj-UI-6VJ" firstAttribute="top" secondItem="KiB-SJ-3Sy" secondAttribute="top" constant="5" id="5HC-uP-Yf5"/>
+                                                <constraint firstAttribute="bottom" secondItem="eUj-UI-6VJ" secondAttribute="bottom" constant="5" id="6ld-jn-xUJ"/>
+                                                <constraint firstAttribute="trailing" secondItem="eUj-UI-6VJ" secondAttribute="trailing" constant="20" id="EN2-jW-Q6f"/>
+                                                <constraint firstItem="eUj-UI-6VJ" firstAttribute="leading" secondItem="KiB-SJ-3Sy" secondAttribute="leading" constant="20" id="Eio-D0-uwz"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="headingLabel" destination="eUj-UI-6VJ" id="lA2-bl-chQ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="starRatings" rowHeight="90" id="cYz-41-KYc" customClass="mageAddReviewCell" customModule="Magenative_Woocommerce_App" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="72" width="375" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cYz-41-KYc" id="wdL-By-ybm">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Ratings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4c9-oM-tgd">
+                                                    <rect key="frame" x="35" y="16" width="305" height="30"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="30" id="hlV-HB-zKC"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
+                                                    <color key="textColor" name="LabelTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="aV7-jV-Tbk">
+                                                    <rect key="frame" x="35" y="54" width="125" height="25"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="125" id="HsV-OX-6rn"/>
+                                                        <constraint firstAttribute="height" constant="25" id="OKr-6y-h3c"/>
+                                                    </constraints>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="aV7-jV-Tbk" firstAttribute="leading" secondItem="4c9-oM-tgd" secondAttribute="leading" id="Ith-bI-fAP"/>
+                                                <constraint firstItem="4c9-oM-tgd" firstAttribute="top" secondItem="wdL-By-ybm" secondAttribute="topMargin" constant="5" id="itW-Ls-D69"/>
+                                                <constraint firstItem="aV7-jV-Tbk" firstAttribute="top" secondItem="4c9-oM-tgd" secondAttribute="bottom" constant="8" id="oe3-GV-Ili"/>
+                                                <constraint firstItem="4c9-oM-tgd" firstAttribute="leading" secondItem="wdL-By-ybm" secondAttribute="leadingMargin" constant="20" id="qXS-PK-SI0"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="4c9-oM-tgd" secondAttribute="trailing" constant="20" id="skR-gL-929"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="ratingStackView" destination="aV7-jV-Tbk" id="2TV-aG-qeh"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="fieldCell" rowHeight="162" id="tFS-HV-MTe" customClass="mageAddReviewCell" customModule="Magenative_Woocommerce_App" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="162" width="375" height="162"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tFS-HV-MTe" id="fje-0H-9X5">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="162"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qKp-zq-3r6" customClass="SkyFloatingLabelTextField" customModule="Magenative_Woocommerce_App" customModuleProvider="target">
+                                                    <rect key="frame" x="20" y="5" width="335" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="UgW-JT-gnV"/>
+                                                    </constraints>
+                                                    <color key="textColor" name="LabelTextColor"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Your Review *"/>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                                            <color key="value" name="LabelTextColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                            <color key="value" name="LabelTextColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                                            <color key="value" name="LabelTextColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                                            <color key="value" name="LabelTextColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                                                            <color key="value" name="LabelTextColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="disabledColor">
+                                                            <color key="value" name="LabelTextColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                                                            <color key="value" name="LabelTextColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                                                            <color key="value" name="LabelTextColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </textField>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mlW-9e-9n7" customClass="SkyFloatingLabelTextField" customModule="Magenative_Woocommerce_App" customModuleProvider="target">
+                                                    <rect key="frame" x="20" y="55" width="335" height="40"/>
+                                                    <color key="textColor" name="LabelTextColor"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Name *"/>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                                            <color key="value" name="LabelTextColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                            <color key="value" name="LabelTextColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                                            <color key="value" name="LabelTextColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                                            <color key="value" name="LabelTextColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                                                            <color key="value" name="LabelTextColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="disabledColor">
+                                                            <color key="value" name="LabelTextColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                                                            <color key="value" name="LabelTextColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                                                            <color key="value" name="LabelTextColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </textField>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gHs-Jf-TjO" customClass="SkyFloatingLabelTextField" customModule="Magenative_Woocommerce_App" customModuleProvider="target">
+                                                    <rect key="frame" x="20" y="105" width="335" height="40"/>
+                                                    <color key="textColor" name="LabelTextColor"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Email *"/>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                                            <color key="value" name="LabelTextColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                            <color key="value" name="LabelTextColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                                            <color key="value" name="LabelTextColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                                            <color key="value" name="LabelTextColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                                                            <color key="value" name="LabelTextColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="disabledColor">
+                                                            <color key="value" name="LabelTextColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                                                            <color key="value" name="LabelTextColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                                                            <color key="value" name="LabelTextColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="gHs-Jf-TjO" firstAttribute="trailing" secondItem="mlW-9e-9n7" secondAttribute="trailing" id="H3S-YI-97g"/>
+                                                <constraint firstItem="mlW-9e-9n7" firstAttribute="leading" secondItem="qKp-zq-3r6" secondAttribute="leading" id="MHv-aQ-4br"/>
+                                                <constraint firstAttribute="trailing" secondItem="qKp-zq-3r6" secondAttribute="trailing" constant="20" id="NNt-cz-R8h"/>
+                                                <constraint firstItem="qKp-zq-3r6" firstAttribute="top" secondItem="fje-0H-9X5" secondAttribute="top" constant="5" id="ORK-GM-O7J"/>
+                                                <constraint firstItem="mlW-9e-9n7" firstAttribute="height" secondItem="qKp-zq-3r6" secondAttribute="height" id="R4D-cm-avc"/>
+                                                <constraint firstItem="qKp-zq-3r6" firstAttribute="leading" secondItem="fje-0H-9X5" secondAttribute="leading" constant="20" id="XlG-35-ulb"/>
+                                                <constraint firstItem="gHs-Jf-TjO" firstAttribute="top" secondItem="mlW-9e-9n7" secondAttribute="bottom" constant="10" id="Yqf-YD-7KY"/>
+                                                <constraint firstItem="gHs-Jf-TjO" firstAttribute="leading" secondItem="mlW-9e-9n7" secondAttribute="leading" id="a3I-2V-cBS"/>
+                                                <constraint firstItem="mlW-9e-9n7" firstAttribute="trailing" secondItem="qKp-zq-3r6" secondAttribute="trailing" id="ijf-gU-YiP"/>
+                                                <constraint firstItem="mlW-9e-9n7" firstAttribute="top" secondItem="qKp-zq-3r6" secondAttribute="bottom" constant="10" id="l9F-sg-Vhn"/>
+                                                <constraint firstItem="gHs-Jf-TjO" firstAttribute="height" secondItem="mlW-9e-9n7" secondAttribute="height" id="sPe-pf-YtH"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="email" destination="gHs-Jf-TjO" id="rae-lz-BtD"/>
+                                            <outlet property="name" destination="mlW-9e-9n7" id="y8M-XP-UZl"/>
+                                            <outlet property="review" destination="qKp-zq-3r6" id="dqY-Yx-TKb"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="buttonCell" rowHeight="50" id="PRO-9b-dUI" customClass="mageAddReviewCell" customModule="Magenative_Woocommerce_App" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="324" width="375" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PRO-9b-dUI" id="1bO-rv-5s6">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LlE-Kf-e9t">
+                                                    <rect key="frame" x="20" y="5" width="335" height="40"/>
+                                                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
+                                                    <state key="normal" title="Write A Review">
+                                                        <color key="titleColor" name="LabelTextColor"/>
+                                                    </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="LlE-Kf-e9t" secondAttribute="bottom" constant="5" id="5Ef-gp-Xp1"/>
+                                                <constraint firstAttribute="trailing" secondItem="LlE-Kf-e9t" secondAttribute="trailing" constant="20" id="VHL-fL-uKd"/>
+                                                <constraint firstItem="LlE-Kf-e9t" firstAttribute="top" secondItem="1bO-rv-5s6" secondAttribute="top" constant="5" id="hDZ-wP-PLy"/>
+                                                <constraint firstItem="LlE-Kf-e9t" firstAttribute="leading" secondItem="1bO-rv-5s6" secondAttribute="leading" constant="20" id="wfw-vV-gBf"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="writeAReviewButton" destination="LlE-Kf-e9t" id="Isi-SJ-clP"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="92v-oE-8It" firstAttribute="top" secondItem="dB1-Lq-8SA" secondAttribute="bottom" id="AwS-ZV-Ta1"/>
+                            <constraint firstItem="92v-oE-8It" firstAttribute="leading" secondItem="I8P-LF-4dX" secondAttribute="leading" id="Cbc-Pp-I4N"/>
+                            <constraint firstItem="uOr-P6-GnY" firstAttribute="top" secondItem="92v-oE-8It" secondAttribute="bottom" id="ev6-a7-ZGm"/>
+                            <constraint firstAttribute="trailing" secondItem="92v-oE-8It" secondAttribute="trailing" id="vyz-dg-s8c"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="reviewTableView" destination="92v-oE-8It" id="fkJ-Vp-3p2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ihb-m6-qIl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="668" y="-37.331334332833585"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="LabelTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "Tei-40-cLa"; */
+"Tei-40-cLa.normalTitle" = "Save";
+
+/* Class = "UILabel"; text = "Show Password"; ObjectID = "ZXB-xO-vYX"; */
+"ZXB-xO-vYX.text" = "Show Password";
+
+/* Class = "UILabel"; text = "Profile"; ObjectID = "aOe-1X-aeO"; */
+"aOe-1X-aeO.text" = "Profile";
+
+/* Class = "UILabel"; text = "Change Password"; ObjectID = "cqN-ed-8cZ"; */
+"cqN-ed-8cZ.text" = "Change Password";
+
+/* Class = "UITextField"; placeholder = "LastName"; ObjectID = "psh-xv-QKp"; */
+"psh-xv-QKp.placeholder" = "LastName";

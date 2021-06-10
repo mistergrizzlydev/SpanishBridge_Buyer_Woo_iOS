@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Your Ratings"; ObjectID = "4c9-oM-tgd"; */
+"4c9-oM-tgd.text" = "تقيماتى";
+
+/* Class = "UILabel"; text = "Reviews"; ObjectID = "FBa-L8-Nzb"; */
+"FBa-L8-Nzb.text" = "التقييمات";
+
+/* Class = "UIButton"; normalTitle = "Write A Review"; ObjectID = "LlE-Kf-e9t"; */
+"LlE-Kf-e9t.normalTitle" = "كتابة تقييم";
+
+/* Class = "UIButton"; normalTitle = "Write A Review"; ObjectID = "PaF-ZF-vXG"; */
+"PaF-ZF-vXG.normalTitle" = "كتابة تقييم";
+
+/* Class = "UILabel"; text = "Write A Review"; ObjectID = "eUj-UI-6VJ"; */
+"eUj-UI-6VJ.text" = "كتابة تقييم";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "kKP-GV-3Ga"; */
+"kKP-GV-3Ga.text" = "التاريخ";
+
+"qKp-zq-3r6.placeholder" = "كتابة تقييم";
+
